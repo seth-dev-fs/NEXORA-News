@@ -5,6 +5,8 @@ on:
     branches:
       - main
   workflow_dispatch:
+  schedule:
+    - cron: '0 */2 * * *' # Runs every 2 hours
 
 jobs:
   generate_articles:
@@ -28,13 +30,13 @@ jobs:
       - name: Run article generator
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          UNSPLASH_API_KEY: ${{ secrets.UNSPLASH_API_KEY }}
         run: npm run generate-articles
 
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@v6
         with:
-          # Use the new Personal Access Token
-          token: ${{ secrets.GH_PAT }}
+          token: ${{ secrets.GITHUB_TOKEN }}
           commit-message: "feat(articles): generate new content"
           branch: "articles/new-content-${{ github.run_id }}"
           delete-branch: true
