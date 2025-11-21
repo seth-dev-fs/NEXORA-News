@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import { getArticleData, getSortedArticlesData } from '@/scripts/helpers/markdown'; // Import the utility functions
+import { getArticleData, getSortedArticlesData } from '@/lib/markdown'; // Import the utility functions
 
 // Function to generate static params for Next.js
 export async function generateStaticParams() {

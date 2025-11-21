@@ -2,7 +2,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import ArticleCard from '@/components/ArticleCard';
 import NewsletterSignup from '@/components/NewsletterSignup'; // Import the new component
-import { getSortedArticlesData } from '@/scripts/helpers/markdown'; // Import the utility function
+import { getSortedArticlesData } from '@/lib/markdown'; // Import the utility function
 
 export default async function Home() {
   const allArticlesData = await getSortedArticlesData();

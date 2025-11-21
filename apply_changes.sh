@@ -1,12 +1,15 @@
-#!/usr/bin/env bash
-set -e
-BRANCH="feature/update-topics"
-git checkout -b $BRANCH
-git add .
-git commit -m "chore: update topics, feeds and category navigation"
-git push -u origin $BRANCH
-if command -v gh >/dev/null 2>&1; then
-  gh pr create --title "chore: update topics and feeds" --body "Automated update: expanded keywords, new feeds, new category pages and nav." --base main --head $BRANCH
-else
-  echo "gh CLI not found. Please run: gh pr create --title 'chore: update topics and feeds' --body 'Automated update...' --base main --head $BRANCH"
-fi
+#!/usr/bin/env bash                                                                                               
+  set -e                                                                                                            
+  BRANCH="feature/update-topics"                                                                                    
+  echo "Stashing current uncommitted changes..."                                                                    
+  git stash                                                                                                         
+  echo "Switching to branch '$BRANCH'..."                                                                           
+  git checkout $BRANCH                                                                                              
+  echo "Applying stashed changes to the branch..."                                                                  
+  git stash pop                                                                                                     
+  echo "Adding and committing all changes..."                                                                       
+  git add .                                                                                                         
+  git commit -m "fix: apply feature updates and fix Vercel build"                                                   
+  echo "Pushing changes to origin..."                                                                               
+  git push                                                                                                          
+  echo "Recovery complete. The branch '$BRANCH' has been updated on GitHub."              

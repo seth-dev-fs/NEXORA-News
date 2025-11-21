@@ -2,7 +2,7 @@
 
 import React, { useState } from 'react';
 import ArticleCard from '@/components/ArticleCard'; // Use ArticleCard instead of SimpleCard
-import { ArticleData } from '@/scripts/helpers/markdown'; // Import ArticleData type
+import { ArticleData } from '@/lib/markdown'; // Import ArticleData type
 
 export default function TutoriaisEDicasClientPage({ allArticlesData }: { allArticlesData: ArticleData[] }) {
   const tutoriais = allArticlesData.filter(article => article.category === 'Tutoriais');

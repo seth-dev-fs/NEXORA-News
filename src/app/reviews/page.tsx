@@ -1,5 +1,5 @@
 import ArticleCard from '@/components/ArticleCard';
-import { getSortedArticlesData } from '@/scripts/helpers/markdown'; // Import the utility function
+import { getSortedArticlesData } from '@/lib/markdown'; // Import the utility function
 
 export default async function ReviewsPage() {
   const allArticlesData = await getSortedArticlesData();

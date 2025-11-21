@@ -1,5 +1,22 @@
 import ArticleCard from '@/components/ArticleCard';
-import { getSortedArticlesData, ArticleData } from '@/scripts/helpers/markdown';
+import { getSortedArticlesData, ArticleData } from '@/lib/markdown';
+
+export async function generateStaticParams() {
+  const categories = [
+    'smartphones', 
+    'wearables', 
+    'audio', 
+    'computadores', 
+    'internet-apps', 
+    'mobilidade', 
+    'ciencia', 
+    'entretenimento-gaming', 
+    'ai-futuro'
+  ];
+  return categories.map((category) => ({
+    slug: category,
+  }));
+}
 
 export async function generateMetadata({ params }: { params: { slug: string } }) {
   const categoryName = params.slug.replace(/-/g, ' ').replace(/\b\w/g, l => l.toUpperCase());

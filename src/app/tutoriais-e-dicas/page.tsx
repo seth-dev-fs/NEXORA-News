@@ -1,4 +1,4 @@
-import { getSortedArticlesData } from '@/scripts/helpers/markdown';
+import { getSortedArticlesData } from '@/lib/markdown';
 import TutoriaisEDicasClientPage from './_tutoriais-e-dicas-client'; // Import the client component
 
 export async function generateMetadata() {
