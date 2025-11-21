@@ -1,81 +1,95 @@
-const fs = require('fs');
-const path = require('path');
-const matter = require('front-matter');
-const { remark } = require('remark');
-const html = require('remark-html');
-
-const postsDirectory = path.join(process.cwd(), 'content', 'posts');
+import fs from "fs";
+import path from "path";
+import matter from "front-matter";
+import { remark } from "remark";
+import html from "remark-html";
 
 export interface ArticleData {
   slug: string;
   title: string;
-  description: string;
-  category: string;
+  description?: string;
+  categories?: string[];
+  tags?: string[];
   date: string;
-  imageUrl: string;
-  contentHtml: string;
+  featured_image?: string;
+  pontos_chave?: string[];
+  meta_description?: string;
   source_url?: string;
-  needs_review?: boolean;
+  contentHtml: string;
 }
 
-export async function getSortedArticlesData(): Promise<ArticleData[]> {
-  if (!fs.existsSync(postsDirectory)) {
-    return [];
-  }
-  const fileNames = fs.readdirSync(postsDirectory);
-  const allArticlesData = await Promise.all(
-    fileNames.map(async (fileName: string) => {
-      if (!fileName.endsWith('.md')) return null;
-      
-      const slugFromFile = fileName.replace(/\.md$/, '');
-      const fullPath = path.join(postsDirectory, fileName);
-      const fileContents = fs.readFileSync(fullPath, 'utf8');
-      
-      try {
-        const { attributes, body } = matter(fileContents);
-        const { slug, ...restOfAttributes } = attributes as ArticleData; // Separate slug from other attributes
-        const processedContent = await remark().use(html).process(body);
-        const contentHtml = processedContent.toString();
+const postsDirectory = path.join(process.cwd(), "content", "posts");
 
-        return {
-          ...restOfAttributes,
-          slug: slugFromFile, // Use the filename as the canonical slug
-          contentHtml,
-        };
-      } catch (e) {
-        console.error(`Error processing file: ${fileName}`, e);
-        return null;
-      }
-    })
-  );
-
-  const validArticles = allArticlesData.filter(Boolean) as ArticleData[];
-
-  return validArticles.sort((a, b) => {
-    return new Date(b.date).getTime() - new Date(a.date).getTime();
-  });
+/**
+ * Get all .md filenames
+ */
+export function getPostSlugs(): string[] {
+  return fs
+    .readdirSync(postsDirectory)
+    .filter((file) => file.endsWith(".md"));
 }
 
-export async function getArticleData(slug: string): Promise<ArticleData | null> {
-  const fullPath = path.join(postsDirectory, `${slug}.md`);
+/**
+ * Load a single post by slug
+ */
+export async function getPostBySlug(slug: string): Promise<ArticleData | null> {
+  const realSlug = slug.replace(/\.md$/, "");
+  const fullPath = path.join(postsDirectory, `${realSlug}.md`);
+
   if (!fs.existsSync(fullPath)) {
+    console.error("File not found:", fullPath);
     return null;
   }
-  const fileContents = fs.readFileSync(fullPath, 'utf8');
+
+  const fileContents = fs.readFileSync(fullPath, "utf8");
 
   try {
     const { attributes, body } = matter(fileContents);
-    const { slug: frontMatterSlug, ...restOfAttributes } = attributes as ArticleData; // Separate slug
-    const processedContent = await remark().use(html).process(body);
-    const contentHtml = processedContent.toString();
+
+    const processed = await remark().use(html).process(body);
+    const contentHtml = processed.toString();
 
     return {
-      ...restOfAttributes,
-      slug: slug, // Use the slug from the URL parameter as canonical
+      slug: realSlug,
       contentHtml,
+      ...(attributes as any),
     };
   } catch (e) {
-    console.error(`Error processing file for slug ${slug}:`, e);
+    console.error("Error processing markdown:", e);
     return null;
   }
+}
+
+/**
+ * Load ALL posts, sorted by date DESC
+ */
+export async function getAllPosts(): Promise<ArticleData[]> {
+  const slugs = getPostSlugs();
+
+  const posts = await Promise.all(
+    slugs.map(async (slug) => await getPostBySlug(slug))
+  );
+
+  const valid = posts.filter((p): p is ArticleData => p !== null);
+
+  return valid.sort(
+    (a, b) => new Date(b.date).getTime() - new Date(a.date).getTime()
+  );
+}
+
+/**
+ * Load posts filtered by category slug
+ */
+export async function getPostsByCategory(
+  categorySlug: string
+): Promise<ArticleData[]> {
+  const posts = await getAllPosts();
+
+  return posts.filter((post) => {
+    if (!post.categories || !Array.isArray(post.categories)) return false;
+
+    return post.categories
+      .map((c) => c.toLowerCase().replace(/\s+/g, "-"))
+      .includes(categorySlug);
+  });
 }
