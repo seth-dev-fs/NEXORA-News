@@ -9,7 +9,7 @@ const GEMINI_API_KEY = process.env.GEMINI_API_KEY;
 const UNSPLASH_API_KEY = process.env.UNSPLASH_API_KEY;
 if (!GEMINI_API_KEY) throw new Error("GEMINI_API_KEY environment variable is not set.");
 
-const GEMINI_MODEL = "gemini-2.5-flash-latest";
+const GEMINI_MODEL = "gemini-2.5-flash";
 const DATE_OVERRIDE = "2025-11-08"; // Set to a specific date string "YYYY-MM-DD" or null to disable
 
 const ARTICLES_DIR = path.join(__dirname, '../content/posts');
