@@ -33,7 +33,8 @@ jobs:
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@v6
         with:
-          token: ${{ secrets.GITHUB_TOKEN }}
+          # Use the new Personal Access Token
+          token: ${{ secrets.GH_PAT }}
           commit-message: "feat(articles): generate new content"
           branch: "articles/new-content-${{ github.run_id }}"
           delete-branch: true
