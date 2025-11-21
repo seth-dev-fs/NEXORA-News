@@ -6,14 +6,12 @@ const axios = require('axios');
 
 // --- CONFIGURATION ---
 const GEMINI_API_KEY = process.env.GEMINI_API_KEY;
-const UNSPLASH_API_KEY = process.env.UNSPLASH_API_KEY;
 if (!GEMINI_API_KEY) {
     console.error("CRITICAL: GEMINI_API_KEY environment variable is not set.");
     process.exit(1);
 }
 
-// FINAL, CORRECT MODEL NAME
-const GEMINI_MODEL = "gemini-2.5-flash"; 
+const GEMINI_MODEL = "gemini-2.5-flash";
 const DATE_OVERRIDE = "2025-11-08T12:00:00Z";
 const BATCH_SIZE = 10;
 
@@ -32,7 +30,7 @@ function getExistingArticleUrls() {
     fs.readdirSync(ARTICLES_DIR).forEach(file => {
         if (file.endsWith('.md')) {
             const content = fs.readFileSync(path.join(ARTICLES_DIR, file), 'utf8');
-            const urlMatch = content.match(/^source_url:\s*"(.*?)"/m);
+            const urlMatch = content.match(/^source_url:\s*"(.*)"/m);
             if (urlMatch && urlMatch[1]) urls.add(urlMatch[1]);
         }
     });
@@ -42,26 +40,41 @@ function getExistingArticleUrls() {
 const genAI = new GoogleGenerativeAI(GEMINI_API_KEY);
 const model = genAI.getGenerativeModel({ model: GEMINI_MODEL });
 
-async function getImageUrl(rssItem, title, slug) {
+async function scrapeOgImage(url) {
+    try {
+        log(`Scraping for og:image at: ${url}`, 'INFO');
+        const { data: html } = await axios.get(url, { timeout: 10000 });
+        const match = html.match(/<meta\s+property="og:image"\s+content="([^"]+)"/);
+        if (match && match[1]) {
+            log(`Found og:image: ${match[1]}`, 'INFO');
+            return match[1];
+        }
+    } catch (error) {
+        log(`Failed to scrape ${url}: ${error.message}`, 'WARN');
+    }
+    return null;
+}
+
+async function getImageUrl(rssItem, slug) {
+    // Tier 1: Check RSS enclosure
     if (rssItem.enclosure && rssItem.enclosure.url && rssItem.enclosure.type.startsWith('image/')) {
+        log('Found image in RSS enclosure', 'INFO');
         return rssItem.enclosure.url;
     }
+    // Tier 2: Check RSS media:content
     if (rssItem['media:content'] && rssItem['media:content'].$.url) {
+        log('Found image in RSS media:content', 'INFO');
         return rssItem['media:content'].$.url;
     }
-    if (UNSPLASH_API_KEY) {
-        try {
-            const response = await axios.get('https://api.unsplash.com/search/photos', {
-                headers: { 'Authorization': `Client-ID ${UNSPLASH_API_KEY}` },
-                params: { query: title, per_page: 1, orientation: 'landscape' }
-            });
-            if (response.data.results && response.data.results.length > 0) {
-                return response.data.results[0].urls.regular;
-            }
-        } catch (error) {
-            log(`Unsplash API error: ${error.message}`, 'WARN');
+    // Tier 3: Scrape the webpage for og:image meta tag
+    if (rssItem.link) {
+        const scrapedImage = await scrapeOgImage(rssItem.link);
+        if (scrapedImage) {
+            return scrapedImage;
         }
     }
+    // Tier 4: Fallback to placeholder
+    log('Falling back to placeholder image.', 'WARN');
     return `https://picsum.photos/seed/${slug}/1000/600`;
 }
 
@@ -86,7 +99,7 @@ async function generateArticleFromItem(item) {
     const { title, link, contentSnippet, isoDate } = item;
     log(`Processing article: "${title}"`);
 
-    const prompt = `Write a detailed and engaging news article in Portuguese (pt-PT), based on the provided title and snippet. The article must be comprehensive, at least 500 words long, and structured with a clear introduction, multiple body paragraphs with markdown subheadings. Your entire response must be ONLY a valid JSON object.
+    const prompt = `Analyze the following article information and generate a new, original news article in Portuguese (pt-PT). The tone should be simple and informative. The article must be comprehensive, at least 500 words long, and structured with a clear introduction, multiple body paragraphs with markdown subheadings. Your entire response must be ONLY a valid JSON object.
 
 Original Title: "${title}"
 Original Snippet: "${contentSnippet}"
@@ -103,24 +116,18 @@ JSON structure to generate:
     try {
         const result = await model.generateContent(prompt);
         const text = result.response.text();
-        
-        let articleData;
-        try {
-            const cleanedResponse = text.replace(/```json/g, '').replace(/```/g, '').trim();
-            articleData = JSON.parse(cleanedResponse);
-        } catch (parseError) {
-            log(`Failed to parse JSON for article "${title}". Error: ${parseError.message}. Raw Response: "${text}"`, 'ERROR');
-            return { status: 'failed' };
-        }
+        const cleanedResponse = text.replace(/```json/g, '').replace(/```/g, '').trim();
+        const articleData = JSON.parse(cleanedResponse);
 
-        if (!articleData.title || !articleData.content) throw new Error("Generated data is missing title or content.");
+        if (!articleData.title || !articleData.content) throw new Error("Generated JSON is missing title or content.");
         
         const slug = slugify(articleData.title);
-        const imageUrl = await getImageUrl(item, articleData.title, slug);
+        const imageUrl = await getImageUrl(item, slug);
+        
         const articleDate = DATE_OVERRIDE || new Date(isoDate || Date.now()).toISOString();
 
         const frontmatter = {
-            slug,
+            slug: slug,
             title: articleData.title,
             description: articleData.description || '',
             category: articleData.category || 'Tecnologia',
