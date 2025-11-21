@@ -6,7 +6,7 @@ const nextConfig = {
         protocol: 'https',
         hostname: 'picsum.photos',
         port: '',
-        pathname: '/id/**',
+        pathname: '/**', // This allows any image from picsum.photos
       },
       {
         protocol: 'https',
