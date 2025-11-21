@@ -9,6 +9,7 @@ on:
 jobs:
   generate_articles:
     runs-on: ubuntu-latest
+    # Grant permissions for the action to create a pull request
     permissions:
       contents: write
       pull-requests: write
@@ -28,6 +29,7 @@ jobs:
       - name: Run article generator
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          UNSPLASH_API_KEY: ${{ secrets.UNSPLASH_API_KEY }}
         run: npm run generate-articles
 
       - name: Create Pull Request
