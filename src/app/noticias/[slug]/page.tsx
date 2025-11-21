@@ -1,47 +1,87 @@
 import Image from 'next/image';
-import { getArticleData, getSortedArticlesData } from '@/lib/markdown'; // Import the utility functions
+import { getArticleBySlug, getSortedArticlesData } from '@/lib/markdown';
+import { notFound } from 'next/navigation';
 
-// Function to generate static params for Next.js
+// Generate static pages for all articles to improve performance
 export async function generateStaticParams() {
-  const allArticles = await getSortedArticlesData();
-  return allArticles.map((article) => ({
+  const articles = getSortedArticlesData();
+  return articles.map((article) => ({
     slug: article.slug,
   }));
 }
 
-export default async function ArticlePage({ params }: { params: { slug: string } }) {
-  const { slug } = params;
-  const article = await getArticleData(slug);
+// Generate metadata for the page
+export async function generateMetadata({ params }: { params: { slug: string } }) {
+  const article = getArticleBySlug(params.slug);
 
   if (!article) {
-    // In a real app, you might want to redirect to a 404 page
-    return (
-      <div className="container mx-auto px-4 py-8 text-center text-foreground">
-        <h1 className="text-3xl font-bold mb-4">Artigo Não Encontrado</h1>
-        <p>Pedimos desculpa, mas o artigo que procura não existe.</p>
-      </div>
-    );
+    return {
+      title: 'Artigo Não Encontrado',
+    };
+  }
+
+  return {
+    title: article.title,
+    description: article.meta_description,
+  };
+}
+
+// The page component
+export default async function ArticlePage({ params }: { params: { slug: string } }) {
+  const article = getArticleBySlug(params.slug);
+
+  // If no article is found, render the 404 page
+  if (!article) {
+    notFound();
   }
 
   return (
     <div className="container mx-auto px-4 py-8">
       <article className="max-w-3xl mx-auto bg-card p-6 md:p-8 rounded-lg shadow-lg">
-        <Image
-          src={article.imageUrl}
-          alt={article.title}
-          width={900}
-          height={500}
-          className="rounded-lg mb-6 w-full object-cover"
-          priority
-        />
-        <p className="text-primary text-sm font-semibold uppercase mb-2">{article.category}</p>
-        <h1 className="text-4xl font-extrabold text-foreground leading-tight mb-4">{article.title}</h1>
-        <p className="text-muted text-sm mb-6">{article.date}</p>
+        <h1 className="text-4xl lg:text-5xl font-extrabold text-foreground leading-tight mb-4">{article.title}</h1>
+        <p className="text-muted text-lg mb-6">{article.meta_description}</p>
+        <div className="flex items-center text-sm text-muted mb-6">
+          <span>{new Date(article.date).toLocaleDateString('pt-PT', { day: 'numeric', month: 'long', year: 'numeric' })}</span>
+          {article.categories[0] && (
+            <>
+              <span className="mx-2">|</span>
+              <span className="text-primary font-semibold uppercase">{article.categories[0]}</span>
+            </>
+          )}
+        </div>
+
+        {article.featured_image && (
+          <Image
+            src={article.featured_image}
+            alt={article.title}
+            width={900}
+            height={500}
+            className="rounded-lg mb-8 w-full object-cover"
+            priority
+          />
+        )}
+        
+        {article.pontos_chave && article.pontos_chave.length > 0 && (
+          <div className="bg-background/50 p-6 rounded-lg mb-8 border-l-4 border-primary">
+            <h2 className="text-2xl font-bold text-foreground mb-4">Pontos-Chave</h2>
+            <ul className="list-disc list-inside space-y-2 text-foreground">
+              {article.pontos_chave.map((ponto, index) => (
+                <li key={index}>{ponto}</li>
+              ))}
+            </ul>
+          </div>
+        )}
 
         <div
           className="prose prose-lg max-w-none text-foreground leading-relaxed"
           dangerouslySetInnerHTML={{ __html: article.contentHtml }}
         />
+
+        {article.source_url && (
+            <div className="mt-8 pt-4 border-t border-border text-sm text-muted">
+                Fonte original: <a href={article.source_url} target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">{article.source_url}</a>
+            </div>
+        )}
       </article>
     </div>
   );

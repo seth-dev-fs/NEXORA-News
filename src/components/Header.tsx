@@ -6,6 +6,7 @@ import { useState } from 'react';
 export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
+  // Corrected and unified navigation links
   const navLinks = [
     { name: 'Home', href: '/' },
     { name: 'Smartphones', href: '/categoria/smartphones' },
@@ -15,8 +16,8 @@ export default function Header() {
     { name: 'Internet & Apps', href: '/categoria/internet-apps' },
     { name: 'Mobilidade', href: '/categoria/mobilidade' },
     { name: 'Ciência', href: '/categoria/ciencia' },
-    { name: 'Entretenimento / Gaming', href: '/categoria/entretenimento-gaming' },
-    { name: 'AI / Futuro', href: '/categoria/ai-futuro' },
+    { name: 'Gaming', href: '/categoria/entretenimento-gaming' },
+    { name: 'AI & Futuro', href: '/categoria/ai-futuro' },
   ];
 
   return (
@@ -28,7 +29,7 @@ export default function Header() {
           </Link>
           
           {/* Desktop Menu */}
-          <ul className="hidden md:flex items-center space-x-8 text-sm font-medium text-muted">
+          <ul className="hidden md:flex items-center space-x-6 text-sm font-medium text-muted">
             {navLinks.map((link) => (
               <li key={link.name}>
                 <Link href={link.href} className="hover:text-primary transition-colors duration-200">
@@ -41,9 +42,7 @@ export default function Header() {
           {/* Hamburger Button */}
           <div className="md:hidden">
             <button onClick={() => setIsMenuOpen(true)} className="text-foreground focus:outline-none">
-              <div className="w-6 h-0.5 bg-foreground mb-1.5"></div>
-              <div className="w-6 h-0.5 bg-foreground mb-1.5"></div>
-              <div className="w-6 h-0.5 bg-foreground"></div>
+              <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h16m-7 6h7"></path></svg>
             </button>
           </div>
         </nav>

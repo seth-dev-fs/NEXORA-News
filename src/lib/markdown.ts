@@ -1,166 +1,114 @@
-const fs = require('fs');
-const path = require('path');
-const matter = require('front-matter'); // Use require for better CJS compatibility
-const { remark } = require('remark');
-const html = require('remark-html');
+import fs from 'fs';
+import path from 'path';
+import matter from 'gray-matter';
+import { remark } from 'remark';
+import html from 'remark-html';
 
 const postsDirectory = path.join(process.cwd(), 'content', 'posts');
 
-// This interface needs to be exported for other files to use it.
-// We also ensure all properties are properly typed.
-export interface ArticleData {
+// Define the structure of the article metadata
+export interface ArticleMeta {
   slug: string;
   title: string;
-  description: string;
-  category: string;
   date: string;
-  imageUrl: string;
+  categories: string[];
+  tags: string[];
+  featured_image: string;
+  meta_description: string;
+  pontos_chave: string[];
+  source_url: string;
   contentHtml: string;
-  source_url?: string;
-  needs_review?: boolean;
 }
 
-export async function getSortedArticlesData(): Promise<ArticleData[]> {
+// Helper function to safely process raw frontmatter data
+function processFrontmatter(slug: string, data: { [key: string]: any }): Omit<ArticleMeta, 'contentHtml'> {
+  return {
+    slug: slug,
+    title: data.title || 'Sem Título',
+    date: data.date || new Date().toISOString(),
+    categories: data.categories || [],
+    tags: data.tags || [],
+    featured_image: data.featured_image || '/placeholder.jpg', // Provide a default placeholder
+    meta_description: data.meta_description || '',
+    pontos_chave: data.pontos_chave || [],
+    source_url: data.source_url || '',
+  };
+}
+
+// Internal function to get all posts, reducing redundant file reads
+let allPostsCache: ArticleMeta[] | null = null;
+
+function fetchAllPosts(): ArticleMeta[] {
+  if (allPostsCache) {
+    return allPostsCache;
+  }
+
   if (!fs.existsSync(postsDirectory)) {
     return [];
   }
+
   const fileNames = fs.readdirSync(postsDirectory);
-  const allArticlesData = await Promise.all(
-    fileNames.map(async (fileName) => {
-      if (!fileName.endsWith('.md')) return null;
-      
+
+  const allPostsData = fileNames
+    .filter(fileName => fileName.endsWith('.md'))
+    .map(fileName => {
       const slug = fileName.replace(/\.md$/, '');
       const fullPath = path.join(postsDirectory, fileName);
       const fileContents = fs.readFileSync(fullPath, 'utf8');
-      
-      try {
-        const { attributes, body } = matter(fileContents); // Corrected here
-        const processedContent = await remark().use(html).process(body);
-        const contentHtml = processedContent.toString();
 
-        return {
-          slug,
-          contentHtml,
-          ...(attributes as ArticleData),
-        };
-      } catch (e) {
-        console.error(`Error processing file: ${fileName}`, e);
-        return null;
-      }
-    })
-  );
+      const { data, content } = matter(fileContents);
+      const processedFrontmatter = processFrontmatter(slug, data);
 
-  const validArticles = allArticlesData.filter(Boolean) as ArticleData[];
+      const processedContent = remark().use(html).process(content);
+      const contentHtml = processedContent.toString();
 
-  return validArticles.sort((a, b) => {
+      return {
+        ...processedFrontmatter,
+        contentHtml,
+      };
+    });
+
+  const sortedPosts = allPostsData.sort((a, b) => {
     return new Date(b.date).getTime() - new Date(a.date).getTime();
   });
-}
-
-export async function getArticleData(slug: string): Promise<ArticleData | null> {
-  const fullPath = path.join(postsDirectory, `${slug}.md`);
-  if (!fs.existsSync(fullPath)) {
-    return null;
-  }
-  const fileContents = fs.readFileSync(fullPath, 'utf8');
-
-  try {
-    const { attributes, body } = matter(fileContents); // Corrected here
-    const processedContent = await remark().use(html).process(body);
-    const contentHtml = processedContent.toString();
-
-    return {
-      slug,
-      contentHtml,
-      ...(attributes as ArticleData),
-    };
-  } catch (e) {
-    console.error(`Error processing file for slug ${slug}:`, e);
-    return null;
-  }
+  
+  allPostsCache = sortedPosts;
+  return sortedPosts;
 }
 
 
+// --- EXPORTED FUNCTIONS ---
 
+/**
+ * Returns metadata for all articles, sorted by date descending.
+ */
+export function getSortedArticlesData(): ArticleMeta[] {
+  return fetchAllPosts();
+}
 
-const fs = require('fs');                                                                                         
-  const path = require('path');                                                                                     
-  const matter = require('front-matter'); // Use require for better CJS compatibility                               
-  const { remark } = require('remark');                                                                             
-  const html = require('remark-html');                                                                              
-                                                                                                                    
-  const postsDirectory = path.join(process.cwd(), 'content', 'posts');                                              
-                                                                                                                    
-  // This interface needs to be exported for other files to use it.                                                 
-  // We also ensure all properties are properly typed.                                                              
-  export interface ArticleData {                                                                                    
-    slug: string;                                                                                                   
-    title: string;                                                                                                  
-    description: string;                                                                                            
-    category: string;                                                                                               
-    date: string;                                                                                                   
-    imageUrl: string;                                                                                               
-    contentHtml: string;                                                                                            
-    source_url?: string;                                                                                            
-    needs_review?: boolean;                                                                                         
-  }                                                                                                                 
-                                                                                                                    
-  export async function getSortedArticlesData(): Promise<ArticleData[]> {                                           
-    if (!fs.existsSync(postsDirectory)) {                                                                           
-      return [];                                                                                                    
-    }                                                                                                               
-    const fileNames = fs.readdirSync(postsDirectory);                                                               
-    const allArticlesData = await Promise.all(                                                                      
-      fileNames.map(async (fileName) => {                                                                           
-        if (!fileName.endsWith('.md')) return null;                                                                 
-                                                                                                                    
-        const slug = fileName.replace(/\.md$/, '');                                                                 
-        const fullPath = path.join(postsDirectory, fileName);                                                       
-        const fileContents = fs.readFileSync(fullPath, 'utf8');                                                     
-                                                                                                                    
-        try {                                                                                                       
-          const { attributes, body } = matter(fileContents); // Corrected here                                      
-          const processedContent = await remark().use(html).process(body);                                          
-          const contentHtml = processedContent.toString();                                                          
-                                                                                                                    
-          return {                                                                                                  
-            slug,                                                                                                   
-            contentHtml,                                                                                           ▄
-            ...(attributes as ArticleData),                                                                         
-          };                                                                                                        
-        } catch (e) {                                                                                               
-          console.error(Error processing file: ${fileName}, e);                                                     
-          return null;                                                                                              
-        }                                                                                                           
-      })                                                                                                            
-    );                                                                                                              
-                                                                                                                    
-    const validArticles = allArticlesData.filter(Boolean) as ArticleData[];                                         
-                                                                                                                    
-    return validArticles.sort((a, b) => {                                                                           
-      return new Date(b.date).getTime() - new Date(a.date).getTime();                                               
-    });                                                                                                             
-  }                                                                                                                 
-                                                                                                                    
-  export async function getArticleData(slug: string): Promise<ArticleData | null> {                                 
-    const fullPath = path.join(postsDirectory, ${slug}.md);                                                         
-    if (!fs.existsSync(fullPath)) {                                                                                 
-      return null;                                                                                                  
-    }                                                                                                               
-    const fileContents = fs.readFileSync(fullPath, 'utf8');                                                         
-                                                                                                                    
-    try {                                                                                                           
-      const { attributes, body } = matter(fileContents); // Corrected here                                          
-      const processedContent = await remark().use(html).process(body);                                              
-      const contentHtml = processedContent.toString();                                                              
-                                                                                                                    
-      return {                                                                                                      
-        slug,                                                                                                       
-        contentHtml,                                                                                                
-        ...(attributes as ArticleData),                                                                             
-      };                                                                                                            
-    } catch (e) {                                                                                                   
-      console.error(Error processing file for slug ${slug}:, e);                                                    
-      return null;                                                                                                  
-    }                                                                                                               
-  }                                               
+/**
+ * Finds and returns the metadata for a single article by its slug.
+ * Returns null if not found.
+ */
+export function getArticleBySlug(slug: string): ArticleMeta | null {
+  const allPosts = fetchAllPosts();
+  const article = allPosts.find(p => p.slug === slug);
+  return article || null;
+}
+
+/**
+ * Returns all articles that belong to a specific category.
+ */
+export function getArticlesByCategory(category: string): ArticleMeta[] {
+  const allPosts = fetchAllPosts();
+  const categorySlug = category.toLowerCase();
+  
+  return allPosts.filter(post => {
+    // Safely check categories array
+    if (!post.categories || !Array.isArray(post.categories)) {
+      return false;
+    }
+    // Check if any of the post's categories match the requested category slug
+    return post.categories.some(cat => cat.toLowerCase() === categorySlug);
+  });
+}
