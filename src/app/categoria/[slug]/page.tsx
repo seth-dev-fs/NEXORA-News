@@ -1,52 +1,52 @@
-import ArticleCard from '@/components/ArticleCard';
-import { getSortedArticlesData, ArticleData } from '@/lib/markdown';
+import ArticleCard from "@/components/ArticleCard";
+import { getPostsByCategory, getAllPosts } from "@/lib/markdown";
+
+const VALID_CATEGORIES = [
+  "smartphones",
+  "wearables",
+  "audio",
+  "computadores",
+  "internet-apps",
+  "mobilidade",
+  "ciencia",
+  "entretenimento-gaming",
+  "ai-futuro",
+];
 
 export async function generateStaticParams() {
-  const categories = [
-    'smartphones', 
-    'wearables', 
-    'audio', 
-    'computadores', 
-    'internet-apps', 
-    'mobilidade', 
-    'ciencia', 
-    'entretenimento-gaming', 
-    'ai-futuro'
-  ];
-  return categories.map((category) => ({
+  return VALID_CATEGORIES.map((category) => ({
     slug: category,
   }));
 }
 
-export async function generateMetadata({ params }: { params: { slug: string } }) {
-  const categoryName = params.slug.replace(/-/g, ' ').replace(/\b\w/g, l => l.toUpperCase());
-  return {
-    title: `${categoryName} - NEXORA News`,
-    description: `Últimas notícias e artigos sobre ${categoryName} em Portugal.`,
-  };
-}
+export default async function CategoryPage({
+  params,
+}: {
+  params: { slug: string };
+}) {
+  const slug = params.slug;
 
-export default async function CategoriaPage({ params }: { params: { slug: string } }) {
-  const allArticlesData = await getSortedArticlesData();
-  const categorySlug = params.slug;
+  // Validate category
+  if (!VALID_CATEGORIES.includes(slug)) {
+    return (
+      <div className="container mx-auto px-4 py-16">
+        <h1 className="text-3xl font-bold mb-6">Categoria inválida</h1>
+        <p>A categoria "{slug}" não existe.</p>
+      </div>
+    );
+  }
 
-  const categoryArticles = allArticlesData.filter(article => {
-    // This safety check is critical.
-    if (!article || !article.category) {
-      return false;
-    }
-    const articleCategorySlug = article.category.toLowerCase().replace(/ & /g, '-').replace(/\s+/g, '-');
-    return articleCategorySlug === categorySlug;
-  });
-
-  const categoryName = categorySlug.replace(/-/g, ' ').replace(/\b\w/g, l => l.toUpperCase());
+  // Load articles
+  const categoryArticles = await getPostsByCategory(slug);
 
   return (
-    <div className="container mx-auto px-4 py-8">
-      <h1 className="text-4xl font-bold text-foreground mb-8">{categoryName}</h1>
+    <div className="container mx-auto px-4 py-16">
+      <h1 className="text-4xl font-bold mb-10 capitalize">
+        {slug.replace("-", " ")}
+      </h1>
 
       {categoryArticles.length === 0 ? (
-        <div className="text-center text-muted">
+        <div className="text-center text-muted py-16">
           <p>De momento não existem artigos nesta categoria.</p>
           <p>Por favor, volte mais tarde.</p>
         </div>
