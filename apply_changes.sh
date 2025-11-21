@@ -1,15 +1,7 @@
-#!/usr/bin/env bash                                                                                               
+ #!/usr/bin/env bash                                                                                               
   set -e                                                                                                            
-  BRANCH="feature/update-topics"                                                                                    
-  echo "Stashing current uncommitted changes..."                                                                    
-  git stash                                                                                                         
-  echo "Switching to branch '$BRANCH'..."                                                                           
-  git checkout $BRANCH                                                                                              
-  echo "Applying stashed changes to the branch..."                                                                  
-  git stash pop                                                                                                     
-  echo "Adding and committing all changes..."                                                                       
+  git checkout feature/update-topics                                                                                
   git add .                                                                                                         
-  git commit -m "fix: apply feature updates and fix Vercel build"                                                   
-  echo "Pushing changes to origin..."                                                                               
-  git push                                                                                                          
-  echo "Recovery complete. The branch '$BRANCH' has been updated on GitHub."              
+  git commit -m "fix: apply all pending changes and fix Vercel build"                                               
+  git push -u origin feature/update-topics                                                                          
+  echo "All changes have been committed and pushed to the 'feature/update-topics' branch." 
