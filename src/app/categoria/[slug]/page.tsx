@@ -1,12 +1,10 @@
 import ArticleCard from '@/components/ArticleCard';
-import { getSortedArticlesData, getArticlesByCategory } from '@/lib/markdown';
+import { getArticlesByCategory, getSortedArticlesData } from '@/lib/markdown';
 
-// Generate static pages for all known categories to improve performance
 export async function generateStaticParams() {
   const allPosts = getSortedArticlesData();
   const allCategories = new Set<string>();
   
-  // CORRECTED: Use 'post.category' (string) instead of 'post.categories' (array)
   allPosts.forEach(post => {
     if (post.category) {
       allCategories.add(post.category.toLowerCase().replace(/ & /g, '-').replace(/\s+/g, '-'));
@@ -18,7 +16,6 @@ export async function generateStaticParams() {
   }));
 }
 
-// Generate metadata for the page
 export async function generateMetadata({ params }: { params: { slug: string } }) {
   const categorySlug = params.slug;
   const categoryName = categorySlug.replace(/-/g, ' ').replace(/\b\w/g, l => l.toUpperCase());
@@ -28,7 +25,6 @@ export async function generateMetadata({ params }: { params: { slug: string } })
   };
 }
 
-// The page component
 export default async function CategoriaPage({ params }: { params: { slug: string } }) {
   const categorySlug = params.slug;
   const articles = getArticlesByCategory(categorySlug);
@@ -44,16 +40,9 @@ export default async function CategoriaPage({ params }: { params: { slug: string
         </div>
       ) : (
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+          {/* FINAL CORRECTED VERSION: Pass the whole 'article' object as a single prop */}
           {articles.map((article) => (
-            <ArticleCard 
-              key={article.slug} 
-              slug={article.slug}
-              imageUrl={article.featured_image}
-              title={article.title}
-              description={article.description}
-              category={article.category}
-              date={article.date}
-            />
+            <ArticleCard key={article.slug} article={article} />
           ))}
         </div>
       )}

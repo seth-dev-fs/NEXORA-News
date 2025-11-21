@@ -35,7 +35,6 @@ export default async function Home() {
         )}
         <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-black/30 to-transparent flex items-end p-8">
           <div className="max-w-2xl">
-            {/* CORRECTED: Use 'category' (string) instead of 'categories' (array) */}
             {heroArticle.category && (
                 <p className="text-sm font-bold uppercase text-primary-light">{heroArticle.category}</p>
             )}
@@ -54,11 +53,9 @@ export default async function Home() {
         <section className="mb-12">
           <h2 className="text-3xl font-bold text-foreground mb-6">Últimas Notícias</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            {/* FINAL CORRECTED VERSION: Pass the whole 'article' object as a single prop */}
             {recentArticles.map((article) => (
-              <ArticleCard 
-                key={article.slug} 
-                article={article}
-              />
+              <ArticleCard key={article.slug} article={article} />
             ))}
           </div>
         </section>

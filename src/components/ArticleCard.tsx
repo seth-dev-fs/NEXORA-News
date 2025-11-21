@@ -2,7 +2,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { ArticleMeta } from '@/lib/markdown';
 
-// The ArticleCard now accepts a single 'article' prop of type ArticleMeta
+// FINAL CORRECTED VERSION: Accepts a single 'article' prop
 export default function ArticleCard({ article }: { article: ArticleMeta }) {
   if (!article) return null;
 
@@ -19,11 +19,10 @@ export default function ArticleCard({ article }: { article: ArticleMeta }) {
             className="transition-transform duration-300 group-hover:scale-105"
           />
         ) : (
-          <div className="w-full h-full bg-gray-300"></div> // Placeholder
+          <div className="w-full h-full bg-gray-300"></div>
         )}
       </div>
       <div className="p-4">
-        {/* CORRECTED: Use 'category' (string) instead of 'categories' (array) */}
         {article.category && (
             <p className="text-primary text-sm font-semibold uppercase mb-2">{article.category}</p>
         )}
