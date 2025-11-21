@@ -35,15 +35,16 @@ export default async function Home() {
         )}
         <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-black/30 to-transparent flex items-end p-8">
           <div className="max-w-2xl">
-            {heroArticle.categories[0] && (
-                <p className="text-sm font-bold uppercase text-primary-light">{heroArticle.categories[0]}</p>
+            {/* CORRECTED: Use 'category' (string) instead of 'categories' (array) */}
+            {heroArticle.category && (
+                <p className="text-sm font-bold uppercase text-primary-light">{heroArticle.category}</p>
             )}
             <Link href={`/noticias/${heroArticle.slug}`}>
               <h2 className="font-sans text-4xl md:text-5xl font-extrabold leading-tight mt-2 text-white hover:text-primary-light transition-colors duration-200 [text-shadow:0_2px_4px_rgba(0,0,0,0.5)]">
                 {heroArticle.title}
               </h2>
             </Link>
-            <p className="mt-4 text-lg text-gray-200 hidden md:block">{heroArticle.meta_description}</p>
+            <p className="mt-4 text-lg text-gray-200 hidden md:block">{heroArticle.description}</p>
           </div>
         </div>
       </section>
@@ -56,12 +57,7 @@ export default async function Home() {
             {recentArticles.map((article) => (
               <ArticleCard 
                 key={article.slug} 
-                slug={article.slug}
-                imageUrl={article.featured_image}
-                title={article.title}
-                description={article.meta_description}
-                category={article.categories[0] || ''}
-                date={article.date}
+                article={article}
               />
             ))}
           </div>
