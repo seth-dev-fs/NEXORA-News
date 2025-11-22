@@ -21,9 +21,9 @@ if (!REVALIDATE_TOKEN) {
   console.error("CRITICAL: REVALIDATE_TOKEN environment variable is not set. Revalidation will not occur.");
 }
 
-// STABLE MODEL: Using gemini-1.5-flash (stable, better rate limits than experimental)
-// Alternatives: gemini-1.5-pro (higher quality, slower), gemini-2.0-flash-exp (experimental, low quota)
-const GEMINI_MODEL = "gemini-1.5-flash";
+// CORRECT MODEL: gemini-2.5-flash (confirmed available via API)
+// Verified via: curl "https://generativelanguage.googleapis.com/v1beta/models?key=..."
+const GEMINI_MODEL = "gemini-2.5-flash";
 
 // Unsplash configuration for fallback images
 const UNSPLASH_ACCESS_KEY = process.env.UNSPLASH_ACCESS_KEY;
