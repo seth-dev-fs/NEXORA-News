@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { getAllArticlesIncludingDrafts } from "@/lib/markdown";
+import { getAllArticles } from "@/lib/markdown";
 
 export default async function DraftsPage() {
   // This page will only be rendered in the development environment
@@ -11,10 +11,9 @@ export default async function DraftsPage() {
       </div>
     );
   }
-  
-  const allArticles = await getAllArticlesIncludingDrafts();
-  const draftArticles = allArticles.filter(article => article.draft);
 
+  const allArticles = await getAllArticles(); // Gets all articles including drafts
+  const draftArticles = allArticles.filter(article => article.draft);
   return (
     <div className="container mx-auto px-4 py-8">
       <h1 className="text-4xl font-bold text-foreground mb-8">Artigos em Rascunho</h1>
