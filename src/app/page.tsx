@@ -11,7 +11,7 @@ export default async function Home() {
     return (
       <div className="container mx-auto px-4 py-8 text-center text-foreground">
         <h1 className="text-3xl font-bold mb-4">Bem-vindo à NEXORA News</h1>
-        <p className="text-muted">Ainda não temos artigos. Volte em breve!</p>
+        <p className="text-muted">Ainda não há artigos publicados. Volte em breve!</p>
       </div>
     );
   }
@@ -23,7 +23,6 @@ export default async function Home() {
     <div className="container mx-auto px-4 py-8">
       {/* Hero Section */}
       <section className="relative w-full h-[500px] md:h-[600px] rounded-lg overflow-hidden mb-12 shadow-lg">
-        {/* CORRECTED: Use 'image' instead of 'featured_image' */}
         {heroArticle.image && (
             <Image
                 src={heroArticle.image}

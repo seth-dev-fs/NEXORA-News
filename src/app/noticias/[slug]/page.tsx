@@ -13,9 +13,7 @@ export async function generateMetadata({ params }: { params: { slug: string } })
   const article = getArticleBySlug(params.slug);
 
   if (!article) {
-    return {
-      title: 'Artigo Não Encontrado',
-    };
+    return { title: 'Artigo Não Encontrado' };
   }
 
   return {
@@ -27,7 +25,7 @@ export async function generateMetadata({ params }: { params: { slug: string } })
 export default async function ArticlePage({ params }: { params: { slug: string } }) {
   const article = getArticleBySlug(params.slug);
 
-  if (!article) {
+  if (!article || article.draft) {
     notFound();
   }
 
@@ -46,7 +44,6 @@ export default async function ArticlePage({ params }: { params: { slug: string }
           )}
         </div>
 
-        {/* CORRECTED: Use 'image' instead of 'featured_image' */}
         {article.image && (
           <Image
             src={article.image}
