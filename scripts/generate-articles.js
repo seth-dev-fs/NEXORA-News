@@ -358,18 +358,29 @@ Generate a JSON object with this exact structure:
 
         let articleData;
         try {
-            // Extract JSON from response
-            const jsonMatch = text.match(/```json\n([\s\S]*?)\n```/);
-            let jsonString = text;
+            // ROBUST JSON EXTRACTION - handles multiple formats from Gemini
+            let jsonString = text.trim();
 
+            // Step 1: Try to extract from ```json blocks (with or without newlines)
+            const jsonMatch = jsonString.match(/```(?:json)?\s*\n?([\s\S]*?)\n?```/);
             if (jsonMatch && jsonMatch[1]) {
-                jsonString = jsonMatch[1];
-            } else {
-                const braceMatch = text.match(/\{[\s\S]*\}/);
+                jsonString = jsonMatch[1].trim();
+            }
+            // Step 2: Try to extract just the JSON object
+            else {
+                const braceMatch = jsonString.match(/\{[\s\S]*\}/);
                 if (braceMatch && braceMatch[0]) {
                     jsonString = braceMatch[0];
                 }
             }
+
+            // Step 3: Clean up common JSON issues
+            jsonString = jsonString
+                .trim()
+                // Remove trailing commas before closing braces/brackets
+                .replace(/,(\s*[}\]])/g, '$1')
+                // Fix unescaped quotes in strings (basic)
+                .replace(/:\s*"([^"]*)"([^",}\]]*?)"/g, ':"$1\\"$2"');
 
             articleData = JSON.parse(jsonString);
         } catch (jsonError) {
