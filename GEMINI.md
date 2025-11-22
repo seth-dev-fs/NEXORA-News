@@ -10,7 +10,7 @@ NEXORA News is an automated news website built with Next.js and deployed on Verc
 - **Framework:** Next.js (v14+) with React
 - **Language:** TypeScript
 - **Styling:** Tailwind CSS with the Typography plugin
-- **Content Generation:** Google Gemini (`gemini-1.5-flash-latest`) via the `@google/generative-ai` SDK
+- **Content Generation:** Google Gemini (`gemini-2.5-flash`) via the `@google/generative-ai` SDK
 - **Automation:** A GitHub Action workflow automates the entire content pipeline.
 
 ### Architecture & Data Flow
