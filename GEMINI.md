@@ -21,10 +21,11 @@ The project follows a decoupled content generation and rendering architecture:
     *   Fetches recent articles from a predefined list of RSS feeds.
     *   Identifies a suitable category for each article based on keywords.
     *   Calls the Gemini API to rewrite and expand the article content.
-    *   Saves the generated articles as individual Markdown files in the `content/posts/` directory.
+    *   Finds a suitable header image using a multi-tier fallback system (article's image, Unsplash API, or a default placeholder).
+    *   Saves the generated articles as individual Markdown files in the `content/posts/` directory, with the frontmatter flag `draft: true` set by default.
 3.  **Pull Request Creation:** After generating articles, the GitHub Action automatically creates a new Pull Request with the new content, allowing for manual review and approval before the articles go live.
-4.  **Data Fetching:** The Next.js application uses a data-fetching utility at `src/lib/markdown.ts`. This utility reads the Markdown files from the `content/posts/` directory, parses the frontmatter using `gray-matter`, converts the markdown to HTML using `remark`, and provides a simple API for the frontend to consume. It uses an in-memory cache for performance.
-5.  **Rendering:** The Next.js pages (built with the App Router) call the functions from `src/lib/markdown.ts` during the build process to fetch article data and render the static HTML.
+4.  **Data Fetching:** The Next.js application uses a data-fetching utility at `src/lib/markdown.ts`. This utility reads the Markdown files from the `content/posts/` directory, parses frontmatter using `gray-matter`, and converts markdown to HTML using `remark`. Crucially, all public-facing data-fetching functions in this module explicitly filter out articles where `draft: true`, preventing them from appearing on the live site. It uses an in-memory cache for performance.
+5.  **Rendering:** The Next.js pages (built with the App Router) use Static Site Generation (SSG) via `generateStaticParams` to pre-render all article pages at build time. This ensures fast load times. The pages also use Incremental Static Revalidation (`revalidate`) to periodically refresh content, ensuring that updates become visible without requiring a full site redeployment.
 
 ## 2. Building and Running
 
@@ -53,9 +54,9 @@ The primary commands are defined in `package.json`:
     -   All category listing pages are handled by the dynamic route `src/app/categoria/[slug]/page.tsx`.
 -   **Content as Data:** All articles are stored as `.md` files in `content/posts/`. The frontmatter of these files serves as the database for the articles.
 -   **Styling:** Styling is done exclusively with Tailwind CSS. The `tailwind.config.ts` file contains the project's custom color palette and theme. Content from Markdown is styled using the `@tailwindcss/typography` plugin (the `prose` classes).
--   **Automation Workflow:** All new content is intended to be generated via the GitHub Action. The standard workflow is:
-    1.  The Action runs and generates articles.
-    2.  It creates a Pull Request.
-    3.  A human reviews and **merges the Pull Request**.
-    4.  Merging into `main` triggers a production deployment on Vercel.
+-   **Publishing Workflow:** The process of generating and publishing content involves both automation and manual review:
+    1.  **Automated Generation:** The GitHub Action runs, generating new articles as Markdown files with `draft: true` in the frontmatter.
+    2.  **Pull Request Creation:** The action creates a Pull Request containing the new draft articles.
+    3.  **Manual Curation & Publishing:** A developer reviews the generated drafts. To publish an article, the developer must manually edit its Markdown file and change the frontmatter to `draft: false`.
+    4.  **Deployment:** The developer commits the changes (setting `draft` to `false`) and merges the Pull Request into the `main` branch. This merge triggers an automatic production deployment on Vercel, making the new articles publicly visible.
 -   **Code Formatting:** The project uses the default Next.js and Prettier configurations for code style.

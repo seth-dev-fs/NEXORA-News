@@ -6,6 +6,32 @@ import html from 'remark-html';
 
 const postsDirectory = path.join(process.cwd(), 'content/posts');
 
+/**
+ * Normalizes a category name to a consistent slug format.
+ * Handles multiple variations of the same category.
+ */
+export function normalizeCategoryToSlug(category: string): string {
+  if (!category) return 'home';
+
+  // Convert to lowercase and trim
+  const normalized = category.toLowerCase().trim();
+
+  // Replace special characters and spaces with hyphens
+  return normalized
+    .replace(/\s*\/\s*/g, '-') // Replace " / " with "-"
+    .replace(/\s*&\s*/g, '-')  // Replace " & " with "-"
+    .replace(/\s+/g, '-')      // Replace spaces with "-"
+    .replace(/[áàâã]/g, 'a')   // Remove accents
+    .replace(/[éèê]/g, 'e')
+    .replace(/[íì]/g, 'i')
+    .replace(/[óòôõ]/g, 'o')
+    .replace(/[úù]/g, 'u')
+    .replace(/ç/g, 'c')
+    .replace(/[^a-z0-9-]/g, '') // Remove any remaining special chars
+    .replace(/-+/g, '-')       // Replace multiple hyphens with single
+    .replace(/^-|-$/g, '');    // Remove leading/trailing hyphens
+}
+
 export function getAllArticles(): ArticleMeta[] {
   if (!fs.existsSync(postsDirectory)) {
     return [];
@@ -37,12 +63,15 @@ export function getAllArticles(): ArticleMeta[] {
         articleDate = new Date(fs.statSync(fullPath).mtime).toISOString();
       }
 
+      // Normalize the category to slug format for consistency
+      const categorySlug = normalizeCategoryToSlug(data.category || 'home');
+
       return {
         slug,
         contentHtml: processedContent.toString(),
         title: data.title || 'No Title',
         date: articleDate,
-        category: data.category || 'home',
+        category: categorySlug, // Store normalized category slug
         tags: Array.isArray(data.tags) ? data.tags : [],
         image: data.image || null,
         image_source: data.image_source || data.image || '',
@@ -96,8 +125,11 @@ export function getArticleBySlug(slug: string): ArticleMeta | null {
  * Optionally applies a limit.
  */
 export function getArticlesByCategory(categorySlug: string, limit?: number): ArticleMeta[] {
+  // Normalize the input category slug for comparison
+  const normalizedInputSlug = normalizeCategoryToSlug(categorySlug);
+
   const articlesInCategory = getAllArticles()
-    .filter(article => !article.draft && article.category.toLowerCase() === categorySlug.toLowerCase())
+    .filter(article => !article.draft && article.category === normalizedInputSlug)
     .sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime());
   return limit ? articlesInCategory.slice(0, limit) : articlesInCategory;
 }
