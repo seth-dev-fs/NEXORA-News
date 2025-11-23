@@ -1,13 +1,34 @@
 ---
-slug: "uniao-europeia-impoe-usb-c-universal-uma-nova-era-para-o-carregamento-de-dispositivos"
-title: "União Europeia Impõe USB-C Universal: Uma Nova Era para o Carregamento de Dispositivos"
-description: "A União Europeia está a preparar a implementação de uma nova legislação que tornará o USB-C o padrão universal para carregamento de uma vasta gama de dispositivos eletrónicos, simplificando a vida dos consumidores e reduzindo o desperdício eletrónico. Fabricantes como a Apple terão de se adaptar a esta mudança significativa até ao final de 2024."
-category: "Mobilidade"
-tags: ["USB-C","União Europeia","Carregamento Universal","Tecnologia","Sustentabilidade"]
-date: "2025-11-08T12:00:00.000Z"
-featured_image: "https://images.unsplash.com/photo-1615997299664-e14af3b04637?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MzM4Njl8MHwxfHNlYXJjaHwxfHxVbmklQzMlQTNvJTIwRXVyb3BlaWElMjBJbXAlQzMlQjVlJTIwVVNCLUMlMjBVbml2ZXJzYWwlM0ElMjBVbWElMjBOb3ZhJTIwRXJhJTIwcGFyYSUyMG8lMjBDYXJyZWdhbWVudG8lMjBkZSUyMERpc3Bvc2l0aXZvc3xlbnwwfDB8fHwxNzYzNzU1NTQzfDA&ixlib=rb-4.1.0&q=80&w=1080"
-meta_description: "A União Europeia está a preparar a implementação de uma nova legislação que tornará o USB-C o padrão universal para carregamento de uma vasta gama de dispositivos eletrónicos, simplificando a vida dos consumidores e reduzindo o desperdício eletrónico. Fabricantes como a Apple terão de se adaptar a esta mudança significativa até ao final de 2024."
-source_url: "https://www.theverge.com/news/826302/analogue-3d-console-nintendo-64-restock-price-increase"
+slug: >-
+  uniao-europeia-impoe-usb-c-universal-uma-nova-era-para-o-carregamento-de-dispositivos
+title: >-
+  União Europeia Impõe USB-C Universal: Uma Nova Era para o Carregamento de
+  Dispositivos
+description: >-
+  A União Europeia está a preparar a implementação de uma nova legislação que
+  tornará o USB-C o padrão universal para carregamento de uma vasta gama de
+  dispositivos eletrónicos, simplificando a vida dos consumidores e reduzindo o
+  desperdício eletrónico. Fabricantes como a Apple terão de se adaptar a esta
+  mudança significativa até ao final de 2024.
+category: Mobilidade
+tags:
+  - USB-C
+  - União Europeia
+  - Carregamento Universal
+  - Tecnologia
+  - Sustentabilidade
+date: '2025-11-08T12:00:00.000Z'
+meta_description: >-
+  A União Europeia está a preparar a implementação de uma nova legislação que
+  tornará o USB-C o padrão universal para carregamento de uma vasta gama de
+  dispositivos eletrónicos, simplificando a vida dos consumidores e reduzindo o
+  desperdício eletrónico. Fabricantes como a Apple terão de se adaptar a esta
+  mudança significativa até ao final de 2024.
+source_url: >-
+  https://www.theverge.com/news/826302/analogue-3d-console-nintendo-64-restock-price-increase
+image: >-
+  https://images.unsplash.com/photo-1615997299664-e14af3b04637?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MzM4Njl8MHwxfHNlYXJjaHwxfHxVbmklQzMlQTNvJTIwRXVyb3BlaWElMjBJbXAlQzMlQjVlJTIwVVNCLUMlMjBVbml2ZXJzYWwlM0ElMjBVbWElMjBOb3ZhJTIwRXJhJTIwcGFyYSUyMG8lMjBDYXJyZWdhbWVudG8lMjBkZSUyMERpc3Bvc2l0aXZvc3xlbnwwfDB8fHwxNzYzNzU1NTQzfDA&ixlib=rb-4.1.0&q=80&w=1080
+draft: false
 ---
 
 # União Europeia Impõe USB-C Universal: Uma Nova Era para o Carregamento de Dispositivos

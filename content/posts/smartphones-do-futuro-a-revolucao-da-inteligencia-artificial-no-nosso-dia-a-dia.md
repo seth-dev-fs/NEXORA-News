@@ -1,13 +1,32 @@
 ---
-slug: "smartphones-do-futuro-a-revolucao-da-inteligencia-artificial-no-nosso-dia-a-dia"
-title: "Smartphones do Futuro: A Revolução da Inteligência Artificial no Nosso Dia a Dia"
-description: "A Inteligência Artificial está a redefinir a experiência dos smartphones, tornando-os mais inteligentes e personalizados. Descubra como a IA está a moldar o presente e o futuro da tecnologia móvel, dos benefícios às preocupações."
-category: "AI / Futuro"
-tags: ["Inteligência Artificial","Smartphones","Tecnologia Móvel","Inovação","Futuro"]
-date: "2025-11-08T12:00:00.000Z"
-featured_image: "https://cdn.arstechnica.net/wp-content/uploads/2025/11/DSC03780_1-1152x648-1763599852.jpg"
-meta_description: "A Inteligência Artificial está a redefinir a experiência dos smartphones, tornando-os mais inteligentes e personalizados. Descubra como a IA está a moldar o presente e o futuro da tecnologia móvel, dos benefícios às preocupações."
-source_url: "https://arstechnica.com/space/2025/11/attack-defend-pursue-the-space-forces-new-naming-scheme-foretells-new-era/"
+slug: >-
+  smartphones-do-futuro-a-revolucao-da-inteligencia-artificial-no-nosso-dia-a-dia
+title: >-
+  Smartphones do Futuro: A Revolução da Inteligência Artificial no Nosso Dia a
+  Dia
+description: >-
+  A Inteligência Artificial está a redefinir a experiência dos smartphones,
+  tornando-os mais inteligentes e personalizados. Descubra como a IA está a
+  moldar o presente e o futuro da tecnologia móvel, dos benefícios às
+  preocupações.
+category: AI / Futuro
+tags:
+  - Inteligência Artificial
+  - Smartphones
+  - Tecnologia Móvel
+  - Inovação
+  - Futuro
+date: '2025-11-08T12:00:00.000Z'
+meta_description: >-
+  A Inteligência Artificial está a redefinir a experiência dos smartphones,
+  tornando-os mais inteligentes e personalizados. Descubra como a IA está a
+  moldar o presente e o futuro da tecnologia móvel, dos benefícios às
+  preocupações.
+source_url: >-
+  https://arstechnica.com/space/2025/11/attack-defend-pursue-the-space-forces-new-naming-scheme-foretells-new-era/
+image: >-
+  https://cdn.arstechnica.net/wp-content/uploads/2025/11/DSC03780_1-1152x648-1763599852.jpg
+draft: false
 ---
 
 A tecnologia dos smartphones está em constante evolução, e a mais recente fronteira é a Inteligência Artificial (IA). Longe de ser apenas um conceito futurista de filmes de ficção científica, a IA está agora profundamente integrada nos nossos dispositivos móveis, transformando a forma como interagimos com eles e com o mundo. Esta revolução silenciosa está a tornar os nossos telefones mais inteligentes, mais intuitivos e incrivelmente mais capazes, prometendo um futuro onde a tecnologia antecipa as nossas necessidades e melhora cada aspeto da nossa vida digital.

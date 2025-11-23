@@ -1,13 +1,30 @@
 ---
-slug: "terraphone-o-smartphone-sustentavel-que-promete-dias-de-autonomia-e-facil-reparacao"
-title: "TerraPhone: O Smartphone Sustentável Que Promete Dias de Autonomia e Fácil Reparação"
-description: "A EcoTech Innovations revelou o TerraPhone, um smartphone que promete revolucionar o mercado com uma bateria de longa duração e design modular focado na sustentabilidade e facilidade de reparação."
-category: "Smartphones"
-tags: ["TerraPhone","Smartphones Sustentáveis","Bateria Duradoura","Design Modular","EcoTech Innovations"]
-date: "2025-11-08T00:00:00.000Z"
-featured_image: "https://cdn.arstechnica.net/wp-content/uploads/2025/11/drones-whales-1600x600-1-1152x600.jpg"
-meta_description: "A EcoTech Innovations revelou o TerraPhone, um smartphone que promete revolucionar o mercado com uma bateria de longa duração e design modular focado na sustentabilidade e facilidade de reparação."
-source_url: "https://arstechnica.com/science/2025/11/flying-with-whales-drones-are-remaking-marine-mammal-research/"
+slug: >-
+  terraphone-o-smartphone-sustentavel-que-promete-dias-de-autonomia-e-facil-reparacao
+title: >-
+  TerraPhone: O Smartphone Sustentável Que Promete Dias de Autonomia e Fácil
+  Reparação
+description: >-
+  A EcoTech Innovations revelou o TerraPhone, um smartphone que promete
+  revolucionar o mercado com uma bateria de longa duração e design modular
+  focado na sustentabilidade e facilidade de reparação.
+category: Smartphones
+tags:
+  - TerraPhone
+  - Smartphones Sustentáveis
+  - Bateria Duradoura
+  - Design Modular
+  - EcoTech Innovations
+date: '2025-11-08T00:00:00.000Z'
+meta_description: >-
+  A EcoTech Innovations revelou o TerraPhone, um smartphone que promete
+  revolucionar o mercado com uma bateria de longa duração e design modular
+  focado na sustentabilidade e facilidade de reparação.
+source_url: >-
+  https://arstechnica.com/science/2025/11/flying-with-whales-drones-are-remaking-marine-mammal-research/
+image: >-
+  https://cdn.arstechnica.net/wp-content/uploads/2025/11/drones-whales-1600x600-1-1152x600.jpg
+draft: false
 ---
 
 Numa era onde a sustentabilidade e a durabilidade são cada vez mais valorizadas pelos consumidores, a EcoTech Innovations, uma empresa conhecida pelo seu compromisso com a inovação ecológica, acaba de anunciar um dispositivo que promete redefinir o que esperamos de um smartphone. O seu nome é TerraPhone, e chega ao mercado com a promessa de uma bateria revolucionária que dura dias e um design modular que abraça a facilidade de reparação. Este lançamento não é apenas a introdução de um novo gadget, mas sim uma declaração de intenções para um futuro mais verde no setor tecnológico.

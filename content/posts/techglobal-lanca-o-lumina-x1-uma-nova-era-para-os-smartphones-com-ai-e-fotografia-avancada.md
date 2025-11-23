@@ -1,13 +1,34 @@
 ---
-slug: "techglobal-lanca-o-lumina-x1-uma-nova-era-para-os-smartphones-com-ai-e-fotografia-avancada"
-title: "TechGlobal Lança o Lumina X1: Uma Nova Era para os Smartphones com AI e Fotografia Avançada"
-description: "A TechGlobal acaba de revelar o seu mais recente smartphone topo de gama, o Lumina X1, prometendo revolucionar a experiência do utilizador com capacidades de inteligência artificial e um sistema de câmara sem precedentes. Este lançamento marca um passo significativo na convergência de hardware potente e software inteligente."
-category: "Smartphones"
-tags: ["smartphone","TechGlobal Lumina X1","câmara AI","tecnologia móvel","inteligência artificial"]
-date: "2025-11-08T12:00:00.000Z"
-featured_image: "https://picsum.photos/seed/techglobal-lanca-o-lumina-x1-uma-nova-era-para-os-smartphones-com-ai-e-fotografia-avancada/1000/600"
-meta_description: "A TechGlobal acaba de revelar o seu mais recente smartphone topo de gama, o Lumina X1, prometendo revolucionar a experiência do utilizador com capacidades de inteligência artificial e um sistema de câmara sem precedentes. Este lançamento marca um passo significativo na convergência de hardware potente e software inteligente."
-source_url: "https://www.theverge.com/games/826488/kirby-air-riders-nintendo-switch-2-vehicle-customization"
+slug: >-
+  techglobal-lanca-o-lumina-x1-uma-nova-era-para-os-smartphones-com-ai-e-fotografia-avancada
+title: >-
+  TechGlobal Lança o Lumina X1: Uma Nova Era para os Smartphones com AI e
+  Fotografia Avançada
+description: >-
+  A TechGlobal acaba de revelar o seu mais recente smartphone topo de gama, o
+  Lumina X1, prometendo revolucionar a experiência do utilizador com capacidades
+  de inteligência artificial e um sistema de câmara sem precedentes. Este
+  lançamento marca um passo significativo na convergência de hardware potente e
+  software inteligente.
+category: Smartphones
+tags:
+  - smartphone
+  - TechGlobal Lumina X1
+  - câmara AI
+  - tecnologia móvel
+  - inteligência artificial
+date: '2025-11-08T12:00:00.000Z'
+meta_description: >-
+  A TechGlobal acaba de revelar o seu mais recente smartphone topo de gama, o
+  Lumina X1, prometendo revolucionar a experiência do utilizador com capacidades
+  de inteligência artificial e um sistema de câmara sem precedentes. Este
+  lançamento marca um passo significativo na convergência de hardware potente e
+  software inteligente.
+source_url: >-
+  https://www.theverge.com/games/826488/kirby-air-riders-nintendo-switch-2-vehicle-customization
+image: >-
+  https://picsum.photos/seed/techglobal-lanca-o-lumina-x1-uma-nova-era-para-os-smartphones-com-ai-e-fotografia-avancada/1000/600
+draft: false
 ---
 
 # TechGlobal Lança o Lumina X1: Uma Nova Era para os Smartphones com AI e Fotografia Avançada

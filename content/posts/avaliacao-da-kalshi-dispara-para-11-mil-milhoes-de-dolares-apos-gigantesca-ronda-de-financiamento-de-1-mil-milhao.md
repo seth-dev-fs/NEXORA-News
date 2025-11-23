@@ -1,13 +1,34 @@
 ---
-slug: "avaliacao-da-kalshi-dispara-para-11-mil-milhoes-de-dolares-apos-gigantesca-ronda-de-financiamento-de-1-mil-milhao"
-title: "Avaliação da Kalshi Dispara para 11 Mil Milhões de Dólares Após Gigantesca Ronda de Financiamento de 1 Mil Milhão"
-description: "A Kalshi, uma plataforma de mercados de previsão em rápido crescimento, viu a sua avaliação disparar para uns impressionantes 11 mil milhões de dólares. Este marco foi alcançado após a empresa assegurar uma substancial ronda de financiamento de 1 mil milhão de dólares, com a participação de investidores de renome como a Sequoia e a CapitalG."
-category: "Internet & Apps"
-tags: ["Kalshi","Mercados de Previsão","Financiamento","Startups","Tecnologia"]
-date: "2025-11-08T12:00:00Z"
-featured_image: "https://images.unsplash.com/photo-1646776930319-b16b17781725?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MzM4Njl8MHwxfHNlYXJjaHwxfHxBdmFsaWElQzMlQTclQzMlQTNvJTIwZGElMjBLYWxzaGklMjBEaXNwYXJhJTIwcGFyYSUyMDExJTIwTWlsJTIwTWlsaCVDMyVCNWVzJTIwZGUlMjBEJUMzJUIzbGFyZXMlMjBBcCVDMyVCM3MlMjBHaWdhbnRlc2NhJTIwUm9uZGElMjBkZSUyMEZpbmFuY2lhbWVudG8lMjBkZSUyMDElMjBNaWwlMjBNaWxoJUMzJUEzb3xlbnwwfDB8fHwxNzYzNzU3NjgyfDA&ixlib=rb-4.1.0&q=80&w=1080"
-meta_description: "A Kalshi, uma plataforma de mercados de previsão em rápido crescimento, viu a sua avaliação disparar para uns impressionantes 11 mil milhões de dólares. Este marco foi alcançado após a empresa assegurar uma substancial ronda de financiamento de 1 mil milhão de dólares, com a participação de investidores de renome como a Sequoia e a CapitalG."
-source_url: "https://techcrunch.com/2025/11/20/source-kalshis-valuation-jumps-to-11b-after-raising-massive-1b-round/"
+slug: >-
+  avaliacao-da-kalshi-dispara-para-11-mil-milhoes-de-dolares-apos-gigantesca-ronda-de-financiamento-de-1-mil-milhao
+title: >-
+  Avaliação da Kalshi Dispara para 11 Mil Milhões de Dólares Após Gigantesca
+  Ronda de Financiamento de 1 Mil Milhão
+description: >-
+  A Kalshi, uma plataforma de mercados de previsão em rápido crescimento, viu a
+  sua avaliação disparar para uns impressionantes 11 mil milhões de dólares.
+  Este marco foi alcançado após a empresa assegurar uma substancial ronda de
+  financiamento de 1 mil milhão de dólares, com a participação de investidores
+  de renome como a Sequoia e a CapitalG.
+category: Internet & Apps
+tags:
+  - Kalshi
+  - Mercados de Previsão
+  - Financiamento
+  - Startups
+  - Tecnologia
+date: '2025-11-08T12:00:00Z'
+meta_description: >-
+  A Kalshi, uma plataforma de mercados de previsão em rápido crescimento, viu a
+  sua avaliação disparar para uns impressionantes 11 mil milhões de dólares.
+  Este marco foi alcançado após a empresa assegurar uma substancial ronda de
+  financiamento de 1 mil milhão de dólares, com a participação de investidores
+  de renome como a Sequoia e a CapitalG.
+source_url: >-
+  https://techcrunch.com/2025/11/20/source-kalshis-valuation-jumps-to-11b-after-raising-massive-1b-round/
+image: >-
+  https://images.unsplash.com/photo-1646776930319-b16b17781725?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MzM4Njl8MHwxfHNlYXJjaHwxfHxBdmFsaWElQzMlQTclQzMlQTNvJTIwZGElMjBLYWxzaGklMjBEaXNwYXJhJTIwcGFyYSUyMDExJTIwTWlsJTIwTWlsaCVDMyVCNWVzJTIwZGUlMjBEJUMzJUIzbGFyZXMlMjBBcCVDMyVCM3MlMjBHaWdhbnRlc2NhJTIwUm9uZGElMjBkZSUyMEZpbmFuY2lhbWVudG8lMjBkZSUyMDElMjBNaWwlMjBNaWxoJUMzJUEzb3xlbnwwfDB8fHwxNzYzNzU3NjgyfDA&ixlib=rb-4.1.0&q=80&w=1080
+draft: false
 ---
 
 A Kalshi, a inovadora plataforma que permite aos utilizadores apostar em resultados de eventos futuros do mundo real, está a gerar ondas de choque no panorama tecnológico e financeiro. Segundo fontes familiarizadas com o assunto, a empresa registou um aumento meteórico na sua avaliação, atingindo uns impressionantes 11 mil milhões de dólares, impulsionada por uma avultada ronda de financiamento de 1 mil milhão de dólares. Este influxo massivo de capital, vindo de gigantes do capital de risco como a Sequoia e a CapitalG, solidifica a posição da Kalshi como um player dominante e disruptivo no emergente setor dos mercados de previsão.

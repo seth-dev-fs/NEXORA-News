@@ -1,13 +1,34 @@
 ---
-slug: "a-inteligencia-artificial-molda-o-nosso-quotidiano-de-smartphones-a-casas-inteligentes"
-title: "A Inteligência Artificial Molda o Nosso Quotidiano: De Smartphones a Casas Inteligentes"
-description: "A Inteligência Artificial está a transformar rapidamente a nossa interação com a tecnologia, tornando os dispositivos mais inteligentes e intuitivos. Este artigo explora como a IA se integra em smartphones, computadores e outros gadgets, abordando também os desafios e considerações éticas que se apresentam."
-category: "AI / Futuro"
-tags: ["Inteligência Artificial","Tecnologia","Smartphones","Computadores","Futuro"]
-date: "2025-11-08T12:00:00.000Z"
-featured_image: "https://images.unsplash.com/photo-1636928297637-0810569e87f9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MzM4Njl8MHwxfHNlYXJjaHwxfHxBJTIwSW50ZWxpZyVDMyVBQW5jaWElMjBBcnRpZmljaWFsJTIwTW9sZGElMjBvJTIwTm9zc28lMjBRdW90aWRpYW5vJTNBJTIwRGUlMjBTbWFydHBob25lcyUyMGElMjBDYXNhcyUyMEludGVsaWdlbnRlc3xlbnwwfDB8fHwxNzYzNzU2ODA3fDA&ixlib=rb-4.1.0&q=80&w=1080"
-meta_description: "A Inteligência Artificial está a transformar rapidamente a nossa interação com a tecnologia, tornando os dispositivos mais inteligentes e intuitivos. Este artigo explora como a IA se integra em smartphones, computadores e outros gadgets, abordando também os desafios e considerações éticas que se apresentam."
-source_url: "https://techcrunch.com/2025/11/21/despite-chinese-hacks-trumps-fcc-votes-to-scrap-cybersecurity-rules-for-phone-and-internet-companies/"
+slug: >-
+  a-inteligencia-artificial-molda-o-nosso-quotidiano-de-smartphones-a-casas-inteligentes
+title: >-
+  A Inteligência Artificial Molda o Nosso Quotidiano: De Smartphones a Casas
+  Inteligentes
+description: >-
+  A Inteligência Artificial está a transformar rapidamente a nossa interação com
+  a tecnologia, tornando os dispositivos mais inteligentes e intuitivos. Este
+  artigo explora como a IA se integra em smartphones, computadores e outros
+  gadgets, abordando também os desafios e considerações éticas que se
+  apresentam.
+category: AI / Futuro
+tags:
+  - Inteligência Artificial
+  - Tecnologia
+  - Smartphones
+  - Computadores
+  - Futuro
+date: '2025-11-08T12:00:00.000Z'
+meta_description: >-
+  A Inteligência Artificial está a transformar rapidamente a nossa interação com
+  a tecnologia, tornando os dispositivos mais inteligentes e intuitivos. Este
+  artigo explora como a IA se integra em smartphones, computadores e outros
+  gadgets, abordando também os desafios e considerações éticas que se
+  apresentam.
+source_url: >-
+  https://techcrunch.com/2025/11/21/despite-chinese-hacks-trumps-fcc-votes-to-scrap-cybersecurity-rules-for-phone-and-internet-companies/
+image: >-
+  https://images.unsplash.com/photo-1636928297637-0810569e87f9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MzM4Njl8MHwxfHNlYXJjaHwxfHxBJTIwSW50ZWxpZyVDMyVBQW5jaWElMjBBcnRpZmljaWFsJTIwTW9sZGElMjBvJTIwTm9zc28lMjBRdW90aWRpYW5vJTNBJTIwRGUlMjBTbWFydHBob25lcyUyMGElMjBDYXNhcyUyMEludGVsaWdlbnRlc3xlbnwwfDB8fHwxNzYzNzU2ODA3fDA&ixlib=rb-4.1.0&q=80&w=1080
+draft: false
 ---
 
 # A Inteligência Artificial Molda o Nosso Quotidiano: De Smartphones a Casas Inteligentes

@@ -1,4 +1,3 @@
-<!-- generated_by: gemini, model: gemini-2.5-flash, generated_at: 2025-11-22T22:55:05.906Z -->
 ---
 title: "'The Age of Disclosure': NEXORA News Explora Como Ver Online o Documentário Que Questiona 80 Anos de Visitas Extraterrestres"
 date: "2024-05-18T10:30:00.000Z"
@@ -19,6 +18,9 @@ source_url: "https://example.com/original-article"
 draft: true
 needs_review: false
 ---
+
+<!-- generated_by: gemini, model: gemini-2.5-flash, generated_at: 2025-11-22T22:55:05.906Z -->
+
 
 ### Desvendar o Inexplicável: 'The Age of Disclosure' Chega Online
 

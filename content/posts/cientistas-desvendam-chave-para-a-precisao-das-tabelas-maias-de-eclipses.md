@@ -1,13 +1,29 @@
 ---
-slug: "cientistas-desvendam-chave-para-a-precisao-das-tabelas-maias-de-eclipses"
-title: "Cientistas Desvendam Chave para a Precisão das Tabelas Maias de Eclipses"
-description: "Uma nova investigação revelou o método engenhoso que os antigos Maias usavam para prever eclipses com notável exatidão, detalhado no Códice de Dresden. Descobriu-se que as suas previsões se baseavam em tabelas lunares e em ajustes cuidadosos para corrigir desvios ao longo do tempo."
-category: "Ciência"
-tags: ["Maias","eclipses","Códice de Dresden","astronomia antiga","ciência"]
-date: "2025-11-20T20:23:49.000Z"
-featured_image: "https://picsum.photos/seed/cientistas-desvendam-chave-para-a-precisao-das-tabelas-maias-de-eclipses/1000/600"
-meta_description: "Uma nova investigação revelou o método engenhoso que os antigos Maias usavam para prever eclipses com notável exatidão, detalhado no Códice de Dresden. Descobriu-se que as suas previsões se baseavam em tabelas lunares e em ajustes cuidadosos para corrigir desvios ao longo do tempo."
-source_url: "https://arstechnica.com/science/2025/11/study-how-the-maya-created-such-accurate-eclipse-tables/"
+slug: cientistas-desvendam-chave-para-a-precisao-das-tabelas-maias-de-eclipses
+title: Cientistas Desvendam Chave para a Precisão das Tabelas Maias de Eclipses
+description: >-
+  Uma nova investigação revelou o método engenhoso que os antigos Maias usavam
+  para prever eclipses com notável exatidão, detalhado no Códice de Dresden.
+  Descobriu-se que as suas previsões se baseavam em tabelas lunares e em ajustes
+  cuidadosos para corrigir desvios ao longo do tempo.
+category: Ciência
+tags:
+  - Maias
+  - eclipses
+  - Códice de Dresden
+  - astronomia antiga
+  - ciência
+date: '2025-11-20T20:23:49.000Z'
+meta_description: >-
+  Uma nova investigação revelou o método engenhoso que os antigos Maias usavam
+  para prever eclipses com notável exatidão, detalhado no Códice de Dresden.
+  Descobriu-se que as suas previsões se baseavam em tabelas lunares e em ajustes
+  cuidadosos para corrigir desvios ao longo do tempo.
+source_url: >-
+  https://arstechnica.com/science/2025/11/study-how-the-maya-created-such-accurate-eclipse-tables/
+image: >-
+  https://picsum.photos/seed/cientistas-desvendam-chave-para-a-precisao-das-tabelas-maias-de-eclipses/1000/600
+draft: false
 ---
 
 # Cientistas Desvendam Chave para a Precisão das Tabelas Maias de Eclipses

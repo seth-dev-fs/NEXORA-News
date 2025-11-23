@@ -1,13 +1,34 @@
 ---
-slug: "democratizacao-da-ia-novas-ferramentas-tornam-a-inteligencia-artificial-acessivel-a-todos"
-title: "Democratização da IA: Novas Ferramentas Tornam a Inteligência Artificial Acessível a Todos"
-description: "Uma nova era está a amanhecer para a inteligência artificial, com o desenvolvimento de ferramentas mais intuitivas e acessíveis que prometem levar o poder da IA a utilizadores comuns e pequenas empresas, transformando a forma como trabalhamos e interagimos com a tecnologia. Esta democratização da IA abre caminho para a inovação em diversas áreas."
-category: "AI / Futuro"
-tags: ["Inteligência Artificial","IA Acessível","Tecnologia","Inovação","Futuro"]
-date: "2025-11-08T12:00:00.000Z"
-featured_image: "https://images.unsplash.com/photo-1750365919971-7dd273e7b317?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MzM4Njl8MHwxfHNlYXJjaHwxfHxEZW1vY3JhdGl6YSVDMyVBNyVDMyVBM28lMjBkYSUyMElBJTNBJTIwTm92YXMlMjBGZXJyYW1lbnRhcyUyMFRvcm5hbSUyMGElMjBJbnRlbGlnJUMzJUFBbmNpYSUyMEFydGlmaWNpYWwlMjBBY2VzcyVDMyVBRHZlbCUyMGElMjBUb2Rvc3xlbnwwfDB8fHwxNzYzNzU2Nzg2fDA&ixlib=rb-4.1.0&q=80&w=1080"
-meta_description: "Uma nova era está a amanhecer para a inteligência artificial, com o desenvolvimento de ferramentas mais intuitivas e acessíveis que prometem levar o poder da IA a utilizadores comuns e pequenas empresas, transformando a forma como trabalhamos e interagimos com a tecnologia. Esta democratização da IA abre caminho para a inovação em diversas áreas."
-source_url: "https://techcrunch.com/2025/11/21/phictlys-new-app-brings-people-together-over-their-favorite-books-and-tv-shows/"
+slug: >-
+  democratizacao-da-ia-novas-ferramentas-tornam-a-inteligencia-artificial-acessivel-a-todos
+title: >-
+  Democratização da IA: Novas Ferramentas Tornam a Inteligência Artificial
+  Acessível a Todos
+description: >-
+  Uma nova era está a amanhecer para a inteligência artificial, com o
+  desenvolvimento de ferramentas mais intuitivas e acessíveis que prometem levar
+  o poder da IA a utilizadores comuns e pequenas empresas, transformando a forma
+  como trabalhamos e interagimos com a tecnologia. Esta democratização da IA
+  abre caminho para a inovação em diversas áreas.
+category: AI / Futuro
+tags:
+  - Inteligência Artificial
+  - IA Acessível
+  - Tecnologia
+  - Inovação
+  - Futuro
+date: '2025-11-08T12:00:00.000Z'
+meta_description: >-
+  Uma nova era está a amanhecer para a inteligência artificial, com o
+  desenvolvimento de ferramentas mais intuitivas e acessíveis que prometem levar
+  o poder da IA a utilizadores comuns e pequenas empresas, transformando a forma
+  como trabalhamos e interagimos com a tecnologia. Esta democratização da IA
+  abre caminho para a inovação em diversas áreas.
+source_url: >-
+  https://techcrunch.com/2025/11/21/phictlys-new-app-brings-people-together-over-their-favorite-books-and-tv-shows/
+image: >-
+  https://images.unsplash.com/photo-1750365919971-7dd273e7b317?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MzM4Njl8MHwxfHNlYXJjaHwxfHxEZW1vY3JhdGl6YSVDMyVBNyVDMyVBM28lMjBkYSUyMElBJTNBJTIwTm92YXMlMjBGZXJyYW1lbnRhcyUyMFRvcm5hbSUyMGElMjBJbnRlbGlnJUMzJUFBbmNpYSUyMEFydGlmaWNpYWwlMjBBY2VzcyVDMyVBRHZlbCUyMGElMjBUb2Rvc3xlbnwwfDB8fHwxNzYzNzU2Nzg2fDA&ixlib=rb-4.1.0&q=80&w=1080
+draft: false
 ---
 
 # Democratização da IA: Novas Ferramentas Tornam a Inteligência Artificial Acessível a Todos

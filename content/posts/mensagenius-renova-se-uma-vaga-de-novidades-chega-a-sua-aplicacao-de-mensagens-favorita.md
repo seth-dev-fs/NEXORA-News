@@ -1,13 +1,32 @@
 ---
-slug: "mensagenius-renova-se-uma-vaga-de-novidades-chega-a-sua-aplicacao-de-mensagens-favorita"
-title: "MensaGenius Renova-se: Uma Vaga de Novidades Chega à Sua Aplicação de Mensagens Favorita"
-description: "A popular aplicação de mensagens MensaGenius acaba de lançar uma atualização revolucionária, trazendo recursos inovadores para privacidade, personalização e comunicação em grupo, prometendo transformar a forma como interagimos digitalmente."
-category: "Internet & Apps"
-tags: ["MensaGenius","aplicações","mensagens","privacidade","personalização"]
-date: "2025-11-08T00:00:00.000Z"
-featured_image: "https://cdn.arstechnica.net/wp-content/uploads/2025/11/new-glenn-9x4-1-1152x648.jpg"
-meta_description: "A popular aplicação de mensagens MensaGenius acaba de lançar uma atualização revolucionária, trazendo recursos inovadores para privacidade, personalização e comunicação em grupo, prometendo transformar a forma como interagimos digitalmente."
-source_url: "https://arstechnica.com/space/2025/11/blue-origin-says-its-just-getting-started-with-the-new-glenn-rocket/"
+slug: >-
+  mensagenius-renova-se-uma-vaga-de-novidades-chega-a-sua-aplicacao-de-mensagens-favorita
+title: >-
+  MensaGenius Renova-se: Uma Vaga de Novidades Chega à Sua Aplicação de
+  Mensagens Favorita
+description: >-
+  A popular aplicação de mensagens MensaGenius acaba de lançar uma atualização
+  revolucionária, trazendo recursos inovadores para privacidade, personalização
+  e comunicação em grupo, prometendo transformar a forma como interagimos
+  digitalmente.
+category: Internet & Apps
+tags:
+  - MensaGenius
+  - aplicações
+  - mensagens
+  - privacidade
+  - personalização
+date: '2025-11-08T00:00:00.000Z'
+meta_description: >-
+  A popular aplicação de mensagens MensaGenius acaba de lançar uma atualização
+  revolucionária, trazendo recursos inovadores para privacidade, personalização
+  e comunicação em grupo, prometendo transformar a forma como interagimos
+  digitalmente.
+source_url: >-
+  https://arstechnica.com/space/2025/11/blue-origin-says-its-just-getting-started-with-the-new-glenn-rocket/
+image: >-
+  https://cdn.arstechnica.net/wp-content/uploads/2025/11/new-glenn-9x4-1-1152x648.jpg
+draft: false
 ---
 
 A MensaGenius, uma das aplicações de mensagens mais usadas em Portugal e no mundo, acaba de surpreender os seus milhões de utilizadores com uma atualização massiva que promete levar a comunicação digital a um novo patamar. Com foco na privacidade, personalização e uma série de funcionalidades que tornam as conversas em grupo mais dinâmicas e inteligentes, esta nova versão chega para transformar a sua experiência diária. Prepare-se para descobrir como a MensaGenius está a reimaginar o futuro das nossas interações, mantendo tudo simples, leve e, acima de tudo, seguro.

@@ -1,13 +1,34 @@
 ---
-slug: "google-reforca-protecao-contra-fraudes-de-ia-na-india-mas-os-desafios-persistem"
-title: "Google Reforça Proteção Contra Fraudes de IA na Índia, Mas os Desafios Persistem"
-description: "A Google está a expandir os seus sistemas de deteção de fraudes em tempo real e avisos contra esquemas de partilha de ecrã na Índia, um esforço crucial face à crescente sofisticação dos cibercriminosos. Contudo, apesar dos avanços tecnológicos, a batalha contra estas ameaças digitais continua a apresentar lacunas significativas."
-category: "AI / Futuro"
-tags: ["Google","Fraudes Digitais","Segurança Cibernética","Inteligência Artificial","Índia"]
-date: "2025-11-08T12:00:00Z"
-featured_image: "https://picsum.photos/seed/google-reforca-protecao-contra-fraudes-de-ia-na-india-mas-os-desafios-persistem/1000/600"
-meta_description: "A Google está a expandir os seus sistemas de deteção de fraudes em tempo real e avisos contra esquemas de partilha de ecrã na Índia, um esforço crucial face à crescente sofisticação dos cibercriminosos. Contudo, apesar dos avanços tecnológicos, a batalha contra estas ameaças digitais continua a apresentar lacunas significativas."
-source_url: "https://techcrunch.com/2025/11/20/google-steps-up-ai-scam-protection-in-india-but-gaps-remain/"
+slug: >-
+  google-reforca-protecao-contra-fraudes-de-ia-na-india-mas-os-desafios-persistem
+title: >-
+  Google Reforça Proteção Contra Fraudes de IA na Índia, Mas os Desafios
+  Persistem
+description: >-
+  A Google está a expandir os seus sistemas de deteção de fraudes em tempo real
+  e avisos contra esquemas de partilha de ecrã na Índia, um esforço crucial face
+  à crescente sofisticação dos cibercriminosos. Contudo, apesar dos avanços
+  tecnológicos, a batalha contra estas ameaças digitais continua a apresentar
+  lacunas significativas.
+category: AI / Futuro
+tags:
+  - Google
+  - Fraudes Digitais
+  - Segurança Cibernética
+  - Inteligência Artificial
+  - Índia
+date: '2025-11-08T12:00:00Z'
+meta_description: >-
+  A Google está a expandir os seus sistemas de deteção de fraudes em tempo real
+  e avisos contra esquemas de partilha de ecrã na Índia, um esforço crucial face
+  à crescente sofisticação dos cibercriminosos. Contudo, apesar dos avanços
+  tecnológicos, a batalha contra estas ameaças digitais continua a apresentar
+  lacunas significativas.
+source_url: >-
+  https://techcrunch.com/2025/11/20/google-steps-up-ai-scam-protection-in-india-but-gaps-remain/
+image: >-
+  https://picsum.photos/seed/google-reforca-protecao-contra-fraudes-de-ia-na-india-mas-os-desafios-persistem/1000/600
+draft: false
 ---
 
 # Google Reforça Proteção Contra Fraudes de IA na Índia, Mas os Desafios Persistem

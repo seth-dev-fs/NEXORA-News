@@ -1,13 +1,33 @@
 ---
-slug: "inova-x-pro-o-novo-smartphone-que-pensa-por-si-com-toques-de-sustentabilidade"
-title: "Inova X Pro: O Novo Smartphone que Pensa por Si, com Toques de Sustentabilidade"
-description: "A InovaTech acaba de lançar o seu aguardado flagship, o Inova X Pro, que promete revolucionar o mercado com uma forte aposta na inteligência artificial para a câmara e desempenho, juntamente com um foco renovado na sustentabilidade. Este novo dispositivo visa oferecer uma experiência de utilizador mais inteligente e consciente."
-category: "Smartphones"
-tags: ["Smartphone","Tecnologia","Inteligência Artificial","Câmara","Sustentabilidade"]
-date: "2025-11-08T00:00:00.000Z"
-featured_image: "https://cdn.arstechnica.net/wp-content/uploads/2025/11/DSC03780_1-1152x648-1763599852.jpg"
-meta_description: "A InovaTech acaba de lançar o seu aguardado flagship, o Inova X Pro, que promete revolucionar o mercado com uma forte aposta na inteligência artificial para a câmara e desempenho, juntamente com um foco renovado na sustentabilidade. Este novo dispositivo visa oferecer uma experiência de utilizador mais inteligente e consciente."
-source_url: "https://arstechnica.com/space/2025/11/attack-defend-pursue-the-space-forces-new-naming-scheme-foretells-new-era/"
+slug: inova-x-pro-o-novo-smartphone-que-pensa-por-si-com-toques-de-sustentabilidade
+title: >-
+  Inova X Pro: O Novo Smartphone que Pensa por Si, com Toques de
+  Sustentabilidade
+description: >-
+  A InovaTech acaba de lançar o seu aguardado flagship, o Inova X Pro, que
+  promete revolucionar o mercado com uma forte aposta na inteligência artificial
+  para a câmara e desempenho, juntamente com um foco renovado na
+  sustentabilidade. Este novo dispositivo visa oferecer uma experiência de
+  utilizador mais inteligente e consciente.
+category: Smartphones
+tags:
+  - Smartphone
+  - Tecnologia
+  - Inteligência Artificial
+  - Câmara
+  - Sustentabilidade
+date: '2025-11-08T00:00:00.000Z'
+meta_description: >-
+  A InovaTech acaba de lançar o seu aguardado flagship, o Inova X Pro, que
+  promete revolucionar o mercado com uma forte aposta na inteligência artificial
+  para a câmara e desempenho, juntamente com um foco renovado na
+  sustentabilidade. Este novo dispositivo visa oferecer uma experiência de
+  utilizador mais inteligente e consciente.
+source_url: >-
+  https://arstechnica.com/space/2025/11/attack-defend-pursue-the-space-forces-new-naming-scheme-foretells-new-era/
+image: >-
+  https://cdn.arstechnica.net/wp-content/uploads/2025/11/DSC03780_1-1152x648-1763599852.jpg
+draft: false
 ---
 
 # Inova X Pro: A InovaTech Apresenta um Smartphone Mais Inteligente e Ecológico

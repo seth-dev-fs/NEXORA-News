@@ -1,13 +1,32 @@
 ---
-slug: "luminago-pro-o-novo-rei-da-bateria-e-do-preco-acessivel-chega-para-conquistar-portugal"
-title: "LuminaGo Pro: O Novo Rei da Bateria e do Preço Acessível Chega para Conquistar Portugal"
-description: "Prepare-se para conhecer o LuminaGo Pro, um smartphone que promete agitar o mercado de gama média em Portugal, combinando uma bateria impressionante, câmaras capazes e um preço que não vai esvaziar a carteira. Descubra como este novo dispositivo se posiciona como uma escolha inteligente para o dia a dia."
-category: "Smartphones"
-tags: ["LuminaGo Pro","smartphone","gama média","bateria longa","preço acessível"]
-date: "2025-11-08T00:00:00.000Z"
-featured_image: "https://cdn.arstechnica.net/wp-content/uploads/2025/11/trump-and-ted-cruz-1152x648-1763663584.jpg"
-meta_description: "Prepare-se para conhecer o LuminaGo Pro, um smartphone que promete agitar o mercado de gama média em Portugal, combinando uma bateria impressionante, câmaras capazes e um preço que não vai esvaziar a carteira. Descubra como este novo dispositivo se posiciona como uma escolha inteligente para o dia a dia."
-source_url: "https://arstechnica.com/tech-policy/2025/11/trump-revives-unpopular-ted-cruz-plan-to-punish-states-that-impose-ai-laws/"
+slug: >-
+  luminago-pro-o-novo-rei-da-bateria-e-do-preco-acessivel-chega-para-conquistar-portugal
+title: >-
+  LuminaGo Pro: O Novo Rei da Bateria e do Preço Acessível Chega para Conquistar
+  Portugal
+description: >-
+  Prepare-se para conhecer o LuminaGo Pro, um smartphone que promete agitar o
+  mercado de gama média em Portugal, combinando uma bateria impressionante,
+  câmaras capazes e um preço que não vai esvaziar a carteira. Descubra como este
+  novo dispositivo se posiciona como uma escolha inteligente para o dia a dia.
+category: Smartphones
+tags:
+  - LuminaGo Pro
+  - smartphone
+  - gama média
+  - bateria longa
+  - preço acessível
+date: '2025-11-08T00:00:00.000Z'
+meta_description: >-
+  Prepare-se para conhecer o LuminaGo Pro, um smartphone que promete agitar o
+  mercado de gama média em Portugal, combinando uma bateria impressionante,
+  câmaras capazes e um preço que não vai esvaziar a carteira. Descubra como este
+  novo dispositivo se posiciona como uma escolha inteligente para o dia a dia.
+source_url: >-
+  https://arstechnica.com/tech-policy/2025/11/trump-revives-unpopular-ted-cruz-plan-to-punish-states-that-impose-ai-laws/
+image: >-
+  https://cdn.arstechnica.net/wp-content/uploads/2025/11/trump-and-ted-cruz-1152x648-1763663584.jpg
+draft: false
 ---
 
 O mercado de smartphones em Portugal está prestes a receber um novo jogador que promete redefinir as expectativas para a gama média. Apresentamos o LuminaGo Pro, um dispositivo que chega com a ambiciosa proposta de oferecer uma experiência completa – com foco especial na autonomia da bateria e na capacidade fotográfica – tudo isto sem exigir um investimento exorbitante. Num mundo onde os preços dos smartphones topo de gama parecem atingir novos recordes anualmente, o LuminaGo Pro surge como uma lufada de ar fresco, destinado a quem procura fiabilidade, desempenho e inovação a um custo justo. Este novo smartphone promete não só acompanhar o ritmo do seu dia a dia, mas também ir além, tornando-se um companheiro indispensável para estudantes, profissionais e entusiastas de tecnologia que se recusam a comprometer a qualidade por causa do preço.

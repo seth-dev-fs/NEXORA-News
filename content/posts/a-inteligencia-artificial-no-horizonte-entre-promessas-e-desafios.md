@@ -1,13 +1,27 @@
 ---
-slug: "a-inteligencia-artificial-no-horizonte-entre-promessas-e-desafios"
-title: "A Inteligência Artificial no Horizonte: Entre Promessas e Desafios"
-description: "A inteligência artificial tem transformado rapidamente o nosso mundo, trazendo inovações notáveis, mas também levantando questões cruciais sobre ética, trabalho e o futuro da sociedade."
-category: "AI / Futuro"
-tags: ["Inteligência Artificial","Tecnologia","Futuro","Ética","Inovação"]
-date: "2025-11-08T12:00:00.000Z"
-featured_image: "https://images.unsplash.com/photo-1696272440000-0808a203c852?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MzM4Njl8MHwxfHNlYXJjaHwxfHxBJTIwSW50ZWxpZyVDMyVBQW5jaWElMjBBcnRpZmljaWFsJTIwbm8lMjBIb3Jpem9udGUlM0ElMjBFbnRyZSUyMFByb21lc3NhcyUyMGUlMjBEZXNhZmlvc3xlbnwwfDB8fHwxNzYzNzU1Mzk2fDA&ixlib=rb-4.1.0&q=80&w=1080"
-meta_description: "A inteligência artificial tem transformado rapidamente o nosso mundo, trazendo inovações notáveis, mas também levantando questões cruciais sobre ética, trabalho e o futuro da sociedade."
-source_url: "https://www.theverge.com/ai-artificial-intelligence/825498/openai-sora-video-slop-nostalgia-mister-rogers"
+slug: a-inteligencia-artificial-no-horizonte-entre-promessas-e-desafios
+title: 'A Inteligência Artificial no Horizonte: Entre Promessas e Desafios'
+description: >-
+  A inteligência artificial tem transformado rapidamente o nosso mundo, trazendo
+  inovações notáveis, mas também levantando questões cruciais sobre ética,
+  trabalho e o futuro da sociedade.
+category: AI / Futuro
+tags:
+  - Inteligência Artificial
+  - Tecnologia
+  - Futuro
+  - Ética
+  - Inovação
+date: '2025-11-08T12:00:00.000Z'
+meta_description: >-
+  A inteligência artificial tem transformado rapidamente o nosso mundo, trazendo
+  inovações notáveis, mas também levantando questões cruciais sobre ética,
+  trabalho e o futuro da sociedade.
+source_url: >-
+  https://www.theverge.com/ai-artificial-intelligence/825498/openai-sora-video-slop-nostalgia-mister-rogers
+image: >-
+  https://images.unsplash.com/photo-1696272440000-0808a203c852?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MzM4Njl8MHwxfHNlYXJjaHwxfHxBJTIwSW50ZWxpZyVDMyVBQW5jaWElMjBBcnRpZmljaWFsJTIwbm8lMjBIb3Jpem9udGUlM0ElMjBFbnRyZSUyMFByb21lc3NhcyUyMGUlMjBEZXNhZmlvc3xlbnwwfDB8fHwxNzYzNzU1Mzk2fDA&ixlib=rb-4.1.0&q=80&w=1080
+draft: false
 ---
 
 # A Inteligência Artificial no Horizonte: Entre Promessas e Desafios

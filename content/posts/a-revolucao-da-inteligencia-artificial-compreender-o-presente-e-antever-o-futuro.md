@@ -1,13 +1,30 @@
 ---
-slug: "a-revolucao-da-inteligencia-artificial-compreender-o-presente-e-antever-o-futuro"
-title: "A Revolução da Inteligência Artificial: Compreender o Presente e Antever o Futuro"
-description: "A Inteligência Artificial está a transformar rapidamente o nosso mundo, desde o quotidiano às indústrias. Este artigo explora as suas últimas inovações, aplicações e os desafios que moldarão o nosso futuro."
-category: "AI / Futuro"
-tags: ["Inteligência Artificial","Tecnologia","Futuro","Inovação","Sociedade"]
-date: "2025-11-08T12:00:00.000Z"
-featured_image: "https://images.unsplash.com/photo-1737644467636-6b0053476bb2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MzM4Njl8MHwxfHNlYXJjaHwxfHxBJTIwUmV2b2x1JUMzJUE3JUMzJUEzbyUyMGRhJTIwSW50ZWxpZyVDMyVBQW5jaWElMjBBcnRpZmljaWFsJTNBJTIwQ29tcHJlZW5kZXIlMjBvJTIwUHJlc2VudGUlMjBlJTIwQW50ZXZlciUyMG8lMjBGdXR1cm98ZW58MHwwfHx8MTc2Mzc1NjgyOXww&ixlib=rb-4.1.0&q=80&w=1080"
-meta_description: "A Inteligência Artificial está a transformar rapidamente o nosso mundo, desde o quotidiano às indústrias. Este artigo explora as suas últimas inovações, aplicações e os desafios que moldarão o nosso futuro."
-source_url: "https://techcrunch.com/2025/11/21/the-european-startup-market-is-ready-for-the-limelight/"
+slug: >-
+  a-revolucao-da-inteligencia-artificial-compreender-o-presente-e-antever-o-futuro
+title: >-
+  A Revolução da Inteligência Artificial: Compreender o Presente e Antever o
+  Futuro
+description: >-
+  A Inteligência Artificial está a transformar rapidamente o nosso mundo, desde
+  o quotidiano às indústrias. Este artigo explora as suas últimas inovações,
+  aplicações e os desafios que moldarão o nosso futuro.
+category: AI / Futuro
+tags:
+  - Inteligência Artificial
+  - Tecnologia
+  - Futuro
+  - Inovação
+  - Sociedade
+date: '2025-11-08T12:00:00.000Z'
+meta_description: >-
+  A Inteligência Artificial está a transformar rapidamente o nosso mundo, desde
+  o quotidiano às indústrias. Este artigo explora as suas últimas inovações,
+  aplicações e os desafios que moldarão o nosso futuro.
+source_url: >-
+  https://techcrunch.com/2025/11/21/the-european-startup-market-is-ready-for-the-limelight/
+image: >-
+  https://images.unsplash.com/photo-1737644467636-6b0053476bb2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MzM4Njl8MHwxfHNlYXJjaHwxfHxBJTIwUmV2b2x1JUMzJUE3JUMzJUEzbyUyMGRhJTIwSW50ZWxpZyVDMyVBQW5jaWElMjBBcnRpZmljaWFsJTNBJTIwQ29tcHJlZW5kZXIlMjBvJTIwUHJlc2VudGUlMjBlJTIwQW50ZXZlciUyMG8lMjBGdXR1cm98ZW58MHwwfHx8MTc2Mzc1NjgyOXww&ixlib=rb-4.1.0&q=80&w=1080
+draft: false
 ---
 
 A Inteligência Artificial (IA) deixou de ser um conceito de ficção científica para se tornar uma realidade palpável, moldando de forma profunda o nosso quotidiano e o panorama global. Desde assistentes de voz nos nossos telemóveis a sistemas complexos que otimizam a logística de grandes empresas, a IA está em todo o lado. Nos últimos anos, testemunhámos um crescimento exponencial nas suas capacidades, impulsionado por avanços em poder computacional, grandes volumes de dados e algoritmos sofisticados. Esta tecnologia promete um futuro de inovações sem precedentes, mas também levanta questões importantes sobre o seu impacto na sociedade, ética e no próprio conceito de humanidade. Compreender a dimensão desta revolução é crucial para navegarmos nos tempos que se avizinham.

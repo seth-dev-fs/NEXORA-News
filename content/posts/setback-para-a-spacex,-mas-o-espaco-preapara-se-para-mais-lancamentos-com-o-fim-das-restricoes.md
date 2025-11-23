@@ -1,13 +1,30 @@
 ---
-slug: "setback-para-a-spacex,-mas-o-espaco-preapara-se-para-mais-lancamentos-com-o-fim-das-restricoes"
-title: "Setback para a SpaceX, mas o Espaço preapara-se para mais lançamentos com o fim das restrições"
-description: "A SpaceX enfrenta um contratempo com o seu novo propulsor, enquanto a Administração Federal de Aviação (FAA) levanta as restrições de lançamento diurnas, permitindo o regresso de voos como o do foguetão Pegasus."
-category: "Ciência"
-tags: ["SpaceX","Pegasus","FAA","Lançamentos Espaciais","Indústria Espacial"]
-date: "2025-11-21T13:31:30.000Z"
-featured_image: "https://picsum.photos/seed/setback-para-a-spacex,-mas-o-espaco-preapara-se-para-mais-lancamentos-com-o-fim-das-restricoes/1000/600"
-meta_description: "A SpaceX enfrenta um contratempo com o seu novo propulsor, enquanto a Administração Federal de Aviação (FAA) levanta as restrições de lançamento diurnas, permitindo o regresso de voos como o do foguetão Pegasus."
-source_url: "https://arstechnica.com/space/2025/11/rocket-report-spacexs-next-gen-booster-fails-pegasus-will-fly-again/"
+slug: >-
+  setback-para-a-spacex,-mas-o-espaco-preapara-se-para-mais-lancamentos-com-o-fim-das-restricoes
+title: >-
+  Setback para a SpaceX, mas o Espaço preapara-se para mais lançamentos com o
+  fim das restrições
+description: >-
+  A SpaceX enfrenta um contratempo com o seu novo propulsor, enquanto a
+  Administração Federal de Aviação (FAA) levanta as restrições de lançamento
+  diurnas, permitindo o regresso de voos como o do foguetão Pegasus.
+category: Ciência
+tags:
+  - SpaceX
+  - Pegasus
+  - FAA
+  - Lançamentos Espaciais
+  - Indústria Espacial
+date: '2025-11-21T13:31:30.000Z'
+meta_description: >-
+  A SpaceX enfrenta um contratempo com o seu novo propulsor, enquanto a
+  Administração Federal de Aviação (FAA) levanta as restrições de lançamento
+  diurnas, permitindo o regresso de voos como o do foguetão Pegasus.
+source_url: >-
+  https://arstechnica.com/space/2025/11/rocket-report-spacexs-next-gen-booster-fails-pegasus-will-fly-again/
+image: >-
+  https://picsum.photos/seed/setback-para-a-spacex,-mas-o-espaco-preapara-se-para-mais-lancamentos-com-o-fim-das-restricoes/1000/600
+draft: false
 ---
 
 # O Setor Espacial em Destaque: Contratempo para a SpaceX e Retoma de Lançamentos

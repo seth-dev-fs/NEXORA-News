@@ -1,13 +1,32 @@
 ---
-slug: "a-inteligencia-artificial-generativa-torna-se-mais-acessivel-e-molda-o-futuro-da-criatividade"
-title: "A Inteligência Artificial Generativa Torna-se Mais Acessível e Molda o Futuro da Criatividade"
-description: "Ferramentas de IA generativa, como as de texto para imagem e vídeo, estão a tornar-se amplamente acessíveis, impulsionando uma revolução criativa com implicações significativas para várias indústrias, ao mesmo tempo que levantam desafios éticos importantes."
-category: "AI / Futuro"
-tags: ["Inteligência Artificial","IA Generativa","Tecnologia","Criatividade Digital","Futuro"]
-date: "2025-11-08T12:00:00.000Z"
-featured_image: "https://images.unsplash.com/photo-1737644467636-6b0053476bb2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MzM4Njl8MHwxfHNlYXJjaHwxfHxBJTIwSW50ZWxpZyVDMyVBQW5jaWElMjBBcnRpZmljaWFsJTIwR2VuZXJhdGl2YSUyMFRvcm5hLXNlJTIwTWFpcyUyMEFjZXNzJUMzJUFEdmVsJTIwZSUyME1vbGRhJTIwbyUyMEZ1dHVybyUyMGRhJTIwQ3JpYXRpdmlkYWRlfGVufDB8MHx8fDE3NjM3NTY4Nzh8MA&ixlib=rb-4.1.0&q=80&w=1080"
-meta_description: "Ferramentas de IA generativa, como as de texto para imagem e vídeo, estão a tornar-se amplamente acessíveis, impulsionando uma revolução criativa com implicações significativas para várias indústrias, ao mesmo tempo que levantam desafios éticos importantes."
-source_url: "https://techcrunch.com/2025/11/20/joby-aviation-makes-corporate-espionage-claims-in-lawsuit-against-rival-archer/"
+slug: >-
+  a-inteligencia-artificial-generativa-torna-se-mais-acessivel-e-molda-o-futuro-da-criatividade
+title: >-
+  A Inteligência Artificial Generativa Torna-se Mais Acessível e Molda o Futuro
+  da Criatividade
+description: >-
+  Ferramentas de IA generativa, como as de texto para imagem e vídeo, estão a
+  tornar-se amplamente acessíveis, impulsionando uma revolução criativa com
+  implicações significativas para várias indústrias, ao mesmo tempo que levantam
+  desafios éticos importantes.
+category: AI / Futuro
+tags:
+  - Inteligência Artificial
+  - IA Generativa
+  - Tecnologia
+  - Criatividade Digital
+  - Futuro
+date: '2025-11-08T12:00:00.000Z'
+meta_description: >-
+  Ferramentas de IA generativa, como as de texto para imagem e vídeo, estão a
+  tornar-se amplamente acessíveis, impulsionando uma revolução criativa com
+  implicações significativas para várias indústrias, ao mesmo tempo que levantam
+  desafios éticos importantes.
+source_url: >-
+  https://techcrunch.com/2025/11/20/joby-aviation-makes-corporate-espionage-claims-in-lawsuit-against-rival-archer/
+image: >-
+  https://images.unsplash.com/photo-1737644467636-6b0053476bb2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MzM4Njl8MHwxfHNlYXJjaHwxfHxBJTIwSW50ZWxpZyVDMyVBQW5jaWElMjBBcnRpZmljaWFsJTIwR2VuZXJhdGl2YSUyMFRvcm5hLXNlJTIwTWFpcyUyMEFjZXNzJUMzJUFEdmVsJTIwZSUyME1vbGRhJTIwbyUyMEZ1dHVybyUyMGRhJTIwQ3JpYXRpdmlkYWRlfGVufDB8MHx8fDE3NjM3NTY4Nzh8MA&ixlib=rb-4.1.0&q=80&w=1080
+draft: false
 ---
 
 # A Inteligência Artificial Generativa Torna-se Mais Acessível e Molda o Futuro da Criatividade

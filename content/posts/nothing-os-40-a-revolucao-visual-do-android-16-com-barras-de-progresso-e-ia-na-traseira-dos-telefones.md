@@ -1,13 +1,31 @@
 ---
-slug: "nothing-os-40-a-revolucao-visual-do-android-16-com-barras-de-progresso-e-ia-na-traseira-dos-telefones"
-title: "Nothing OS 4.0: A Revolução Visual do Android 16 com Barras de Progresso e IA na Traseira dos Telefones"
-description: "A Nothing eleva a experiência do Android 16 com o Nothing OS 4.0, introduzindo uma inovadora barra de progresso na Interface Glyph e ferramentas de IA para widgets personalizados. Esta atualização redefine a interação com o smartphone, tornando-o mais intuitivo e visualmente cativante."
-category: "Smartphones"
-tags: ["Nothing Phone","Android 16","Glyph Interface","Nothing OS 4.0","Inovação Móvel"]
-date: "2025-11-08T12:00:00Z"
-featured_image: "https://images.unsplash.com/photo-1738563710982-6ebe69cd5b6b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MzM4Njl8MHwxfHNlYXJjaHwxfHxOb3RoaW5nJTIwT1MlMjA0LjAlM0ElMjBBJTIwUmV2b2x1JUMzJUE3JUMzJUEzbyUyMFZpc3VhbCUyMGRvJTIwQW5kcm9pZCUyMDE2JTIwY29tJTIwQmFycmFzJTIwZGUlMjBQcm9ncmVzc28lMjBlJTIwSUElMjBuYSUyMFRyYXNlaXJhJTIwZG9zJTIwVGVsZWZvbmVzfGVufDB8MHx8fDE3NjM3NTc2MjZ8MA&ixlib=rb-4.1.0&q=80&w=1080"
-meta_description: "A Nothing eleva a experiência do Android 16 com o Nothing OS 4.0, introduzindo uma inovadora barra de progresso na Interface Glyph e ferramentas de IA para widgets personalizados. Esta atualização redefine a interação com o smartphone, tornando-o mais intuitivo e visualmente cativante."
-source_url: "https://www.theverge.com/news/826648/nothing-android-16-live-updates-glyph"
+slug: >-
+  nothing-os-40-a-revolucao-visual-do-android-16-com-barras-de-progresso-e-ia-na-traseira-dos-telefones
+title: >-
+  Nothing OS 4.0: A Revolução Visual do Android 16 com Barras de Progresso e IA
+  na Traseira dos Telefones
+description: >-
+  A Nothing eleva a experiência do Android 16 com o Nothing OS 4.0, introduzindo
+  uma inovadora barra de progresso na Interface Glyph e ferramentas de IA para
+  widgets personalizados. Esta atualização redefine a interação com o
+  smartphone, tornando-o mais intuitivo e visualmente cativante.
+category: Smartphones
+tags:
+  - Nothing Phone
+  - Android 16
+  - Glyph Interface
+  - Nothing OS 4.0
+  - Inovação Móvel
+date: '2025-11-08T12:00:00Z'
+meta_description: >-
+  A Nothing eleva a experiência do Android 16 com o Nothing OS 4.0, introduzindo
+  uma inovadora barra de progresso na Interface Glyph e ferramentas de IA para
+  widgets personalizados. Esta atualização redefine a interação com o
+  smartphone, tornando-o mais intuitivo e visualmente cativante.
+source_url: 'https://www.theverge.com/news/826648/nothing-android-16-live-updates-glyph'
+image: >-
+  https://images.unsplash.com/photo-1738563710982-6ebe69cd5b6b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MzM4Njl8MHwxfHNlYXJjaHwxfHxOb3RoaW5nJTIwT1MlMjA0LjAlM0ElMjBBJTIwUmV2b2x1JUMzJUE3JUMzJUEzbyUyMFZpc3VhbCUyMGRvJTIwQW5kcm9pZCUyMDE2JTIwY29tJTIwQmFycmFzJTIwZGUlMjBQcm9ncmVzc28lMjBlJTIwSUElMjBuYSUyMFRyYXNlaXJhJTIwZG9zJTIwVGVsZWZvbmVzfGVufDB8MHx8fDE3NjM3NTc2MjZ8MA&ixlib=rb-4.1.0&q=80&w=1080
+draft: false
 ---
 
 ## Nothing OS 4.0: A Revolução Visual do Android 16 com Barras de Progresso e IA na Traseira dos Telefones

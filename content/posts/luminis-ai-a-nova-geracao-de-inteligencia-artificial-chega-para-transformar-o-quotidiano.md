@@ -1,13 +1,32 @@
 ---
-slug: "luminis-ai-a-nova-geracao-de-inteligencia-artificial-chega-para-transformar-o-quotidiano"
-title: "Luminis AI: A Nova Geração de Inteligência Artificial Chega para Transformar o Quotidiano"
-description: "A TechSolutions Global apresentou a Luminis AI, um novo modelo de inteligência artificial multimodal que promete revolucionar a interação humana com a tecnologia e simplificar diversas tarefas diárias com capacidades preditivas e personalização avançada."
-category: "AI / Futuro"
-tags: ["Inteligência Artificial","Luminis AI","Tecnologia","Futuro","Inovação"]
-date: "2025-11-08T12:00:00.000Z"
-featured_image: "https://cdn.arstechnica.net/wp-content/uploads/2025/03/GettyImages-2203339270-1152x648.jpg"
-meta_description: "A TechSolutions Global apresentou a Luminis AI, um novo modelo de inteligência artificial multimodal que promete revolucionar a interação humana com a tecnologia e simplificar diversas tarefas diárias com capacidades preditivas e personalização avançada."
-source_url: "https://arstechnica.com/health/2025/11/rfk-jr-s-loathesome-edits-cdc-website-now-falsely-links-vaccines-and-autism/"
+slug: >-
+  luminis-ai-a-nova-geracao-de-inteligencia-artificial-chega-para-transformar-o-quotidiano
+title: >-
+  Luminis AI: A Nova Geração de Inteligência Artificial Chega para Transformar o
+  Quotidiano
+description: >-
+  A TechSolutions Global apresentou a Luminis AI, um novo modelo de inteligência
+  artificial multimodal que promete revolucionar a interação humana com a
+  tecnologia e simplificar diversas tarefas diárias com capacidades preditivas e
+  personalização avançada.
+category: AI / Futuro
+tags:
+  - Inteligência Artificial
+  - Luminis AI
+  - Tecnologia
+  - Futuro
+  - Inovação
+date: '2025-11-08T12:00:00.000Z'
+meta_description: >-
+  A TechSolutions Global apresentou a Luminis AI, um novo modelo de inteligência
+  artificial multimodal que promete revolucionar a interação humana com a
+  tecnologia e simplificar diversas tarefas diárias com capacidades preditivas e
+  personalização avançada.
+source_url: >-
+  https://arstechnica.com/health/2025/11/rfk-jr-s-loathesome-edits-cdc-website-now-falsely-links-vaccines-and-autism/
+image: >-
+  https://cdn.arstechnica.net/wp-content/uploads/2025/03/GettyImages-2203339270-1152x648.jpg
+draft: false
 ---
 
 # Luminis AI: A Nova Geração de Inteligência Artificial Chega para Transformar o Quotidiano

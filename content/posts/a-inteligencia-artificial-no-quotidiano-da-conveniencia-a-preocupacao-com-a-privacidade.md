@@ -1,13 +1,32 @@
 ---
-slug: "a-inteligencia-artificial-no-quotidiano-da-conveniencia-a-preocupacao-com-a-privacidade"
-title: "A Inteligência Artificial no Quotidiano: Da Conveniência à Preocupação com a Privacidade"
-description: "A Inteligência Artificial está cada vez mais presente nos nossos dispositivos, otimizando tarefas e personalizando experiências. No entanto, esta integração crescente levanta questões importantes sobre a recolha e proteção dos nossos dados pessoais."
-category: "AI / Futuro"
-tags: ["Inteligência Artificial","Tecnologia","Privacidade de Dados","Dispositivos Inteligentes","Inovação"]
-date: "2025-11-08T12:00:00.000Z"
-featured_image: "https://cdn.arstechnica.net/wp-content/uploads/2025/11/GettyImages-2214301623-1152x648.jpg"
-meta_description: "A Inteligência Artificial está cada vez mais presente nos nossos dispositivos, otimizando tarefas e personalizando experiências. No entanto, esta integração crescente levanta questões importantes sobre a recolha e proteção dos nossos dados pessoais."
-source_url: "https://arstechnica.com/tech-policy/2025/11/keep-your-receipts-tech-firms-told-to-prepare-for-possible-tariff-refunds/"
+slug: >-
+  a-inteligencia-artificial-no-quotidiano-da-conveniencia-a-preocupacao-com-a-privacidade
+title: >-
+  A Inteligência Artificial no Quotidiano: Da Conveniência à Preocupação com a
+  Privacidade
+description: >-
+  A Inteligência Artificial está cada vez mais presente nos nossos dispositivos,
+  otimizando tarefas e personalizando experiências. No entanto, esta integração
+  crescente levanta questões importantes sobre a recolha e proteção dos nossos
+  dados pessoais.
+category: AI / Futuro
+tags:
+  - Inteligência Artificial
+  - Tecnologia
+  - Privacidade de Dados
+  - Dispositivos Inteligentes
+  - Inovação
+date: '2025-11-08T12:00:00.000Z'
+meta_description: >-
+  A Inteligência Artificial está cada vez mais presente nos nossos dispositivos,
+  otimizando tarefas e personalizando experiências. No entanto, esta integração
+  crescente levanta questões importantes sobre a recolha e proteção dos nossos
+  dados pessoais.
+source_url: >-
+  https://arstechnica.com/tech-policy/2025/11/keep-your-receipts-tech-firms-told-to-prepare-for-possible-tariff-refunds/
+image: >-
+  https://cdn.arstechnica.net/wp-content/uploads/2025/11/GettyImages-2214301623-1152x648.jpg
+draft: false
 ---
 
 A Inteligência Artificial (IA) deixou de ser um conceito futurista para se tornar uma realidade palpável e omnipresente no nosso dia-a-dia. Dos smartphones que nos acompanham a cada passo, aos sistemas que gerem as nossas casas inteligentes, a IA está silenciosamente a otimizar, personalizar e, por vezes, até a antecipar as nossas necessidades. Esta integração profunda, embora traga uma conveniência sem precedentes, levanta simultaneamente um conjunto complexo de questões, nomeadamente no que diz respeito à privacidade e segurança dos nossos dados pessoais. Compreender o alcance da IA e os seus impactos é crucial para navegarmos nesta nova era tecnológica com consciência e segurança.

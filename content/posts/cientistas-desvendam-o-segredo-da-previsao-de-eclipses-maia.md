@@ -1,13 +1,27 @@
 ---
-slug: "cientistas-desvendam-o-segredo-da-previsao-de-eclipses-maia"
-title: "Cientistas Desvendam o Segredo da Previsão de Eclipses Maia"
-description: "Cientistas desvendaram o método avançado que os Maias usavam para prever eclipses com surpreendente precisão, revelando que as tabelas no Códice de Dresden eram ajustadas ao longo do tempo para corrigir desvios."
-category: "Ciência"
-tags: ["Maia","Astronomia","Eclipses","Códice de Dresden","Previsão"]
-date: "2025-11-20T20:23:49.000Z"
-featured_image: "https://picsum.photos/seed/cientistas-desvendam-o-segredo-da-previsao-de-eclipses-maia/1000/600"
-meta_description: "Cientistas desvendaram o método avançado que os Maias usavam para prever eclipses com surpreendente precisão, revelando que as tabelas no Códice de Dresden eram ajustadas ao longo do tempo para corrigir desvios."
-source_url: "https://arstechnica.com/science/2025/11/study-how-the-maya-created-such-accurate-eclipse-tables/"
+slug: cientistas-desvendam-o-segredo-da-previsao-de-eclipses-maia
+title: Cientistas Desvendam o Segredo da Previsão de Eclipses Maia
+description: >-
+  Cientistas desvendaram o método avançado que os Maias usavam para prever
+  eclipses com surpreendente precisão, revelando que as tabelas no Códice de
+  Dresden eram ajustadas ao longo do tempo para corrigir desvios.
+category: Ciência
+tags:
+  - Maia
+  - Astronomia
+  - Eclipses
+  - Códice de Dresden
+  - Previsão
+date: '2025-11-20T20:23:49.000Z'
+meta_description: >-
+  Cientistas desvendaram o método avançado que os Maias usavam para prever
+  eclipses com surpreendente precisão, revelando que as tabelas no Códice de
+  Dresden eram ajustadas ao longo do tempo para corrigir desvios.
+source_url: >-
+  https://arstechnica.com/science/2025/11/study-how-the-maya-created-such-accurate-eclipse-tables/
+image: >-
+  https://picsum.photos/seed/cientistas-desvendam-o-segredo-da-previsao-de-eclipses-maia/1000/600
+draft: false
 ---
 
 ### Cientistas Desvendam o Segredo da Previsão de Eclipses Maia

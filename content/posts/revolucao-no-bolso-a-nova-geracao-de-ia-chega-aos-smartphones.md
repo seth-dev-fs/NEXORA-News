@@ -1,13 +1,29 @@
 ---
-slug: "revolucao-no-bolso-a-nova-geracao-de-ia-chega-aos-smartphones"
-title: "Revolução no Bolso: A Nova Geração de IA Chega aos Smartphones"
-description: "Uma nova era de inteligência artificial on-device promete transformar os smartphones, oferecendo desempenho superior, privacidade reforçada e funcionalidades offline. Esta tecnologia marca um passo crucial para a autonomia dos dispositivos móveis."
-category: "AI / Futuro"
-tags: ["Inteligência Artificial","Smartphones","IA On-Device","Privacidade","Tecnologia Móvel"]
-date: "2025-11-08T12:00:00.000Z"
-featured_image: "https://picsum.photos/seed/revolucao-no-bolso-a-nova-geracao-de-ia-chega-aos-smartphones/1000/600"
-meta_description: "Uma nova era de inteligência artificial on-device promete transformar os smartphones, oferecendo desempenho superior, privacidade reforçada e funcionalidades offline. Esta tecnologia marca um passo crucial para a autonomia dos dispositivos móveis."
-source_url: "https://techcrunch.com/2025/11/20/salesforce-says-some-of-its-customers-data-was-accessed-after-gainsight-breach/"
+slug: revolucao-no-bolso-a-nova-geracao-de-ia-chega-aos-smartphones
+title: 'Revolução no Bolso: A Nova Geração de IA Chega aos Smartphones'
+description: >-
+  Uma nova era de inteligência artificial on-device promete transformar os
+  smartphones, oferecendo desempenho superior, privacidade reforçada e
+  funcionalidades offline. Esta tecnologia marca um passo crucial para a
+  autonomia dos dispositivos móveis.
+category: AI / Futuro
+tags:
+  - Inteligência Artificial
+  - Smartphones
+  - IA On-Device
+  - Privacidade
+  - Tecnologia Móvel
+date: '2025-11-08T12:00:00.000Z'
+meta_description: >-
+  Uma nova era de inteligência artificial on-device promete transformar os
+  smartphones, oferecendo desempenho superior, privacidade reforçada e
+  funcionalidades offline. Esta tecnologia marca um passo crucial para a
+  autonomia dos dispositivos móveis.
+source_url: >-
+  https://techcrunch.com/2025/11/20/salesforce-says-some-of-its-customers-data-was-accessed-after-gainsight-breach/
+image: >-
+  https://picsum.photos/seed/revolucao-no-bolso-a-nova-geracao-de-ia-chega-aos-smartphones/1000/600
+draft: false
 ---
 
 # Revolução no Bolso: A Nova Geração de IA Chega aos Smartphones

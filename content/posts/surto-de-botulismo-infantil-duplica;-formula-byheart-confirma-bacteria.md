@@ -1,13 +1,27 @@
 ---
-slug: "surto-de-botulismo-infantil-duplica;-formula-byheart-confirma-bacteria"
-title: "Surto de Botulismo Infantil Duplica; Fórmula ByHeart Confirma Bactéria"
-description: "O número de casos de botulismo infantil duplicou recentemente, e a empresa ByHeart confirmou a presença de bactérias nas suas fórmulas, ligando-as ao surto."
-category: "Ciência"
-tags: ["Botulismo Infantil","Fórmula Láctea","Saúde Pública","Segurança Alimentar","ByHeart"]
-date: "2025-11-20T22:33:27.000Z"
-featured_image: "https://picsum.photos/seed/surto-de-botulismo-infantil-duplica;-formula-byheart-confirma-bacteria/1000/600"
-meta_description: "O número de casos de botulismo infantil duplicou recentemente, e a empresa ByHeart confirmou a presença de bactérias nas suas fórmulas, ligando-as ao surto."
-source_url: "https://arstechnica.com/health/2025/11/from-defiant-to-contrite-formula-maker-confirms-bacteria-amid-botulism-outbreak/"
+slug: surto-de-botulismo-infantil-duplica;-formula-byheart-confirma-bacteria
+title: Surto de Botulismo Infantil Duplica; Fórmula ByHeart Confirma Bactéria
+description: >-
+  O número de casos de botulismo infantil duplicou recentemente, e a empresa
+  ByHeart confirmou a presença de bactérias nas suas fórmulas, ligando-as ao
+  surto.
+category: Ciência
+tags:
+  - Botulismo Infantil
+  - Fórmula Láctea
+  - Saúde Pública
+  - Segurança Alimentar
+  - ByHeart
+date: '2025-11-20T22:33:27.000Z'
+meta_description: >-
+  O número de casos de botulismo infantil duplicou recentemente, e a empresa
+  ByHeart confirmou a presença de bactérias nas suas fórmulas, ligando-as ao
+  surto.
+source_url: >-
+  https://arstechnica.com/health/2025/11/from-defiant-to-contrite-formula-maker-confirms-bacteria-amid-botulism-outbreak/
+image: >-
+  https://picsum.photos/seed/surto-de-botulismo-infantil-duplica;-formula-byheart-confirma-bacteria/1000/600
+draft: false
 ---
 
 # Surto de Botulismo Infantil Duplica; Fórmula ByHeart Confirma Bactéria

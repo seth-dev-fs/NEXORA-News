@@ -1,13 +1,27 @@
 ---
-slug: "inovacao-lusa-apresenta-bateria-solida-revolucionaria-para-smartphones"
-title: "Inovação Lusa Apresenta Bateria Sólida Revolucionária para Smartphones"
-description: "Uma empresa portuguesa de tecnologia, Inovação Lusa, anunciou um avanço significativo em baterias para smartphones, prometendo dias de autonomia e carregamentos ultrarrápidos com a sua nova tecnologia de estado sólido."
-category: "Smartphones"
-tags: ["bateria sólida","smartphones","tecnologia portuguesa","autonomia","carregamento rápido"]
-date: "2025-11-08T12:00:00.000Z"
-featured_image: "https://images.unsplash.com/photo-1726638928109-93c8298ea2a0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MzM4Njl8MHwxfHNlYXJjaHwxfHxJbm92YSVDMyVBNyVDMyVBM28lMjBMdXNhJTIwQXByZXNlbnRhJTIwQmF0ZXJpYSUyMFMlQzMlQjNsaWRhJTIwUmV2b2x1Y2lvbiVDMyVBMXJpYSUyMHBhcmElMjBTbWFydHBob25lc3xlbnwwfDB8fHwxNzYzNzU2ODk2fDA&ixlib=rb-4.1.0&q=80&w=1080"
-meta_description: "Uma empresa portuguesa de tecnologia, Inovação Lusa, anunciou um avanço significativo em baterias para smartphones, prometendo dias de autonomia e carregamentos ultrarrápidos com a sua nova tecnologia de estado sólido."
-source_url: "https://techcrunch.com/2025/11/20/whatsapp-gets-its-own-instagram-notes-like-feature/"
+slug: inovacao-lusa-apresenta-bateria-solida-revolucionaria-para-smartphones
+title: Inovação Lusa Apresenta Bateria Sólida Revolucionária para Smartphones
+description: >-
+  Uma empresa portuguesa de tecnologia, Inovação Lusa, anunciou um avanço
+  significativo em baterias para smartphones, prometendo dias de autonomia e
+  carregamentos ultrarrápidos com a sua nova tecnologia de estado sólido.
+category: Smartphones
+tags:
+  - bateria sólida
+  - smartphones
+  - tecnologia portuguesa
+  - autonomia
+  - carregamento rápido
+date: '2025-11-08T12:00:00.000Z'
+meta_description: >-
+  Uma empresa portuguesa de tecnologia, Inovação Lusa, anunciou um avanço
+  significativo em baterias para smartphones, prometendo dias de autonomia e
+  carregamentos ultrarrápidos com a sua nova tecnologia de estado sólido.
+source_url: >-
+  https://techcrunch.com/2025/11/20/whatsapp-gets-its-own-instagram-notes-like-feature/
+image: >-
+  https://images.unsplash.com/photo-1726638928109-93c8298ea2a0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MzM4Njl8MHwxfHNlYXJjaHwxfHxJbm92YSVDMyVBNyVDMyVBM28lMjBMdXNhJTIwQXByZXNlbnRhJTIwQmF0ZXJpYSUyMFMlQzMlQjNsaWRhJTIwUmV2b2x1Y2lvbiVDMyVBMXJpYSUyMHBhcmElMjBTbWFydHBob25lc3xlbnwwfDB8fHwxNzYzNzU2ODk2fDA&ixlib=rb-4.1.0&q=80&w=1080
+draft: false
 ---
 
 A busca incessante por uma maior autonomia e tempos de carregamento mais rápidos para os nossos smartphones pode estar prestes a chegar ao fim, graças a um notável avanço tecnológico vindo de Portugal. A empresa 'Inovação Lusa', sediada em Lisboa, anunciou o desenvolvimento de uma bateria de estado sólido revolucionária, prometendo mudar fundamentalmente a nossa experiência com dispositivos móveis. Este salto tecnológico poderá significar dias de utilização sem necessidade de carregamento, marcando um novo capítulo na evolução dos smartphones.

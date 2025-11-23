@@ -1,4 +1,3 @@
-<!-- generated_by: gemini, model: gemini-2.5-flash, generated_at: 2025-11-22T22:54:07.117Z -->
 ---
 title: "Administração Trump Poderá Recuar na Luta Contra Regulações Estaduais de IA"
 date: "2024-07-30T10:30:00.000Z"
@@ -19,6 +18,9 @@ source_url: "https://example.com/original-source"
 draft: true
 needs_review: false
 ---
+
+<!-- generated_by: gemini, model: gemini-2.5-flash, generated_at: 2025-11-22T22:54:07.117Z -->
+
 
 ## Administração Trump Pausa Ordem para Bloquear Regulações Estaduais de Inteligência Artificial
 

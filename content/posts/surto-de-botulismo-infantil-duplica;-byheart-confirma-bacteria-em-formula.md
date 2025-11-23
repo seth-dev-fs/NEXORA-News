@@ -1,13 +1,27 @@
 ---
-slug: "surto-de-botulismo-infantil-duplica;-byheart-confirma-bacteria-em-formula"
-title: "Surto de Botulismo Infantil Duplica; ByHeart Confirma Bactéria em Fórmula"
-description: "Um surto de botulismo infantil duplicou, e a empresa ByHeart confirmou a presença de bactérias nas suas fórmulas, contrariando uma declaração inicial de 'não haver razão para acreditar'."
-category: "Ciência"
-tags: ["Botulismo Infantil","ByHeart","Fórmula para Bebés","Contaminação","Saúde Pública"]
-date: "2025-11-20T22:33:27.000Z"
-featured_image: "https://picsum.photos/seed/surto-de-botulismo-infantil-duplica;-byheart-confirma-bacteria-em-formula/1000/600"
-meta_description: "Um surto de botulismo infantil duplicou, e a empresa ByHeart confirmou a presença de bactérias nas suas fórmulas, contrariando uma declaração inicial de 'não haver razão para acreditar'."
-source_url: "https://arstechnica.com/health/2025/11/from-defiant-to-contrite-formula-maker-confirms-bacteria-amid-botulism-outbreak/"
+slug: surto-de-botulismo-infantil-duplica;-byheart-confirma-bacteria-em-formula
+title: Surto de Botulismo Infantil Duplica; ByHeart Confirma Bactéria em Fórmula
+description: >-
+  Um surto de botulismo infantil duplicou, e a empresa ByHeart confirmou a
+  presença de bactérias nas suas fórmulas, contrariando uma declaração inicial
+  de 'não haver razão para acreditar'.
+category: Ciência
+tags:
+  - Botulismo Infantil
+  - ByHeart
+  - Fórmula para Bebés
+  - Contaminação
+  - Saúde Pública
+date: '2025-11-20T22:33:27.000Z'
+meta_description: >-
+  Um surto de botulismo infantil duplicou, e a empresa ByHeart confirmou a
+  presença de bactérias nas suas fórmulas, contrariando uma declaração inicial
+  de 'não haver razão para acreditar'.
+source_url: >-
+  https://arstechnica.com/health/2025/11/from-defiant-to-contrite-formula-maker-confirms-bacteria-amid-botulism-outbreak/
+image: >-
+  https://picsum.photos/seed/surto-de-botulismo-infantil-duplica;-byheart-confirma-bacteria-em-formula/1000/600
+draft: false
 ---
 
 # Notícias sobre o Surto de Botulismo Infantil

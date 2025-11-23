@@ -1,13 +1,34 @@
 ---
-slug: "techcorp-lanca-nova-geracao-de-smartphones-com-ia-avancada-uma-analise-detalhada"
-title: "TechCorp Lança Nova Geração de Smartphones com IA Avançada: Uma Análise Detalhada"
-description: "A TechCorp apresentou os seus mais recentes smartphones, o NovaPhone X e o NovaPhone Y, prometendo revolucionar a experiência do utilizador com funcionalidades de Inteligência Artificial significativamente melhoradas, câmaras mais potentes e maior autonomia de bateria. Estes novos modelos representam um salto tecnológico importante no mercado móvel."
-category: "Smartphones"
-tags: ["Smartphones","Inteligência Artificial","Tecnologia Móvel","NovaPhone","Lançamento"]
-date: "2025-11-08T12:00:00.000Z"
-featured_image: "https://picsum.photos/seed/techcorp-lanca-nova-geracao-de-smartphones-com-ia-avancada-uma-analise-detalhada/1000/600"
-meta_description: "A TechCorp apresentou os seus mais recentes smartphones, o NovaPhone X e o NovaPhone Y, prometendo revolucionar a experiência do utilizador com funcionalidades de Inteligência Artificial significativamente melhoradas, câmaras mais potentes e maior autonomia de bateria. Estes novos modelos representam um salto tecnológico importante no mercado móvel."
-source_url: "https://www.theverge.com/news/826338/teamgroup-t-create-expert-p35s-externa-ssd-self-destruct-button"
+slug: >-
+  techcorp-lanca-nova-geracao-de-smartphones-com-ia-avancada-uma-analise-detalhada
+title: >-
+  TechCorp Lança Nova Geração de Smartphones com IA Avançada: Uma Análise
+  Detalhada
+description: >-
+  A TechCorp apresentou os seus mais recentes smartphones, o NovaPhone X e o
+  NovaPhone Y, prometendo revolucionar a experiência do utilizador com
+  funcionalidades de Inteligência Artificial significativamente melhoradas,
+  câmaras mais potentes e maior autonomia de bateria. Estes novos modelos
+  representam um salto tecnológico importante no mercado móvel.
+category: Smartphones
+tags:
+  - Smartphones
+  - Inteligência Artificial
+  - Tecnologia Móvel
+  - NovaPhone
+  - Lançamento
+date: '2025-11-08T12:00:00.000Z'
+meta_description: >-
+  A TechCorp apresentou os seus mais recentes smartphones, o NovaPhone X e o
+  NovaPhone Y, prometendo revolucionar a experiência do utilizador com
+  funcionalidades de Inteligência Artificial significativamente melhoradas,
+  câmaras mais potentes e maior autonomia de bateria. Estes novos modelos
+  representam um salto tecnológico importante no mercado móvel.
+source_url: >-
+  https://www.theverge.com/news/826338/teamgroup-t-create-expert-p35s-externa-ssd-self-destruct-button
+image: >-
+  https://picsum.photos/seed/techcorp-lanca-nova-geracao-de-smartphones-com-ia-avancada-uma-analise-detalhada/1000/600
+draft: false
 ---
 
 # TechCorp Lança Nova Geração de Smartphones com IA Avançada: Uma Análise Detalhada

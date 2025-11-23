@@ -1,13 +1,31 @@
 ---
-slug: "techxpert-lanca-stellar-p5-um-novo-contendente-na-gama-media-alta"
-title: "TechXpert Lança Stellar P5: Um Novo Contendente na Gama Média-Alta"
-description: "A TechXpert revelou o seu mais recente smartphone, o Stellar P5, que promete características premium a um preço competitivo. Com um ecrã AMOLED de 120Hz, um poderoso processador X-Core 820 e carregamento ultrarrápido de 67W, o Stellar P5 posiciona-se como uma opção atraente no segmento de gama média-alta."
-category: "Smartphones"
-tags: ["TechXpert","Stellar P5","Smartphone","Gama Média","Android"]
-date: "2025-11-08T12:00:00.000Z"
-featured_image: "https://picsum.photos/seed/techxpert-lanca-stellar-p5-um-novo-contendente-na-gama-media-alta/1000/600"
-meta_description: "A TechXpert revelou o seu mais recente smartphone, o Stellar P5, que promete características premium a um preço competitivo. Com um ecrã AMOLED de 120Hz, um poderoso processador X-Core 820 e carregamento ultrarrápido de 67W, o Stellar P5 posiciona-se como uma opção atraente no segmento de gama média-alta."
-source_url: "https://techcrunch.com/2025/11/21/australia-adds-twitch-to-teen-social-media-ban-pinterest-exempted/"
+slug: techxpert-lanca-stellar-p5-um-novo-contendente-na-gama-media-alta
+title: 'TechXpert Lança Stellar P5: Um Novo Contendente na Gama Média-Alta'
+description: >-
+  A TechXpert revelou o seu mais recente smartphone, o Stellar P5, que promete
+  características premium a um preço competitivo. Com um ecrã AMOLED de 120Hz,
+  um poderoso processador X-Core 820 e carregamento ultrarrápido de 67W, o
+  Stellar P5 posiciona-se como uma opção atraente no segmento de gama
+  média-alta.
+category: Smartphones
+tags:
+  - TechXpert
+  - Stellar P5
+  - Smartphone
+  - Gama Média
+  - Android
+date: '2025-11-08T12:00:00.000Z'
+meta_description: >-
+  A TechXpert revelou o seu mais recente smartphone, o Stellar P5, que promete
+  características premium a um preço competitivo. Com um ecrã AMOLED de 120Hz,
+  um poderoso processador X-Core 820 e carregamento ultrarrápido de 67W, o
+  Stellar P5 posiciona-se como uma opção atraente no segmento de gama
+  média-alta.
+source_url: >-
+  https://techcrunch.com/2025/11/21/australia-adds-twitch-to-teen-social-media-ban-pinterest-exempted/
+image: >-
+  https://picsum.photos/seed/techxpert-lanca-stellar-p5-um-novo-contendente-na-gama-media-alta/1000/600
+draft: false
 ---
 
 # TechXpert Lança Stellar P5: Um Novo Contendente na Gama Média-Alta

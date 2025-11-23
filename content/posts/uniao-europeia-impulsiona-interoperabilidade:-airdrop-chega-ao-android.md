@@ -1,13 +1,27 @@
 ---
-slug: "uniao-europeia-impulsiona-interoperabilidade:-airdrop-chega-ao-android"
-title: "União Europeia Impulsiona Interoperabilidade: AirDrop Chega ao Android"
-description: "Graças à pressão da União Europeia, a Apple adotou novos padrões Wi-Fi que agora permitem a telemóveis Android, como o Google Pixel 10, suportar funcionalidades de partilha de ficheiros semelhantes ao AirDrop."
-category: "Smartphones"
-tags: ["Smartphones","Apple","Android","AirDrop","União Europeia"]
-date: "2025-11-20T20:11:01.000Z"
-featured_image: "https://picsum.photos/seed/uniao-europeia-impulsiona-interoperabilidade:-airdrop-chega-ao-android/1000/600"
-meta_description: "Graças à pressão da União Europeia, a Apple adotou novos padrões Wi-Fi que agora permitem a telemóveis Android, como o Google Pixel 10, suportar funcionalidades de partilha de ficheiros semelhantes ao AirDrop."
-source_url: "https://arstechnica.com/gadgets/2025/11/the-eu-made-apple-adopt-new-wi-fi-standards-and-now-android-can-support-airdrop/"
+slug: 'uniao-europeia-impulsiona-interoperabilidade:-airdrop-chega-ao-android'
+title: 'União Europeia Impulsiona Interoperabilidade: AirDrop Chega ao Android'
+description: >-
+  Graças à pressão da União Europeia, a Apple adotou novos padrões Wi-Fi que
+  agora permitem a telemóveis Android, como o Google Pixel 10, suportar
+  funcionalidades de partilha de ficheiros semelhantes ao AirDrop.
+category: Smartphones
+tags:
+  - Smartphones
+  - Apple
+  - Android
+  - AirDrop
+  - União Europeia
+date: '2025-11-20T20:11:01.000Z'
+meta_description: >-
+  Graças à pressão da União Europeia, a Apple adotou novos padrões Wi-Fi que
+  agora permitem a telemóveis Android, como o Google Pixel 10, suportar
+  funcionalidades de partilha de ficheiros semelhantes ao AirDrop.
+source_url: >-
+  https://arstechnica.com/gadgets/2025/11/the-eu-made-apple-adopt-new-wi-fi-standards-and-now-android-can-support-airdrop/
+image: >-
+  https://picsum.photos/seed/uniao-europeia-impulsiona-interoperabilidade:-airdrop-chega-ao-android/1000/600
+draft: false
 ---
 
 ### A União Europeia e a Interoperabilidade

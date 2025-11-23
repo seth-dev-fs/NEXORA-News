@@ -1,13 +1,29 @@
 ---
-slug: "o-seu-smartphone-ficou-mais-inteligente-a-revolucao-da-ia-no-seu-bolso"
-title: "O Seu Smartphone Ficou Mais Inteligente: A Revolução da IA no Seu Bolso"
-description: "Descubra como a Inteligência Artificial está a transformar os nossos smartphones, tornando-os mais intuitivos, eficientes e poderosos para o dia a dia. Uma viagem pela tecnologia que já reside na palma da sua mão e o que o futuro nos reserva."
-category: "Smartphones"
-tags: ["Inteligência Artificial","Smartphones","Tecnologia Móvel","Inovação","Futuro Digital"]
-date: "2025-11-08T00:00:00.000Z"
-featured_image: "https://cdn.arstechnica.net/wp-content/uploads/2025/11/nano-banana-pro-1152x648.png"
-meta_description: "Descubra como a Inteligência Artificial está a transformar os nossos smartphones, tornando-os mais intuitivos, eficientes e poderosos para o dia a dia. Uma viagem pela tecnologia que já reside na palma da sua mão e o que o futuro nos reserva."
-source_url: "https://arstechnica.com/google/2025/11/google-launches-nano-banana-pro-image-model-adds-ai-image-detection-in-gemini-app/"
+slug: o-seu-smartphone-ficou-mais-inteligente-a-revolucao-da-ia-no-seu-bolso
+title: 'O Seu Smartphone Ficou Mais Inteligente: A Revolução da IA no Seu Bolso'
+description: >-
+  Descubra como a Inteligência Artificial está a transformar os nossos
+  smartphones, tornando-os mais intuitivos, eficientes e poderosos para o dia a
+  dia. Uma viagem pela tecnologia que já reside na palma da sua mão e o que o
+  futuro nos reserva.
+category: Smartphones
+tags:
+  - Inteligência Artificial
+  - Smartphones
+  - Tecnologia Móvel
+  - Inovação
+  - Futuro Digital
+date: '2025-11-08T00:00:00.000Z'
+meta_description: >-
+  Descubra como a Inteligência Artificial está a transformar os nossos
+  smartphones, tornando-os mais intuitivos, eficientes e poderosos para o dia a
+  dia. Uma viagem pela tecnologia que já reside na palma da sua mão e o que o
+  futuro nos reserva.
+source_url: >-
+  https://arstechnica.com/google/2025/11/google-launches-nano-banana-pro-image-model-adds-ai-image-detection-in-gemini-app/
+image: >-
+  https://cdn.arstechnica.net/wp-content/uploads/2025/11/nano-banana-pro-1152x648.png
+draft: false
 ---
 
 A Inteligência Artificial (IA) deixou de ser um conceito de ficção científica para se tornar uma parte integrante do nosso quotidiano, e em nenhum lugar isso é mais evidente do que na palma da nossa mão: no smartphone. Se antes pensávamos nos nossos telemóveis como meros dispositivos para fazer chamadas e enviar mensagens, hoje eles são centros de poder computacional que nos auxiliam em quase todas as facetas da nossa vida. E o grande motor por trás desta transformação silenciosa, mas profunda, é a IA. Ela está a trabalhar nos bastidores, tornando os nossos smartphones mais intuitivos, eficientes e, sim, muito mais inteligentes. Desde a câmara que captura a fotografia perfeita até ao assistente que nos ajuda a organizar o dia, a IA está a redefinir a experiência móvel, prometendo um futuro onde a tecnologia se adapta a nós, e não o contrário. Vamos descobrir como esta revolução está a desenrolar-se no seu bolso.

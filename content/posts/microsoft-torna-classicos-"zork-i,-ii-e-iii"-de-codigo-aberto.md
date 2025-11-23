@@ -1,13 +1,31 @@
 ---
-slug: "microsoft-torna-classicos-\"zork-i,-ii-e-iii\"-de-codigo-aberto"
-title: "Microsoft Torna Clássicos \"Zork I, II e III\" de Código Aberto"
-description: "A Microsoft anunciou que os icónicos jogos de aventura de texto Zork I, II e III estão agora disponíveis como código aberto sob a licença MIT, um passo significativo para a preservação do património do gaming. Esta iniciativa permite que entusiastas e programadores explorem e modifiquem os títulos históricos."
-category: "Entretenimento / Gaming"
-tags: ["Zork","Microsoft","Código Aberto","Jogos Clássicos","Licença MIT"]
-date: "2025-11-20T20:33:50.000Z"
-featured_image: "https://picsum.photos/seed/microsoft-torna-classicos-\"zork-i,-ii-e-iii\"-de-codigo-aberto/1000/600"
-meta_description: "A Microsoft anunciou que os icónicos jogos de aventura de texto Zork I, II e III estão agora disponíveis como código aberto sob a licença MIT, um passo significativo para a preservação do património do gaming. Esta iniciativa permite que entusiastas e programadores explorem e modifiquem os títulos históricos."
-source_url: "https://arstechnica.com/gaming/2025/11/microsoft-makes-zork-i-ii-and-iii-open-source-under-mit-license/"
+slug: 'microsoft-torna-classicos-"zork-i,-ii-e-iii"-de-codigo-aberto'
+title: 'Microsoft Torna Clássicos "Zork I, II e III" de Código Aberto'
+description: >-
+  A Microsoft anunciou que os icónicos jogos de aventura de texto Zork I, II e
+  III estão agora disponíveis como código aberto sob a licença MIT, um passo
+  significativo para a preservação do património do gaming. Esta iniciativa
+  permite que entusiastas e programadores explorem e modifiquem os títulos
+  históricos.
+category: Entretenimento / Gaming
+tags:
+  - Zork
+  - Microsoft
+  - Código Aberto
+  - Jogos Clássicos
+  - Licença MIT
+date: '2025-11-20T20:33:50.000Z'
+meta_description: >-
+  A Microsoft anunciou que os icónicos jogos de aventura de texto Zork I, II e
+  III estão agora disponíveis como código aberto sob a licença MIT, um passo
+  significativo para a preservação do património do gaming. Esta iniciativa
+  permite que entusiastas e programadores explorem e modifiquem os títulos
+  históricos.
+source_url: >-
+  https://arstechnica.com/gaming/2025/11/microsoft-makes-zork-i-ii-and-iii-open-source-under-mit-license/
+image: >-
+  https://picsum.photos/seed/microsoft-torna-classicos-"zork-i,-ii-e-iii"-de-codigo-aberto/1000/600
+draft: false
 ---
 
 # Microsoft Torna Clássicos "Zork I, II e III" de Código Aberto

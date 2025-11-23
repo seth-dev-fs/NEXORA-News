@@ -1,13 +1,28 @@
 ---
-slug: "rei-antecipa-fim-de-ano-2025-as-65-melhores-ofertas-para-aventura-ao-ar-livre"
-title: "REI Antecipa Fim de Ano 2025: As 65 Melhores Ofertas Para Aventura ao Ar Livre"
-description: "A REI, pioneira na promoção do movimento #optoutside, surpreende ao lançar antecipadamente as suas promoções de fim de ano de 2025. Descubra 65 ofertas imperdíveis para equipar-se para um ano repleto de aventuras, com descontos significativos em mochilas, sacos-cama, lã merino e muito mais."
-category: "Mobilidade"
-tags: ["REI","Promoções","Aventura","Equipamento Exterior","Descontos"]
-date: "2025-11-08T12:00:00Z"
-featured_image: "https://images.unsplash.com/photo-1602869670494-217b1a61750a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MzM4Njl8MHwxfHNlYXJjaHwxfHxSRUklMjBBbnRlY2lwYSUyMEZpbSUyMGRlJTIwQW5vJTIwMjAyNSUzQSUyMEFzJTIwNjUlMjBNZWxob3JlcyUyME9mZXJ0YXMlMjBQYXJhJTIwQXZlbnR1cmElMjBhbyUyMEFyJTIwTGl2cmV8ZW58MHwwfHx8MTc2Mzc1NzgzMHww&ixlib=rb-4.1.0&q=80&w=1080"
-meta_description: "A REI, pioneira na promoção do movimento #optoutside, surpreende ao lançar antecipadamente as suas promoções de fim de ano de 2025. Descubra 65 ofertas imperdíveis para equipar-se para um ano repleto de aventuras, com descontos significativos em mochilas, sacos-cama, lã merino e muito mais."
-source_url: "https://www.wired.com/story/rei-holiday-sale-nov-2025/"
+slug: rei-antecipa-fim-de-ano-2025-as-65-melhores-ofertas-para-aventura-ao-ar-livre
+title: 'REI Antecipa Fim de Ano 2025: As 65 Melhores Ofertas Para Aventura ao Ar Livre'
+description: >-
+  A REI, pioneira na promoção do movimento #optoutside, surpreende ao lançar
+  antecipadamente as suas promoções de fim de ano de 2025. Descubra 65 ofertas
+  imperdíveis para equipar-se para um ano repleto de aventuras, com descontos
+  significativos em mochilas, sacos-cama, lã merino e muito mais.
+category: Mobilidade
+tags:
+  - REI
+  - Promoções
+  - Aventura
+  - Equipamento Exterior
+  - Descontos
+date: '2025-11-08T12:00:00Z'
+meta_description: >-
+  A REI, pioneira na promoção do movimento #optoutside, surpreende ao lançar
+  antecipadamente as suas promoções de fim de ano de 2025. Descubra 65 ofertas
+  imperdíveis para equipar-se para um ano repleto de aventuras, com descontos
+  significativos em mochilas, sacos-cama, lã merino e muito mais.
+source_url: 'https://www.wired.com/story/rei-holiday-sale-nov-2025/'
+image: >-
+  https://images.unsplash.com/photo-1602869670494-217b1a61750a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MzM4Njl8MHwxfHNlYXJjaHwxfHxSRUklMjBBbnRlY2lwYSUyMEZpbSUyMGRlJTIwQW5vJTIwMjAyNSUzQSUyMEFzJTIwNjUlMjBNZWxob3JlcyUyME9mZXJ0YXMlMjBQYXJhJTIwQXZlbnR1cmElMjBhbyUyMEFyJTIwTGl2cmV8ZW58MHwwfHx8MTc2Mzc1NzgzMHww&ixlib=rb-4.1.0&q=80&w=1080
+draft: false
 ---
 
 # REI Antecipa Fim de Ano 2025: As 65 Melhores Ofertas Para Aventura ao Ar Livre

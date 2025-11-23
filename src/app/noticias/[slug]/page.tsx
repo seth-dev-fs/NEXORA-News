@@ -12,21 +12,64 @@ export async function generateStaticParams() {
   }));
 }
 
-export async function generateMetadata({ params }: { params: { slug: string } }) {
-  const article = getArticleBySlug(params.slug);
+export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }) {
+  const { slug } = await params;
+  const article = getArticleBySlug(slug);
 
   if (!article) {
-    return { title: 'Artigo Não Encontrado' };
+    return {
+      title: 'Artigo Não Encontrado',
+      description: 'O artigo que procura não foi encontrado.',
+    };
   }
+
+  const canonicalUrl = `https://nexora-news.com/noticias/${article.slug}`;
 
   return {
     title: article.title,
     description: article.description,
+    alternates: {
+      canonical: canonicalUrl,
+    },
+    openGraph: {
+      type: 'article',
+      locale: 'pt_PT',
+      url: canonicalUrl,
+      siteName: 'NEXORA News',
+      title: article.title,
+      description: article.description,
+      images: article.image ? [
+        {
+          url: article.image,
+          width: 1200,
+          height: 630,
+          alt: article.title,
+        },
+      ] : [],
+      publishedTime: article.date,
+      authors: ['Equipa NEXORA News'],
+    },
+    twitter: {
+      card: 'summary_large_image',
+      site: '@nexoranews',
+      creator: '@nexoranews',
+      title: article.title,
+      description: article.description,
+      images: article.image ? [article.image] : [],
+    },
+    keywords: [
+      article.category,
+      ...article.tags,
+      'tecnologia',
+      'Portugal',
+      'notícias tech',
+    ],
   };
 }
 
-export default async function ArticlePage({ params }: { params: { slug: string } }) {
-  const article = getArticleBySlug(params.slug);
+export default async function ArticlePage({ params }: { params: Promise<{ slug: string }> }) {
+  const { slug } = await params;
+  const article = getArticleBySlug(slug);
 
   if (!article || article.draft) {
     notFound();

@@ -1,13 +1,29 @@
 ---
-slug: "microsoft-torna-classicos-zork-i,-ii-e-iii-open-source"
-title: "Microsoft Torna Clássicos Zork I, II e III Open Source"
-description: "A Microsoft anunciou a disponibilização dos códigos-fonte dos lendários jogos de aventura textual Zork I, II e III sob a licença MIT. Esta iniciativa visa preservar a história dos videojogos e permitir que a comunidade explore e modifique estes títulos icónicos."
-category: "Entretenimento / Gaming"
-tags: ["Zork","Microsoft","Open Source","Jogos Clássicos","Licença MIT"]
-date: "2025-11-20T20:33:50.000Z"
-featured_image: "https://picsum.photos/seed/microsoft-torna-classicos-zork-i,-ii-e-iii-open-source/1000/600"
-meta_description: "A Microsoft anunciou a disponibilização dos códigos-fonte dos lendários jogos de aventura textual Zork I, II e III sob a licença MIT. Esta iniciativa visa preservar a história dos videojogos e permitir que a comunidade explore e modifique estes títulos icónicos."
-source_url: "https://arstechnica.com/gaming/2025/11/microsoft-makes-zork-i-ii-and-iii-open-source-under-mit-license/"
+slug: 'microsoft-torna-classicos-zork-i,-ii-e-iii-open-source'
+title: 'Microsoft Torna Clássicos Zork I, II e III Open Source'
+description: >-
+  A Microsoft anunciou a disponibilização dos códigos-fonte dos lendários jogos
+  de aventura textual Zork I, II e III sob a licença MIT. Esta iniciativa visa
+  preservar a história dos videojogos e permitir que a comunidade explore e
+  modifique estes títulos icónicos.
+category: Entretenimento / Gaming
+tags:
+  - Zork
+  - Microsoft
+  - Open Source
+  - Jogos Clássicos
+  - Licença MIT
+date: '2025-11-20T20:33:50.000Z'
+meta_description: >-
+  A Microsoft anunciou a disponibilização dos códigos-fonte dos lendários jogos
+  de aventura textual Zork I, II e III sob a licença MIT. Esta iniciativa visa
+  preservar a história dos videojogos e permitir que a comunidade explore e
+  modifique estes títulos icónicos.
+source_url: >-
+  https://arstechnica.com/gaming/2025/11/microsoft-makes-zork-i-ii-and-iii-open-source-under-mit-license/
+image: >-
+  https://picsum.photos/seed/microsoft-torna-classicos-zork-i,-ii-e-iii-open-source/1000/600
+draft: false
 ---
 
 # Microsoft Liberta Código-Fonte dos Clássicos Zork I, II e III

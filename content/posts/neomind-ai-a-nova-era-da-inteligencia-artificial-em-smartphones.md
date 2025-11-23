@@ -1,13 +1,31 @@
 ---
-slug: "neomind-ai-a-nova-era-da-inteligencia-artificial-em-smartphones"
-title: "NeoMind AI: A Nova Era da Inteligência Artificial em Smartphones"
-description: "A InnoTech Labs apresenta o NeoMind AI, um modelo de inteligência artificial revolucionário projetado para transformar a experiência do smartphone com funcionalidades avançadas e personalização profunda. Este avanço promete tornar os dispositivos mais intuitivos, eficientes e verdadeiramente inteligentes."
-category: "AI / Futuro"
-tags: ["Inteligência Artificial","Smartphones","Tecnologia","Inovação","NeoMind AI"]
-date: "2025-11-08T12:00:00.000Z"
-featured_image: "https://picsum.photos/seed/neomind-ai-a-nova-era-da-inteligencia-artificial-em-smartphones/1000/600"
-meta_description: "A InnoTech Labs apresenta o NeoMind AI, um modelo de inteligência artificial revolucionário projetado para transformar a experiência do smartphone com funcionalidades avançadas e personalização profunda. Este avanço promete tornar os dispositivos mais intuitivos, eficientes e verdadeiramente inteligentes."
-source_url: "https://techcrunch.com/2025/11/21/the-hottest-ai-wearables-and-gadgets-you-can-buy-right-now/"
+slug: neomind-ai-a-nova-era-da-inteligencia-artificial-em-smartphones
+title: 'NeoMind AI: A Nova Era da Inteligência Artificial em Smartphones'
+description: >-
+  A InnoTech Labs apresenta o NeoMind AI, um modelo de inteligência artificial
+  revolucionário projetado para transformar a experiência do smartphone com
+  funcionalidades avançadas e personalização profunda. Este avanço promete
+  tornar os dispositivos mais intuitivos, eficientes e verdadeiramente
+  inteligentes.
+category: AI / Futuro
+tags:
+  - Inteligência Artificial
+  - Smartphones
+  - Tecnologia
+  - Inovação
+  - NeoMind AI
+date: '2025-11-08T12:00:00.000Z'
+meta_description: >-
+  A InnoTech Labs apresenta o NeoMind AI, um modelo de inteligência artificial
+  revolucionário projetado para transformar a experiência do smartphone com
+  funcionalidades avançadas e personalização profunda. Este avanço promete
+  tornar os dispositivos mais intuitivos, eficientes e verdadeiramente
+  inteligentes.
+source_url: >-
+  https://techcrunch.com/2025/11/21/the-hottest-ai-wearables-and-gadgets-you-can-buy-right-now/
+image: >-
+  https://picsum.photos/seed/neomind-ai-a-nova-era-da-inteligencia-artificial-em-smartphones/1000/600
+draft: false
 ---
 
 # NeoMind AI: A Nova Era da Inteligência Artificial em Smartphones

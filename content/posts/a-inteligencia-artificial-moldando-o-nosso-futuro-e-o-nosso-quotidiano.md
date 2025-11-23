@@ -1,13 +1,27 @@
 ---
-slug: "a-inteligencia-artificial-moldando-o-nosso-futuro-e-o-nosso-quotidiano"
-title: "A Inteligência Artificial: Moldando o Nosso Futuro e o Nosso Quotidiano"
-description: "Este artigo explora a crescente influência da Inteligência Artificial em diversas áreas da nossa vida, desde o trabalho ao entretenimento, abordando os seus benefícios, desafios e o que o futuro nos reserva."
-category: "AI / Futuro"
-tags: ["Inteligência Artificial","Tecnologia","Futuro","Inovação","Sociedade Digital"]
-date: "2025-11-08T12:00:00.000Z"
-featured_image: "https://images.unsplash.com/photo-1696272440000-0808a203c852?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MzM4Njl8MHwxfHNlYXJjaHwxfHxBJTIwSW50ZWxpZyVDMyVBQW5jaWElMjBBcnRpZmljaWFsJTNBJTIwTW9sZGFuZG8lMjBvJTIwTm9zc28lMjBGdXR1cm8lMjBlJTIwbyUyME5vc3NvJTIwUXVvdGlkaWFub3xlbnwwfDB8fHwxNzYzNzU2NDI0fDA&ixlib=rb-4.1.0&q=80&w=1080"
-meta_description: "Este artigo explora a crescente influência da Inteligência Artificial em diversas áreas da nossa vida, desde o trabalho ao entretenimento, abordando os seus benefícios, desafios e o que o futuro nos reserva."
-source_url: "https://techcrunch.com/2025/11/21/impersonators-are-targeting-companies-with-fake-techcrunch-outreach/"
+slug: a-inteligencia-artificial-moldando-o-nosso-futuro-e-o-nosso-quotidiano
+title: 'A Inteligência Artificial: Moldando o Nosso Futuro e o Nosso Quotidiano'
+description: >-
+  Este artigo explora a crescente influência da Inteligência Artificial em
+  diversas áreas da nossa vida, desde o trabalho ao entretenimento, abordando os
+  seus benefícios, desafios e o que o futuro nos reserva.
+category: AI / Futuro
+tags:
+  - Inteligência Artificial
+  - Tecnologia
+  - Futuro
+  - Inovação
+  - Sociedade Digital
+date: '2025-11-08T12:00:00.000Z'
+meta_description: >-
+  Este artigo explora a crescente influência da Inteligência Artificial em
+  diversas áreas da nossa vida, desde o trabalho ao entretenimento, abordando os
+  seus benefícios, desafios e o que o futuro nos reserva.
+source_url: >-
+  https://techcrunch.com/2025/11/21/impersonators-are-targeting-companies-with-fake-techcrunch-outreach/
+image: >-
+  https://images.unsplash.com/photo-1696272440000-0808a203c852?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MzM4Njl8MHwxfHNlYXJjaHwxfHxBJTIwSW50ZWxpZyVDMyVBQW5jaWElMjBBcnRpZmljaWFsJTNBJTIwTW9sZGFuZG8lMjBvJTIwTm9zc28lMjBGdXR1cm8lMjBlJTIwbyUyME5vc3NvJTIwUXVvdGlkaWFub3xlbnwwfDB8fHwxNzYzNzU2NDI0fDA&ixlib=rb-4.1.0&q=80&w=1080
+draft: false
 ---
 
 # A Inteligência Artificial: Moldando o Nosso Futuro e o Nosso Quotidiano

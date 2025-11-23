@@ -1,13 +1,31 @@
 ---
-slug: "a-inteligencia-artificial-transforma-os-nossos-smartphones-em-companheiros-mais-inteligentes"
-title: "A Inteligência Artificial Transforma os Nossos Smartphones em Companheiros Mais Inteligentes"
-description: "A inteligência artificial (IA) está a revolucionar os smartphones, tornando-os mais intuitivos, eficientes e personalizados. Descubra como esta tecnologia está a mudar a sua experiência móvel, desde câmaras a assistentes pessoais, e o que o futuro nos reserva."
-category: "Smartphones"
-tags: ["IA","Smartphones","Tecnologia","Futuro","Inovação"]
-date: "2025-11-08T12:00:00.000Z"
-featured_image: "https://images.unsplash.com/photo-1578958505726-51d5109a9543?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MzM4Njl8MHwxfHNlYXJjaHwxfHxBJTIwSW50ZWxpZyVDMyVBQW5jaWElMjBBcnRpZmljaWFsJTIwVHJhbnNmb3JtYSUyMG9zJTIwTm9zc29zJTIwU21hcnRwaG9uZXMlMjBlbSUyMENvbXBhbmhlaXJvcyUyME1haXMlMjBJbnRlbGlnZW50ZXN8ZW58MHwwfHx8MTc2Mzc1NTQ3M3ww&ixlib=rb-4.1.0&q=80&w=1080"
-meta_description: "A inteligência artificial (IA) está a revolucionar os smartphones, tornando-os mais intuitivos, eficientes e personalizados. Descubra como esta tecnologia está a mudar a sua experiência móvel, desde câmaras a assistentes pessoais, e o que o futuro nos reserva."
-source_url: "https://www.theverge.com/gadgets/802964/best-mom-gift-ideas"
+slug: >-
+  a-inteligencia-artificial-transforma-os-nossos-smartphones-em-companheiros-mais-inteligentes
+title: >-
+  A Inteligência Artificial Transforma os Nossos Smartphones em Companheiros
+  Mais Inteligentes
+description: >-
+  A inteligência artificial (IA) está a revolucionar os smartphones, tornando-os
+  mais intuitivos, eficientes e personalizados. Descubra como esta tecnologia
+  está a mudar a sua experiência móvel, desde câmaras a assistentes pessoais, e
+  o que o futuro nos reserva.
+category: Smartphones
+tags:
+  - IA
+  - Smartphones
+  - Tecnologia
+  - Futuro
+  - Inovação
+date: '2025-11-08T12:00:00.000Z'
+meta_description: >-
+  A inteligência artificial (IA) está a revolucionar os smartphones, tornando-os
+  mais intuitivos, eficientes e personalizados. Descubra como esta tecnologia
+  está a mudar a sua experiência móvel, desde câmaras a assistentes pessoais, e
+  o que o futuro nos reserva.
+source_url: 'https://www.theverge.com/gadgets/802964/best-mom-gift-ideas'
+image: >-
+  https://images.unsplash.com/photo-1578958505726-51d5109a9543?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MzM4Njl8MHwxfHNlYXJjaHwxfHxBJTIwSW50ZWxpZyVDMyVBQW5jaWElMjBBcnRpZmljaWFsJTIwVHJhbnNmb3JtYSUyMG9zJTIwTm9zc29zJTIwU21hcnRwaG9uZXMlMjBlbSUyMENvbXBhbmhlaXJvcyUyME1haXMlMjBJbnRlbGlnZW50ZXN8ZW58MHwwfHx8MTc2Mzc1NTQ3M3ww&ixlib=rb-4.1.0&q=80&w=1080
+draft: false
 ---
 
 A era da inteligência artificial (IA) está a consolidar-se em todos os aspetos das nossas vidas digitais, e os smartphones não são exceção. Longe de ser apenas uma palavra da moda, a IA está a transformar silenciosamente os nossos dispositivos móveis em ferramentas cada vez mais poderosas, intuitivas e personalizadas. De funcionalidades que parecem magia fotográfica a assistentes virtuais mais perspicazes, a IA está a redesenhar a forma como interagimos com os nossos telefones, tornando-os menos como meros aparelhos e mais como companheiros inteligentes. Este artigo explora como a IA está a integrar-se nos smartphones, que impacto tem no dia-a-dia dos utilizadores e o que podemos esperar desta simbiose crescente.

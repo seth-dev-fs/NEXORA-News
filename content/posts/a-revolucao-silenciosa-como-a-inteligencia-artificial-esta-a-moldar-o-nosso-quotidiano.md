@@ -1,13 +1,32 @@
 ---
-slug: "a-revolucao-silenciosa-como-a-inteligencia-artificial-esta-a-moldar-o-nosso-quotidiano"
-title: "A Revolução Silenciosa: Como a Inteligência Artificial Está a Moldar o Nosso Quotidiano"
-description: "A Inteligência Artificial deixou de ser ficção científica para se tornar uma força motriz no nosso dia a dia, transformando desde os nossos smartphones até à saúde e transportes. Este artigo explora o impacto atual e futuro da AI, bem como os desafios que apresenta."
-category: "AI / Futuro"
-tags: ["Inteligência Artificial","AI","Tecnologia","Futuro","Inovação"]
-date: "2025-11-08T12:00:00.000Z"
-featured_image: "https://images.unsplash.com/photo-1696272440000-0808a203c852?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MzM4Njl8MHwxfHNlYXJjaHwxfHxBJTIwUmV2b2x1JUMzJUE3JUMzJUEzbyUyMFNpbGVuY2lvc2ElM0ElMjBDb21vJTIwYSUyMEludGVsaWclQzMlQUFuY2lhJTIwQXJ0aWZpY2lhbCUyMEVzdCVDMyVBMSUyMGElMjBNb2xkYXIlMjBvJTIwTm9zc28lMjBRdW90aWRpYW5vfGVufDB8MHx8fDE3NjM3NTY0ODN8MA&ixlib=rb-4.1.0&q=80&w=1080"
-meta_description: "A Inteligência Artificial deixou de ser ficção científica para se tornar uma força motriz no nosso dia a dia, transformando desde os nossos smartphones até à saúde e transportes. Este artigo explora o impacto atual e futuro da AI, bem como os desafios que apresenta."
-source_url: "https://techcrunch.com/2025/11/21/spacexs-upgraded-starship-suffers-explosion-during-testing/"
+slug: >-
+  a-revolucao-silenciosa-como-a-inteligencia-artificial-esta-a-moldar-o-nosso-quotidiano
+title: >-
+  A Revolução Silenciosa: Como a Inteligência Artificial Está a Moldar o Nosso
+  Quotidiano
+description: >-
+  A Inteligência Artificial deixou de ser ficção científica para se tornar uma
+  força motriz no nosso dia a dia, transformando desde os nossos smartphones até
+  à saúde e transportes. Este artigo explora o impacto atual e futuro da AI, bem
+  como os desafios que apresenta.
+category: AI / Futuro
+tags:
+  - Inteligência Artificial
+  - AI
+  - Tecnologia
+  - Futuro
+  - Inovação
+date: '2025-11-08T12:00:00.000Z'
+meta_description: >-
+  A Inteligência Artificial deixou de ser ficção científica para se tornar uma
+  força motriz no nosso dia a dia, transformando desde os nossos smartphones até
+  à saúde e transportes. Este artigo explora o impacto atual e futuro da AI, bem
+  como os desafios que apresenta.
+source_url: >-
+  https://techcrunch.com/2025/11/21/spacexs-upgraded-starship-suffers-explosion-during-testing/
+image: >-
+  https://images.unsplash.com/photo-1696272440000-0808a203c852?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MzM4Njl8MHwxfHNlYXJjaHwxfHxBJTIwUmV2b2x1JUMzJUE3JUMzJUEzbyUyMFNpbGVuY2lvc2ElM0ElMjBDb21vJTIwYSUyMEludGVsaWclQzMlQUFuY2lhJTIwQXJ0aWZpY2lhbCUyMEVzdCVDMyVBMSUyMGElMjBNb2xkYXIlMjBvJTIwTm9zc28lMjBRdW90aWRpYW5vfGVufDB8MHx8fDE3NjM3NTY0ODN8MA&ixlib=rb-4.1.0&q=80&w=1080
+draft: false
 ---
 
 # A Revolução Silenciosa: Como a Inteligência Artificial Está a Moldar o Nosso Quotidiano

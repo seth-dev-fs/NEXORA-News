@@ -1,13 +1,27 @@
 ---
-slug: "propulsor-starship-da-spacex-sofre-danos-significativos-em-testes"
-title: "Propulsor Starship da SpaceX Sofre Danos Significativos em Testes"
-description: "O mais recente propulsor do foguetão Starship da SpaceX foi severamente danificado durante testes cruciais na sexta-feira. Este incidente representa um revés para os ambiciosos planos da empresa com o veículo espacial."
-category: "Ciência"
-tags: ["SpaceX","Starship","Foguetão","Testes Espaciais","Exploração Espacial"]
-date: "2025-11-21T12:12:16.000Z"
-featured_image: "https://picsum.photos/seed/propulsor-starship-da-spacex-sofre-danos-significativos-em-testes/1000/600"
-meta_description: "O mais recente propulsor do foguetão Starship da SpaceX foi severamente danificado durante testes cruciais na sexta-feira. Este incidente representa um revés para os ambiciosos planos da empresa com o veículo espacial."
-source_url: "https://arstechnica.com/space/2025/11/newest-starship-booster-is-significantly-damaged-during-testing-early-friday/"
+slug: propulsor-starship-da-spacex-sofre-danos-significativos-em-testes
+title: Propulsor Starship da SpaceX Sofre Danos Significativos em Testes
+description: >-
+  O mais recente propulsor do foguetão Starship da SpaceX foi severamente
+  danificado durante testes cruciais na sexta-feira. Este incidente representa
+  um revés para os ambiciosos planos da empresa com o veículo espacial.
+category: Ciência
+tags:
+  - SpaceX
+  - Starship
+  - Foguetão
+  - Testes Espaciais
+  - Exploração Espacial
+date: '2025-11-21T12:12:16.000Z'
+meta_description: >-
+  O mais recente propulsor do foguetão Starship da SpaceX foi severamente
+  danificado durante testes cruciais na sexta-feira. Este incidente representa
+  um revés para os ambiciosos planos da empresa com o veículo espacial.
+source_url: >-
+  https://arstechnica.com/space/2025/11/newest-starship-booster-is-significantly-damaged-during-testing-early-friday/
+image: >-
+  https://picsum.photos/seed/propulsor-starship-da-spacex-sofre-danos-significativos-em-testes/1000/600
+draft: false
 ---
 
 # Propulsor Starship da SpaceX Sofre Danos Significativos em Testes

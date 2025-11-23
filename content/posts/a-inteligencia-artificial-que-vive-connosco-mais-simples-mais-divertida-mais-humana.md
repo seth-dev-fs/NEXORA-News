@@ -1,13 +1,32 @@
 ---
-slug: "a-inteligencia-artificial-que-vive-connosco-mais-simples-mais-divertida-mais-humana"
-title: "A Inteligência Artificial que Vive Connosco: Mais Simples, Mais Divertida, Mais Humana"
-description: "A Inteligência Artificial deixou de ser um conceito futurista para se integrar no nosso dia a dia, tornando-o mais fácil e, por vezes, surpreendentemente divertido. Descubra como a IA está a transformar a sua rotina com um toque de magia e inteligência."
-category: "AI / Futuro"
-tags: ["Inteligência Artificial","IA","Tecnologia","Vida Diária","Assistentes Virtuais"]
-date: "2025-11-08T00:00:00.000Z"
-featured_image: "https://cdn.arstechnica.net/wp-content/uploads/2025/11/roadtripTOP-1152x648-1763557115.jpg"
-meta_description: "A Inteligência Artificial deixou de ser um conceito futurista para se integrar no nosso dia a dia, tornando-o mais fácil e, por vezes, surpreendentemente divertido. Descubra como a IA está a transformar a sua rotina com um toque de magia e inteligência."
-source_url: "https://arstechnica.com/science/2025/11/chris-hemsworth-and-dad-fight-alzheimers-with-a-trip-down-memory-lane/"
+slug: >-
+  a-inteligencia-artificial-que-vive-connosco-mais-simples-mais-divertida-mais-humana
+title: >-
+  A Inteligência Artificial que Vive Connosco: Mais Simples, Mais Divertida,
+  Mais Humana
+description: >-
+  A Inteligência Artificial deixou de ser um conceito futurista para se integrar
+  no nosso dia a dia, tornando-o mais fácil e, por vezes, surpreendentemente
+  divertido. Descubra como a IA está a transformar a sua rotina com um toque de
+  magia e inteligência.
+category: AI / Futuro
+tags:
+  - Inteligência Artificial
+  - IA
+  - Tecnologia
+  - Vida Diária
+  - Assistentes Virtuais
+date: '2025-11-08T00:00:00.000Z'
+meta_description: >-
+  A Inteligência Artificial deixou de ser um conceito futurista para se integrar
+  no nosso dia a dia, tornando-o mais fácil e, por vezes, surpreendentemente
+  divertido. Descubra como a IA está a transformar a sua rotina com um toque de
+  magia e inteligência.
+source_url: >-
+  https://arstechnica.com/science/2025/11/chris-hemsworth-and-dad-fight-alzheimers-with-a-trip-down-memory-lane/
+image: >-
+  https://cdn.arstechnica.net/wp-content/uploads/2025/11/roadtripTOP-1152x648-1763557115.jpg
+draft: false
 ---
 
 A Inteligência Artificial (IA) tem sido, durante décadas, um tema fascinante nos filmes de ficção científica, prometendo um futuro repleto de robôs e máquinas pensantes. Contudo, essa visão distante está hoje mais próxima da realidade do que imaginamos, não sob a forma de humanóides que deambulam pelas nossas casas, mas sim de uma presença discreta e extremamente útil que já faz parte do nosso quotidiano. A IA evoluiu para ser uma ferramenta amigável e acessível, desenhada para simplificar as nossas vidas e, porque não, torná-las mais divertidas.

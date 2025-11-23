@@ -1,13 +1,32 @@
 ---
-slug: "pornhub-apela-a-gigantes-tecnologicos-para-verificacao-de-idade-em-dispositivos"
-title: "Pornhub Apela a Gigantes Tecnológicos para Verificação de Idade em Dispositivos"
-description: "A plataforma Pornhub está a instar as grandes empresas de tecnologia a implementar um sistema de verificação de idade diretamente nos dispositivos. O objetivo é criar uma barreira mais eficaz para impedir que menores acedam a conteúdos pornográficos."
-category: "Internet & Apps"
-tags: ["Pornhub","Verificação de Idade","Segurança Online","Proteção de Menores","Tecnologia"]
-date: "2025-11-21T12:15:37.000Z"
-featured_image: "https://picsum.photos/seed/pornhub-apela-a-gigantes-tecnologicos-para-verificacao-de-idade-em-dispositivos/1000/600"
-meta_description: "A plataforma Pornhub está a instar as grandes empresas de tecnologia a implementar um sistema de verificação de idade diretamente nos dispositivos. O objetivo é criar uma barreira mais eficaz para impedir que menores acedam a conteúdos pornográficos."
-source_url: "https://arstechnica.com/tech-policy/2025/11/pornhub-is-urging-tech-giants-to-enact-device-based-age-verification/"
+slug: >-
+  pornhub-apela-a-gigantes-tecnologicos-para-verificacao-de-idade-em-dispositivos
+title: >-
+  Pornhub Apela a Gigantes Tecnológicos para Verificação de Idade em
+  Dispositivos
+description: >-
+  A plataforma Pornhub está a instar as grandes empresas de tecnologia a
+  implementar um sistema de verificação de idade diretamente nos dispositivos. O
+  objetivo é criar uma barreira mais eficaz para impedir que menores acedam a
+  conteúdos pornográficos.
+category: Internet & Apps
+tags:
+  - Pornhub
+  - Verificação de Idade
+  - Segurança Online
+  - Proteção de Menores
+  - Tecnologia
+date: '2025-11-21T12:15:37.000Z'
+meta_description: >-
+  A plataforma Pornhub está a instar as grandes empresas de tecnologia a
+  implementar um sistema de verificação de idade diretamente nos dispositivos. O
+  objetivo é criar uma barreira mais eficaz para impedir que menores acedam a
+  conteúdos pornográficos.
+source_url: >-
+  https://arstechnica.com/tech-policy/2025/11/pornhub-is-urging-tech-giants-to-enact-device-based-age-verification/
+image: >-
+  https://picsum.photos/seed/pornhub-apela-a-gigantes-tecnologicos-para-verificacao-de-idade-em-dispositivos/1000/600
+draft: false
 ---
 
 # Pornhub Apela a Gigantes Tecnológicos para Verificação de Idade em Dispositivos

@@ -1,13 +1,29 @@
 ---
-slug: "technova-lanca-o-megaphone-x1-pro-uma-nova-visao-para-o-futuro-dos-smartphones"
-title: "TechNova Lança o MegaPhone X1 Pro: Uma Nova Visão para o Futuro dos Smartphones"
-description: "A TechNova acaba de apresentar o seu mais recente smartphone de topo, o MegaPhone X1 Pro, prometendo revolucionar a fotografia móvel e o desempenho com inovações de ponta e um design premium."
-category: "Smartphones"
-tags: ["Smartphones","TechNova","MegaPhone X1 Pro","Tecnologia Móvel","Câmera"]
-date: "2025-11-08T12:00:00.000Z"
-featured_image: "https://picsum.photos/seed/technova-lanca-o-megaphone-x1-pro-uma-nova-visao-para-o-futuro-dos-smartphones/1000/600"
-meta_description: "A TechNova acaba de apresentar o seu mais recente smartphone de topo, o MegaPhone X1 Pro, prometendo revolucionar a fotografia móvel e o desempenho com inovações de ponta e um design premium."
-source_url: "https://www.theverge.com/gadgets/825985/sony-playstation-portal-black-friday-deal-sale-2025"
+slug: technova-lanca-o-megaphone-x1-pro-uma-nova-visao-para-o-futuro-dos-smartphones
+title: >-
+  TechNova Lança o MegaPhone X1 Pro: Uma Nova Visão para o Futuro dos
+  Smartphones
+description: >-
+  A TechNova acaba de apresentar o seu mais recente smartphone de topo, o
+  MegaPhone X1 Pro, prometendo revolucionar a fotografia móvel e o desempenho
+  com inovações de ponta e um design premium.
+category: Smartphones
+tags:
+  - Smartphones
+  - TechNova
+  - MegaPhone X1 Pro
+  - Tecnologia Móvel
+  - Câmera
+date: '2025-11-08T12:00:00.000Z'
+meta_description: >-
+  A TechNova acaba de apresentar o seu mais recente smartphone de topo, o
+  MegaPhone X1 Pro, prometendo revolucionar a fotografia móvel e o desempenho
+  com inovações de ponta e um design premium.
+source_url: >-
+  https://www.theverge.com/gadgets/825985/sony-playstation-portal-black-friday-deal-sale-2025
+image: >-
+  https://picsum.photos/seed/technova-lanca-o-megaphone-x1-pro-uma-nova-visao-para-o-futuro-dos-smartphones/1000/600
+draft: false
 ---
 
 # TechNova Lança o MegaPhone X1 Pro: Uma Nova Visão para o Futuro dos Smartphones

@@ -1,13 +1,32 @@
 ---
-slug: "a-inteligencia-artificial-local-transforma-os-smartphones-mais-potencia-e-privacidade-ao-seu-alcance"
-title: "A Inteligência Artificial Local Transforma os Smartphones: Mais Potência e Privacidade ao Seu Alcance"
-description: "Os mais recentes avanços tecnológicos estão a impulsionar a Inteligência Artificial diretamente para os smartphones, permitindo processamento no dispositivo que oferece maior privacidade, velocidade e funcionalidades inovadoras aos utilizadores."
-category: "AI / Futuro"
-tags: ["Inteligência Artificial","Smartphones","Privacidade","Tecnologia","Processamento Local"]
-date: "2025-11-08T12:00:00.000Z"
-featured_image: "https://images.unsplash.com/photo-1642391468537-81d9f57d726b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MzM4Njl8MHwxfHNlYXJjaHwxfHxBJTIwSW50ZWxpZyVDMyVBQW5jaWElMjBBcnRpZmljaWFsJTIwTG9jYWwlMjBUcmFuc2Zvcm1hJTIwb3MlMjBTbWFydHBob25lcyUzQSUyME1haXMlMjBQb3QlQzMlQUFuY2lhJTIwZSUyMFByaXZhY2lkYWRlJTIwYW8lMjBTZXUlMjBBbGNhbmNlfGVufDB8MHx8fDE3NjM3NTY0NjF8MA&ixlib=rb-4.1.0&q=80&w=1080"
-meta_description: "Os mais recentes avanços tecnológicos estão a impulsionar a Inteligência Artificial diretamente para os smartphones, permitindo processamento no dispositivo que oferece maior privacidade, velocidade e funcionalidades inovadoras aos utilizadores."
-source_url: "https://techcrunch.com/2025/11/21/trump-energy-department-drops-renewables-promotes-fusion-in-office-reshuffle/"
+slug: >-
+  a-inteligencia-artificial-local-transforma-os-smartphones-mais-potencia-e-privacidade-ao-seu-alcance
+title: >-
+  A Inteligência Artificial Local Transforma os Smartphones: Mais Potência e
+  Privacidade ao Seu Alcance
+description: >-
+  Os mais recentes avanços tecnológicos estão a impulsionar a Inteligência
+  Artificial diretamente para os smartphones, permitindo processamento no
+  dispositivo que oferece maior privacidade, velocidade e funcionalidades
+  inovadoras aos utilizadores.
+category: AI / Futuro
+tags:
+  - Inteligência Artificial
+  - Smartphones
+  - Privacidade
+  - Tecnologia
+  - Processamento Local
+date: '2025-11-08T12:00:00.000Z'
+meta_description: >-
+  Os mais recentes avanços tecnológicos estão a impulsionar a Inteligência
+  Artificial diretamente para os smartphones, permitindo processamento no
+  dispositivo que oferece maior privacidade, velocidade e funcionalidades
+  inovadoras aos utilizadores.
+source_url: >-
+  https://techcrunch.com/2025/11/21/trump-energy-department-drops-renewables-promotes-fusion-in-office-reshuffle/
+image: >-
+  https://images.unsplash.com/photo-1642391468537-81d9f57d726b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MzM4Njl8MHwxfHNlYXJjaHwxfHxBJTIwSW50ZWxpZyVDMyVBQW5jaWElMjBBcnRpZmljaWFsJTIwTG9jYWwlMjBUcmFuc2Zvcm1hJTIwb3MlMjBTbWFydHBob25lcyUzQSUyME1haXMlMjBQb3QlQzMlQUFuY2lhJTIwZSUyMFByaXZhY2lkYWRlJTIwYW8lMjBTZXUlMjBBbGNhbmNlfGVufDB8MHx8fDE3NjM3NTY0NjF8MA&ixlib=rb-4.1.0&q=80&w=1080
+draft: false
 ---
 
 # A Inteligência Artificial Local Transforma os Smartphones: Mais Potência e Privacidade ao Seu Alcance

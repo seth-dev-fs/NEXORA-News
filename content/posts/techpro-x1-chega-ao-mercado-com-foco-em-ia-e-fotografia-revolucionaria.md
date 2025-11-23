@@ -1,13 +1,28 @@
 ---
-slug: "techpro-x1-chega-ao-mercado-com-foco-em-ia-e-fotografia-revolucionaria"
-title: "TechPro X1 Chega ao Mercado com Foco em IA e Fotografia Revolucionária"
-description: "O novo smartphone TechPro X1 foi oficialmente revelado, prometendo redefinir a experiência móvel com funcionalidades avançadas de inteligência artificial e um sistema de câmaras sem precedentes, já disponível em pré-venda e com lançamento global iminente."
-category: "Smartphones"
-tags: ["Smartphone","Tecnologia","Lançamento","Inovação","Câmaras"]
-date: "2025-11-08T12:00:00.000Z"
-featured_image: "https://cdn.arstechnica.net/wp-content/uploads/2025/11/Blog-3-1152x600.png"
-meta_description: "O novo smartphone TechPro X1 foi oficialmente revelado, prometendo redefinir a experiência móvel com funcionalidades avançadas de inteligência artificial e um sistema de câmaras sem precedentes, já disponível em pré-venda e com lançamento global iminente."
-source_url: "https://arstechnica.com/cars/2025/11/hey-google-did-you-upgrade-your-ai-in-my-android-auto/"
+slug: techpro-x1-chega-ao-mercado-com-foco-em-ia-e-fotografia-revolucionaria
+title: TechPro X1 Chega ao Mercado com Foco em IA e Fotografia Revolucionária
+description: >-
+  O novo smartphone TechPro X1 foi oficialmente revelado, prometendo redefinir a
+  experiência móvel com funcionalidades avançadas de inteligência artificial e
+  um sistema de câmaras sem precedentes, já disponível em pré-venda e com
+  lançamento global iminente.
+category: Smartphones
+tags:
+  - Smartphone
+  - Tecnologia
+  - Lançamento
+  - Inovação
+  - Câmaras
+date: '2025-11-08T12:00:00.000Z'
+meta_description: >-
+  O novo smartphone TechPro X1 foi oficialmente revelado, prometendo redefinir a
+  experiência móvel com funcionalidades avançadas de inteligência artificial e
+  um sistema de câmaras sem precedentes, já disponível em pré-venda e com
+  lançamento global iminente.
+source_url: >-
+  https://arstechnica.com/cars/2025/11/hey-google-did-you-upgrade-your-ai-in-my-android-auto/
+image: 'https://cdn.arstechnica.net/wp-content/uploads/2025/11/Blog-3-1152x600.png'
+draft: false
 ---
 
 O mundo da tecnologia móvel está em constante evolução, e a mais recente inovação a captar a atenção global é o TechPro X1. Apresentado pela gigante tecnológica TechPro, este novo smartphone promete não apenas competir no mercado de topo, mas também estabelecer novos padrões, particularmente nas áreas de inteligência artificial (IA) e fotografia. Com um design elegante e uma série de funcionalidades avançadas, o X1 está pronto para redefinir o que os utilizadores esperam de um dispositivo móvel, posicionando-se como um dos smartphones mais esperados do ano. A sua chegada ao mercado sinaliza um passo significativo na convergência entre hardware de ponta e software inteligente, visando oferecer uma experiência de utilizador sem igual.

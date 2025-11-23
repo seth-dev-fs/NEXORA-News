@@ -1,13 +1,32 @@
 ---
-slug: "startups-de-ia-transformam-receitas-em-isco-de-recrutamento-a-nova-frente-na-guerra-por-talentos"
-title: "Startups de IA Transformam Receitas em Isco de Recrutamento: A Nova Frente na Guerra por Talentos"
-description: "Num mercado de IA ferozmente competitivo, startups como a Sierra estão a usar a sua receita impressionante não só como prova de valor, mas como uma poderosa ferramenta para atrair os melhores talentos, redefinindo as estratégias de recrutamento no setor tecnológico."
-category: "AI / Futuro"
-tags: ["Startups de IA","Recrutamento Tech","Vale do Silício","Sierra AI","Talento em IA"]
-date: "2025-11-08T12:00:00Z"
-featured_image: "https://picsum.photos/seed/startups-de-ia-transformam-receitas-em-isco-de-recrutamento-a-nova-frente-na-guerra-por-talentos/1000/600"
-meta_description: "Num mercado de IA ferozmente competitivo, startups como a Sierra estão a usar a sua receita impressionante não só como prova de valor, mas como uma poderosa ferramenta para atrair os melhores talentos, redefinindo as estratégias de recrutamento no setor tecnológico."
-source_url: "https://www.theverge.com/column/826172/ai-startup-arr-numbers-sierra-bret-taylor"
+slug: >-
+  startups-de-ia-transformam-receitas-em-isco-de-recrutamento-a-nova-frente-na-guerra-por-talentos
+title: >-
+  Startups de IA Transformam Receitas em Isco de Recrutamento: A Nova Frente na
+  Guerra por Talentos
+description: >-
+  Num mercado de IA ferozmente competitivo, startups como a Sierra estão a usar
+  a sua receita impressionante não só como prova de valor, mas como uma poderosa
+  ferramenta para atrair os melhores talentos, redefinindo as estratégias de
+  recrutamento no setor tecnológico.
+category: AI / Futuro
+tags:
+  - Startups de IA
+  - Recrutamento Tech
+  - Vale do Silício
+  - Sierra AI
+  - Talento em IA
+date: '2025-11-08T12:00:00Z'
+meta_description: >-
+  Num mercado de IA ferozmente competitivo, startups como a Sierra estão a usar
+  a sua receita impressionante não só como prova de valor, mas como uma poderosa
+  ferramenta para atrair os melhores talentos, redefinindo as estratégias de
+  recrutamento no setor tecnológico.
+source_url: >-
+  https://www.theverge.com/column/826172/ai-startup-arr-numbers-sierra-bret-taylor
+image: >-
+  https://picsum.photos/seed/startups-de-ia-transformam-receitas-em-isco-de-recrutamento-a-nova-frente-na-guerra-por-talentos/1000/600
+draft: false
 ---
 
 # Introdução: O Novo Isco no Mercado de Talentos de IA

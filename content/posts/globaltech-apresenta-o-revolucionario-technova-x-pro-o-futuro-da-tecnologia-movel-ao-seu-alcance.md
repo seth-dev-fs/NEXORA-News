@@ -1,13 +1,29 @@
 ---
-slug: "globaltech-apresenta-o-revolucionario-technova-x-pro-o-futuro-da-tecnologia-movel-ao-seu-alcance"
-title: "GlobalTech Apresenta o Revolucionário TechNova X Pro: O Futuro da Tecnologia Móvel ao Seu Alcance"
-description: "A gigante tecnológica GlobalTech acaba de lançar o seu novo smartphone de topo de gama, o TechNova X Pro, prometendo redefinir a experiência móvel com inovações significativas em fotografia, inteligência artificial e desempenho."
-category: "Smartphones"
-tags: ["GlobalTech","TechNova X Pro","Smartphone","Câmara IA","Tecnologia Móvel"]
-date: "2025-11-08T12:00:00.000Z"
-featured_image: "https://images.unsplash.com/photo-1622989386156-47a54fbe22e0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MzM4Njl8MHwxfHNlYXJjaHwxfHxHbG9iYWxUZWNoJTIwQXByZXNlbnRhJTIwbyUyMFJldm9sdWNpb24lQzMlQTFyaW8lMjBUZWNoTm92YSUyMFglMjBQcm8lM0ElMjBPJTIwRnV0dXJvJTIwZGElMjBUZWNub2xvZ2lhJTIwTSVDMyVCM3ZlbCUyMGFvJTIwU2V1JTIwQWxjYW5jZXxlbnwwfDB8fHwxNzYzNzU1NDk1fDA&ixlib=rb-4.1.0&q=80&w=1080"
-meta_description: "A gigante tecnológica GlobalTech acaba de lançar o seu novo smartphone de topo de gama, o TechNova X Pro, prometendo redefinir a experiência móvel com inovações significativas em fotografia, inteligência artificial e desempenho."
-source_url: "https://www.theverge.com/news/826189/hoto-cordless-leaf-blower-720-cfm-120-mph"
+slug: >-
+  globaltech-apresenta-o-revolucionario-technova-x-pro-o-futuro-da-tecnologia-movel-ao-seu-alcance
+title: >-
+  GlobalTech Apresenta o Revolucionário TechNova X Pro: O Futuro da Tecnologia
+  Móvel ao Seu Alcance
+description: >-
+  A gigante tecnológica GlobalTech acaba de lançar o seu novo smartphone de topo
+  de gama, o TechNova X Pro, prometendo redefinir a experiência móvel com
+  inovações significativas em fotografia, inteligência artificial e desempenho.
+category: Smartphones
+tags:
+  - GlobalTech
+  - TechNova X Pro
+  - Smartphone
+  - Câmara IA
+  - Tecnologia Móvel
+date: '2025-11-08T12:00:00.000Z'
+meta_description: >-
+  A gigante tecnológica GlobalTech acaba de lançar o seu novo smartphone de topo
+  de gama, o TechNova X Pro, prometendo redefinir a experiência móvel com
+  inovações significativas em fotografia, inteligência artificial e desempenho.
+source_url: 'https://www.theverge.com/news/826189/hoto-cordless-leaf-blower-720-cfm-120-mph'
+image: >-
+  https://images.unsplash.com/photo-1622989386156-47a54fbe22e0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MzM4Njl8MHwxfHNlYXJjaHwxfHxHbG9iYWxUZWNoJTIwQXByZXNlbnRhJTIwbyUyMFJldm9sdWNpb24lQzMlQTFyaW8lMjBUZWNoTm92YSUyMFglMjBQcm8lM0ElMjBPJTIwRnV0dXJvJTIwZGElMjBUZWNub2xvZ2lhJTIwTSVDMyVCM3ZlbCUyMGFvJTIwU2V1JTIwQWxjYW5jZXxlbnwwfDB8fHwxNzYzNzU1NDk1fDA&ixlib=rb-4.1.0&q=80&w=1080
+draft: false
 ---
 
 # GlobalTech Apresenta o Revolucionário TechNova X Pro: O Futuro da Tecnologia Móvel ao Seu Alcance

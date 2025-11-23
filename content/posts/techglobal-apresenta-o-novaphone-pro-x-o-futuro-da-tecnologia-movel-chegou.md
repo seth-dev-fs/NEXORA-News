@@ -1,13 +1,30 @@
 ---
-slug: "techglobal-apresenta-o-novaphone-pro-x-o-futuro-da-tecnologia-movel-chegou"
-title: "TechGlobal Apresenta o NovaPhone Pro X: O Futuro da Tecnologia Móvel Chegou"
-description: "A TechGlobal revelou o seu mais recente smartphone topo de gama, o NovaPhone Pro X, que promete redefinir a experiência móvel com desempenho superior, câmaras avançadas e IA inovadora. O novo dispositivo foca-se na sustentabilidade e durabilidade, combinando hardware de ponta com software inteligente."
-category: "Smartphones"
-tags: ["NovaPhone Pro X","Smartphones","TechGlobal","Tecnologia Móvel","Android"]
-date: "2025-11-08T12:00:00.000Z"
-featured_image: "https://picsum.photos/seed/techglobal-apresenta-o-novaphone-pro-x-o-futuro-da-tecnologia-movel-chegou/1000/600"
-meta_description: "A TechGlobal revelou o seu mais recente smartphone topo de gama, o NovaPhone Pro X, que promete redefinir a experiência móvel com desempenho superior, câmaras avançadas e IA inovadora. O novo dispositivo foca-se na sustentabilidade e durabilidade, combinando hardware de ponta com software inteligente."
-source_url: "https://www.theverge.com/tech/825254/ipad-a16-black-friday-deal-sale-2025"
+slug: techglobal-apresenta-o-novaphone-pro-x-o-futuro-da-tecnologia-movel-chegou
+title: 'TechGlobal Apresenta o NovaPhone Pro X: O Futuro da Tecnologia Móvel Chegou'
+description: >-
+  A TechGlobal revelou o seu mais recente smartphone topo de gama, o NovaPhone
+  Pro X, que promete redefinir a experiência móvel com desempenho superior,
+  câmaras avançadas e IA inovadora. O novo dispositivo foca-se na
+  sustentabilidade e durabilidade, combinando hardware de ponta com software
+  inteligente.
+category: Smartphones
+tags:
+  - NovaPhone Pro X
+  - Smartphones
+  - TechGlobal
+  - Tecnologia Móvel
+  - Android
+date: '2025-11-08T12:00:00.000Z'
+meta_description: >-
+  A TechGlobal revelou o seu mais recente smartphone topo de gama, o NovaPhone
+  Pro X, que promete redefinir a experiência móvel com desempenho superior,
+  câmaras avançadas e IA inovadora. O novo dispositivo foca-se na
+  sustentabilidade e durabilidade, combinando hardware de ponta com software
+  inteligente.
+source_url: 'https://www.theverge.com/tech/825254/ipad-a16-black-friday-deal-sale-2025'
+image: >-
+  https://picsum.photos/seed/techglobal-apresenta-o-novaphone-pro-x-o-futuro-da-tecnologia-movel-chegou/1000/600
+draft: false
 ---
 
 A TechGlobal, uma das líderes mundiais em tecnologia, acaba de levantar o véu sobre a sua mais recente inovação no mundo dos smartphones: o NovaPhone Pro X. Este novo dispositivo, aguardado com grande expetativa, promete não só competir no segmento de topo, mas também estabelecer novos padrões de desempenho, fotografia e experiência do utilizador. Com um forte enfoque na integração de inteligência artificial e na sustentabilidade, o NovaPhone Pro X está desenhado para ser mais do que um simples telefone, posicionando-se como um companheiro tecnológico indispensável para o dia a dia, combinando a mais recente tecnologia com uma filosofia de design pensada no futuro e na durabilidade. É uma aposta clara da empresa em oferecer uma experiência premium e abrangente aos seus utilizadores. 

@@ -1,13 +1,26 @@
 ---
-slug: "inteligencia-artificial-transforma-a-aprendizagem-uma-nova-era-na-educacao"
-title: "Inteligência Artificial Transforma a Aprendizagem: Uma Nova Era na Educação"
-description: "Uma nova plataforma de inteligência artificial promete revolucionar a educação, oferecendo caminhos de aprendizagem personalizados e adaptados às necessidades individuais de cada aluno, marcando uma nova era no ensino."
-category: "AI / Futuro"
-tags: ["Inteligência Artificial","Educação","Aprendizagem Personalizada","Tecnologia Educacional","Futuro do Ensino"]
-date: "2025-11-08T12:00:00.000Z"
-featured_image: "https://images.unsplash.com/photo-1696272440000-0808a203c852?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MzM4Njl8MHwxfHNlYXJjaHwxfHxJbnRlbGlnJUMzJUFBbmNpYSUyMEFydGlmaWNpYWwlMjBUcmFuc2Zvcm1hJTIwYSUyMEFwcmVuZGl6YWdlbSUzQSUyMFVtYSUyME5vdmElMjBFcmElMjBuYSUyMEVkdWNhJUMzJUE3JUMzJUEzb3xlbnwwfDB8fHwxNzYzNzU1MzExfDA&ixlib=rb-4.1.0&q=80&w=1080"
-meta_description: "Uma nova plataforma de inteligência artificial promete revolucionar a educação, oferecendo caminhos de aprendizagem personalizados e adaptados às necessidades individuais de cada aluno, marcando uma nova era no ensino."
-source_url: "https://www.theverge.com/21250695/best-laptops"
+slug: inteligencia-artificial-transforma-a-aprendizagem-uma-nova-era-na-educacao
+title: 'Inteligência Artificial Transforma a Aprendizagem: Uma Nova Era na Educação'
+description: >-
+  Uma nova plataforma de inteligência artificial promete revolucionar a
+  educação, oferecendo caminhos de aprendizagem personalizados e adaptados às
+  necessidades individuais de cada aluno, marcando uma nova era no ensino.
+category: AI / Futuro
+tags:
+  - Inteligência Artificial
+  - Educação
+  - Aprendizagem Personalizada
+  - Tecnologia Educacional
+  - Futuro do Ensino
+date: '2025-11-08T12:00:00.000Z'
+meta_description: >-
+  Uma nova plataforma de inteligência artificial promete revolucionar a
+  educação, oferecendo caminhos de aprendizagem personalizados e adaptados às
+  necessidades individuais de cada aluno, marcando uma nova era no ensino.
+source_url: 'https://www.theverge.com/21250695/best-laptops'
+image: >-
+  https://images.unsplash.com/photo-1696272440000-0808a203c852?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MzM4Njl8MHwxfHNlYXJjaHwxfHxJbnRlbGlnJUMzJUFBbmNpYSUyMEFydGlmaWNpYWwlMjBUcmFuc2Zvcm1hJTIwYSUyMEFwcmVuZGl6YWdlbSUzQSUyMFVtYSUyME5vdmElMjBFcmElMjBuYSUyMEVkdWNhJUMzJUE3JUMzJUEzb3xlbnwwfDB8fHwxNzYzNzU1MzExfDA&ixlib=rb-4.1.0&q=80&w=1080
+draft: false
 ---
 
 # Inteligência Artificial Transforma a Aprendizagem: Uma Nova Era na Educação

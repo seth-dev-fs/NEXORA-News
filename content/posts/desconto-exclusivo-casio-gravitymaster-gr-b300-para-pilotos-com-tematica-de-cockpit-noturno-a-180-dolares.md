@@ -1,4 +1,3 @@
-<!-- generated_by: gemini, model: gemini-2.5-flash, generated_at: 2025-11-22T22:52:43.001Z -->
 ---
 title: "Desconto Exclusivo: Casio Gravitymaster GR-B300 para Pilotos com Temática de Cockpit Noturno a 180 Dólares"
 date: "2024-07-30T10:00:00.000Z"
@@ -21,6 +20,9 @@ source_url: "https://www.nexoranews.pt/noticias/tecnologia/desconto-casio-gravit
 draft: true
 needs_review: false
 ---
+
+<!-- generated_by: gemini, model: gemini-2.5-flash, generated_at: 2025-11-22T22:52:43.001Z -->
+
 
 No mundo da relojoaria, a Casio é sinónimo de inovação e durabilidade, e a sua linha Gravitymaster, parte da prestigiada família Master of G, é especialmente reverenciada por entusiastas da aviação e profissionais. Os relógios desta série são construídos para resistir às condições mais exigentes, oferecendo fiabilidade e estilo. Agora, a NEXORA News tem o prazer de anunciar uma oportunidade imperdível para os nossos leitores: a série Casio Gravitymaster "Master Of G-Air" GR-B300 está com um desconto significativo por tempo limitado.
 

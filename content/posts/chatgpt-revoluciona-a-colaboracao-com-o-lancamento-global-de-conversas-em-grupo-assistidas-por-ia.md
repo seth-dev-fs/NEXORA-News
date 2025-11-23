@@ -1,13 +1,31 @@
 ---
-slug: "chatgpt-revoluciona-a-colaboracao-com-o-lancamento-global-de-conversas-em-grupo-assistidas-por-ia"
-title: "ChatGPT Revoluciona a Colaboração com o Lançamento Global de Conversas em Grupo Assistidas por IA"
-description: "O ChatGPT introduz globalmente conversas em grupo, transformando a colaboração ao permitir que os utilizadores planeiem viagens, coescrevam documentos, resolvam debates ou trabalhem em pesquisas, com a IA a assistir na pesquisa, sumarização e comparação de opções."
-category: "AI / Futuro"
-tags: ["ChatGPT","Inteligência Artificial","Colaboração","Produtividade","Conversas em Grupo"]
-date: "2025-11-08T12:00:00Z"
-featured_image: "https://images.unsplash.com/photo-1675865254433-6ba341f0f00b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MzM4Njl8MHwxfHNlYXJjaHwxfHxDaGF0R1BUJTIwUmV2b2x1Y2lvbmElMjBhJTIwQ29sYWJvcmElQzMlQTclQzMlQTNvJTIwY29tJTIwbyUyMExhbiVDMyVBN2FtZW50byUyMEdsb2JhbCUyMGRlJTIwQ29udmVyc2FzJTIwZW0lMjBHcnVwbyUyMEFzc2lzdGlkYXMlMjBwb3IlMjBJQXxlbnwwfDB8fHwxNzYzNzU3NzA0fDA&ixlib=rb-4.1.0&q=80&w=1080"
-meta_description: "O ChatGPT introduz globalmente conversas em grupo, transformando a colaboração ao permitir que os utilizadores planeiem viagens, coescrevam documentos, resolvam debates ou trabalhem em pesquisas, com a IA a assistir na pesquisa, sumarização e comparação de opções."
-source_url: "https://techcrunch.com/2025/11/20/chatgpt-launches-group-chats-globally/"
+slug: >-
+  chatgpt-revoluciona-a-colaboracao-com-o-lancamento-global-de-conversas-em-grupo-assistidas-por-ia
+title: >-
+  ChatGPT Revoluciona a Colaboração com o Lançamento Global de Conversas em
+  Grupo Assistidas por IA
+description: >-
+  O ChatGPT introduz globalmente conversas em grupo, transformando a colaboração
+  ao permitir que os utilizadores planeiem viagens, coescrevam documentos,
+  resolvam debates ou trabalhem em pesquisas, com a IA a assistir na pesquisa,
+  sumarização e comparação de opções.
+category: AI / Futuro
+tags:
+  - ChatGPT
+  - Inteligência Artificial
+  - Colaboração
+  - Produtividade
+  - Conversas em Grupo
+date: '2025-11-08T12:00:00Z'
+meta_description: >-
+  O ChatGPT introduz globalmente conversas em grupo, transformando a colaboração
+  ao permitir que os utilizadores planeiem viagens, coescrevam documentos,
+  resolvam debates ou trabalhem em pesquisas, com a IA a assistir na pesquisa,
+  sumarização e comparação de opções.
+source_url: 'https://techcrunch.com/2025/11/20/chatgpt-launches-group-chats-globally/'
+image: >-
+  https://images.unsplash.com/photo-1675865254433-6ba341f0f00b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MzM4Njl8MHwxfHNlYXJjaHwxfHxDaGF0R1BUJTIwUmV2b2x1Y2lvbmElMjBhJTIwQ29sYWJvcmElQzMlQTclQzMlQTNvJTIwY29tJTIwbyUyMExhbiVDMyVBN2FtZW50byUyMEdsb2JhbCUyMGRlJTIwQ29udmVyc2FzJTIwZW0lMjBHcnVwbyUyMEFzc2lzdGlkYXMlMjBwb3IlMjBJQXxlbnwwfDB8fHwxNzYzNzU3NzA0fDA&ixlib=rb-4.1.0&q=80&w=1080
+draft: false
 ---
 
 Numa jogada que promete redefinir a dinâmica da colaboração digital, a OpenAI anunciou o lançamento global das conversas em grupo no ChatGPT. Esta nova funcionalidade, há muito aguardada, posiciona o popular modelo de linguagem como um membro ativo e inteligente em interações de grupo, indo muito além de uma simples ferramenta de assistência pessoal. A premissa é clara: potenciar a capacidade das equipas e grupos de indivíduos de trabalharem em conjunto, seja para tarefas quotidianas ou projetos complexos, com o auxílio direto de uma inteligência artificial capaz de pesquisar, resumir e comparar informações em tempo real. Este passo representa uma evolução significativa na forma como interagimos com a IA e uns com os outros, prometendo uma era de produtividade e eficiência sem precedentes.

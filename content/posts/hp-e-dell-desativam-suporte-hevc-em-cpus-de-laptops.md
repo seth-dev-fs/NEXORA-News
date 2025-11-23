@@ -1,13 +1,27 @@
 ---
-slug: "hp-e-dell-desativam-suporte-hevc-em-cpus-de-laptops"
-title: "HP e Dell Desativam Suporte HEVC em CPUs de Laptops"
-description: "As gigantes da tecnologia HP e Dell estão a desativar o suporte nativo para o codec de vídeo HEVC nas CPUs dos seus laptops, uma decisão impulsionada pelo aumento dos custos de licenciamento a partir de janeiro."
-category: "Computadores"
-tags: ["HP","Dell","HEVC","Laptops","Vídeo"]
-date: "2025-11-20T23:02:01.000Z"
-featured_image: "https://picsum.photos/seed/hp-e-dell-desativam-suporte-hevc-em-cpus-de-laptops/1000/600"
-meta_description: "As gigantes da tecnologia HP e Dell estão a desativar o suporte nativo para o codec de vídeo HEVC nas CPUs dos seus laptops, uma decisão impulsionada pelo aumento dos custos de licenciamento a partir de janeiro."
-source_url: "https://arstechnica.com/gadgets/2025/11/hp-and-dell-disable-hevc-support-built-into-their-laptops-cpus/"
+slug: hp-e-dell-desativam-suporte-hevc-em-cpus-de-laptops
+title: HP e Dell Desativam Suporte HEVC em CPUs de Laptops
+description: >-
+  As gigantes da tecnologia HP e Dell estão a desativar o suporte nativo para o
+  codec de vídeo HEVC nas CPUs dos seus laptops, uma decisão impulsionada pelo
+  aumento dos custos de licenciamento a partir de janeiro.
+category: Computadores
+tags:
+  - HP
+  - Dell
+  - HEVC
+  - Laptops
+  - Vídeo
+date: '2025-11-20T23:02:01.000Z'
+meta_description: >-
+  As gigantes da tecnologia HP e Dell estão a desativar o suporte nativo para o
+  codec de vídeo HEVC nas CPUs dos seus laptops, uma decisão impulsionada pelo
+  aumento dos custos de licenciamento a partir de janeiro.
+source_url: >-
+  https://arstechnica.com/gadgets/2025/11/hp-and-dell-disable-hevc-support-built-into-their-laptops-cpus/
+image: >-
+  https://picsum.photos/seed/hp-e-dell-desativam-suporte-hevc-em-cpus-de-laptops/1000/600
+draft: false
 ---
 
 # HP e Dell Desativam Suporte HEVC em CPUs de Laptops

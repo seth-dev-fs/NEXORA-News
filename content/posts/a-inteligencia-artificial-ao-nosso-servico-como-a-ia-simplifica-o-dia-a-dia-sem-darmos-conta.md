@@ -1,13 +1,30 @@
 ---
-slug: "a-inteligencia-artificial-ao-nosso-servico-como-a-ia-simplifica-o-dia-a-dia-sem-darmos-conta"
-title: "A Inteligência Artificial ao Nosso Serviço: Como a IA Simplifica o Dia a Dia Sem Darmos Conta"
-description: "A Inteligência Artificial (IA) deixou de ser ficção científica para se tornar uma aliada discreta nas nossas rotinas. Descubra como a IA está a tornar a sua vida mais fácil e intuitiva, muitas vezes sem que perceba a sua influência."
-category: "AI / Futuro"
-tags: ["Inteligência Artificial","Tecnologia","Vida Diária","Apps","Inovação"]
-date: "2025-11-08T00:00:00.000Z"
-featured_image: "https://cdn.arstechnica.net/wp-content/uploads/2023/08/asus-gaming-chromebook-1152x648.jpg"
-meta_description: "A Inteligência Artificial (IA) deixou de ser ficção científica para se tornar uma aliada discreta nas nossas rotinas. Descubra como a IA está a tornar a sua vida mais fácil e intuitiva, muitas vezes sem que perceba a sua influência."
-source_url: "https://arstechnica.com/gaming/2025/11/googles-latest-swing-at-chromebook-gaming-is-a-free-year-of-geforce-now/"
+slug: >-
+  a-inteligencia-artificial-ao-nosso-servico-como-a-ia-simplifica-o-dia-a-dia-sem-darmos-conta
+title: >-
+  A Inteligência Artificial ao Nosso Serviço: Como a IA Simplifica o Dia a Dia
+  Sem Darmos Conta
+description: >-
+  A Inteligência Artificial (IA) deixou de ser ficção científica para se tornar
+  uma aliada discreta nas nossas rotinas. Descubra como a IA está a tornar a sua
+  vida mais fácil e intuitiva, muitas vezes sem que perceba a sua influência.
+category: AI / Futuro
+tags:
+  - Inteligência Artificial
+  - Tecnologia
+  - Vida Diária
+  - Apps
+  - Inovação
+date: '2025-11-08T00:00:00.000Z'
+meta_description: >-
+  A Inteligência Artificial (IA) deixou de ser ficção científica para se tornar
+  uma aliada discreta nas nossas rotinas. Descubra como a IA está a tornar a sua
+  vida mais fácil e intuitiva, muitas vezes sem que perceba a sua influência.
+source_url: >-
+  https://arstechnica.com/gaming/2025/11/googles-latest-swing-at-chromebook-gaming-is-a-free-year-of-geforce-now/
+image: >-
+  https://cdn.arstechnica.net/wp-content/uploads/2023/08/asus-gaming-chromebook-1152x648.jpg
+draft: false
 ---
 
 A Inteligência Artificial (IA) é frequentemente associada a robôs futuristas ou a cenários complexos de ficção científica, onde máquinas pensantes dominam o mundo. No entanto, a verdade é que a IA já faz parte integrante do nosso dia a dia, trabalhando silenciosamente nos bastidores para tornar as nossas vidas mais simples, eficientes e, por vezes, até mais divertidas. Desde o momento em que acordamos até irmos dormir, a IA está presente em inúmeras interações, muitas vezes sem que nos apercebamos da sua influência discreta mas poderosa. Longe dos holofotes, esta tecnologia está a moldar a forma como interagimos com o mundo digital e físico. Vamos explorar como esta tecnologia fascinante nos serve, passo a passo, no nosso quotidiano moderno, desmistificando a IA e revelando a sua face mais amigável e útil.

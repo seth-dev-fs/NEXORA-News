@@ -34,53 +34,99 @@ export function normalizeCategoryToSlug(category: string): string {
 
 export function getAllArticles(): ArticleMeta[] {
   if (!fs.existsSync(postsDirectory)) {
+    console.warn(`Posts directory not found: ${postsDirectory}`);
     return [];
   }
 
-  const fileNames = fs.readdirSync(postsDirectory);
+  let fileNames: string[];
+  try {
+    fileNames = fs.readdirSync(postsDirectory);
+  } catch (error) {
+    console.error(`Error reading posts directory: ${error}`);
+    return [];
+  }
 
   const allArticlesData: ArticleMeta[] = fileNames
     .filter(fileName => fileName.endsWith('.md'))
     .map(fileName => {
-      const slug = fileName.replace(/\.md$/, '');
-      const fullPath = path.join(postsDirectory, fileName);
-      const fileContents = fs.readFileSync(fullPath, 'utf8');
+      try {
+        const slug = fileName.replace(/\.md$/, '');
+        const fullPath = path.join(postsDirectory, fileName);
 
-      const { data, content } = matter(fileContents);
-
-      const processedContent = remark().use(html).processSync(content);
-
-      // Fallback for date, use file mtime
-      let articleDate = new Date().toISOString();
-      if (data.date) {
+        let fileContents: string;
         try {
-          articleDate = new Date(data.date).toISOString();
-        } catch (e) {
-          console.warn(`Invalid date in ${fileName}: ${data.date}. Using file mtime.`);
-          articleDate = new Date(fs.statSync(fullPath).mtime).toISOString();
+          fileContents = fs.readFileSync(fullPath, 'utf8');
+        } catch (error) {
+          console.error(`Error reading file ${fileName}: ${error}`);
+          return null;
         }
-      } else {
-        articleDate = new Date(fs.statSync(fullPath).mtime).toISOString();
+
+        let data: any;
+        let content: string;
+        try {
+          const parsed = matter(fileContents);
+          data = parsed.data;
+          content = parsed.content;
+        } catch (error) {
+          console.error(`Error parsing frontmatter in ${fileName}: ${error}`);
+          return null;
+        }
+
+        let processedContent: string;
+        try {
+          const result = remark().use(html).processSync(content);
+          processedContent = result.toString();
+        } catch (error) {
+          console.error(`Error processing markdown in ${fileName}: ${error}`);
+          processedContent = content; // Fallback to raw content
+        }
+
+        // Fallback for date, use file mtime
+        let articleDate = new Date().toISOString();
+        if (data.date) {
+          try {
+            const parsedDate = new Date(data.date);
+            if (!isNaN(parsedDate.getTime())) {
+              articleDate = parsedDate.toISOString();
+            } else {
+              console.warn(`Invalid date in ${fileName}: ${data.date}. Using file mtime.`);
+              articleDate = new Date(fs.statSync(fullPath).mtime).toISOString();
+            }
+          } catch (e) {
+            console.warn(`Error parsing date in ${fileName}: ${data.date}. Using file mtime.`);
+            articleDate = new Date(fs.statSync(fullPath).mtime).toISOString();
+          }
+        } else {
+          try {
+            articleDate = new Date(fs.statSync(fullPath).mtime).toISOString();
+          } catch (error) {
+            console.warn(`Error getting file stats for ${fileName}. Using current time.`);
+          }
+        }
+
+        // Normalize the category to slug format for consistency
+        const categorySlug = normalizeCategoryToSlug(data.category || 'home');
+
+        return {
+          slug,
+          contentHtml: processedContent,
+          title: data.title || 'Sem Título',
+          date: articleDate,
+          category: categorySlug,
+          tags: Array.isArray(data.tags) ? data.tags : [],
+          image: data.image || null,
+          image_source: data.image_source || data.image || '',
+          description: data.description || '',
+          source_url: data.source_url || '',
+          needs_review: data.needs_review === true,
+          draft: data.draft === true,
+        };
+      } catch (error) {
+        console.error(`Unexpected error processing ${fileName}: ${error}`);
+        return null;
       }
-
-      // Normalize the category to slug format for consistency
-      const categorySlug = normalizeCategoryToSlug(data.category || 'home');
-
-      return {
-        slug,
-        contentHtml: processedContent.toString(),
-        title: data.title || 'No Title',
-        date: articleDate,
-        category: categorySlug, // Store normalized category slug
-        tags: Array.isArray(data.tags) ? data.tags : [],
-        image: data.image || null,
-        image_source: data.image_source || data.image || '',
-        description: data.description || '',
-        source_url: data.source_url || '',
-        needs_review: data.needs_review === true,
-        draft: data.draft === true,
-      };
-    });
+    })
+    .filter((article): article is ArticleMeta => article !== null);
 
   return allArticlesData;
 }

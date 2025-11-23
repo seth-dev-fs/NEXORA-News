@@ -1,4 +1,3 @@
-<!-- generated_by: gemini, model: gemini-2.5-flash, generated_at: 2025-11-22T22:52:54.704Z -->
 ---
 title: "Casio Lança Relógio Dourado MTPB145GC-9AV nos EUA, Unindo Retro e Minimalismo"
 date: "2024-07-30T10:30:00.000Z"
@@ -20,6 +19,9 @@ source_url: "https://example.com/casio-gold-watch-us-release"
 draft: true
 needs_review: false
 ---
+
+<!-- generated_by: gemini, model: gemini-2.5-flash, generated_at: 2025-11-22T22:52:54.704Z -->
+
 
 No mundo em constante evolução da tecnologia e da moda, a Casio continua a provar que o clássico nunca sai de moda. A marca japonesa, conhecida pela sua durabilidade e design intemporal, acaba de fazer as delícias dos fãs de acessórios nos Estados Unidos com o lançamento do seu mais recente relógio de metal em tom dourado: o Casio MTPB145GC-9AV.
 

@@ -1,13 +1,29 @@
 ---
-slug: "regulamentacao-da-ue-abre-caminho-para-o-airdrop-no-android"
-title: "Regulamentação da UE Abre Caminho para o AirDrop no Android"
-description: "Graças às novas exigências da União Europeia, a Apple adotou padrões Wi-Fi que permitem a dispositivos Android, como o Google Pixel 10, usar a funcionalidade AirDrop. Espera-se que esta interoperabilidade se estenda a mais telefones Android em breve."
-category: "Smartphones"
-tags: ["AirDrop","Android","Apple","UE","Smartphones"]
-date: "2025-11-20T20:11:01.000Z"
-featured_image: "https://picsum.photos/seed/regulamentacao-da-ue-abre-caminho-para-o-airdrop-no-android/1000/600"
-meta_description: "Graças às novas exigências da União Europeia, a Apple adotou padrões Wi-Fi que permitem a dispositivos Android, como o Google Pixel 10, usar a funcionalidade AirDrop. Espera-se que esta interoperabilidade se estenda a mais telefones Android em breve."
-source_url: "https://arstechnica.com/gadgets/2025/11/the-eu-made-apple-adopt-new-wi-fi-standards-and-now-android-can-support-airdrop/"
+slug: regulamentacao-da-ue-abre-caminho-para-o-airdrop-no-android
+title: Regulamentação da UE Abre Caminho para o AirDrop no Android
+description: >-
+  Graças às novas exigências da União Europeia, a Apple adotou padrões Wi-Fi que
+  permitem a dispositivos Android, como o Google Pixel 10, usar a funcionalidade
+  AirDrop. Espera-se que esta interoperabilidade se estenda a mais telefones
+  Android em breve.
+category: Smartphones
+tags:
+  - AirDrop
+  - Android
+  - Apple
+  - UE
+  - Smartphones
+date: '2025-11-20T20:11:01.000Z'
+meta_description: >-
+  Graças às novas exigências da União Europeia, a Apple adotou padrões Wi-Fi que
+  permitem a dispositivos Android, como o Google Pixel 10, usar a funcionalidade
+  AirDrop. Espera-se que esta interoperabilidade se estenda a mais telefones
+  Android em breve.
+source_url: >-
+  https://arstechnica.com/gadgets/2025/11/the-eu-made-apple-adopt-new-wi-fi-standards-and-now-android-can-support-airdrop/
+image: >-
+  https://picsum.photos/seed/regulamentacao-da-ue-abre-caminho-para-o-airdrop-no-android/1000/600
+draft: false
 ---
 
 ## A Interoperabilidade Chega ao Android

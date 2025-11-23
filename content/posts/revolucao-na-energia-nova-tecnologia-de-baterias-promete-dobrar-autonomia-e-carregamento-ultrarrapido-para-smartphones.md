@@ -1,13 +1,32 @@
 ---
-slug: "revolucao-na-energia-nova-tecnologia-de-baterias-promete-dobrar-autonomia-e-carregamento-ultrarrapido-para-smartphones"
-title: "Revolução na Energia: Nova Tecnologia de Baterias Promete Dobrar Autonomia e Carregamento Ultrarrápido para Smartphones"
-description: "Uma equipa de investigadores anunciou um avanço significativo na tecnologia de baterias, prometendo uma autonomia sem precedentes e capacidades de carregamento ultrarrápido para smartphones. Esta inovação pode mudar radicalmente a forma como usamos os nossos dispositivos móveis."
-category: "Smartphones"
-tags: ["Baterias","Smartphones","Tecnologia","Inovação","Carregamento Rápido"]
-date: "2025-11-08T12:00:00.000Z"
-featured_image: "https://images.unsplash.com/photo-1694747565836-c27f30275af4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MzM4Njl8MHwxfHNlYXJjaHwxfHxSZXZvbHUlQzMlQTclQzMlQTNvJTIwbmElMjBFbmVyZ2lhJTNBJTIwTm92YSUyMFRlY25vbG9naWElMjBkZSUyMEJhdGVyaWFzJTIwUHJvbWV0ZSUyMERvYnJhciUyMEF1dG9ub21pYSUyMGUlMjBDYXJyZWdhbWVudG8lMjBVbHRyYXJyJUMzJUExcGlkbyUyMHBhcmElMjBTbWFydHBob25lc3xlbnwwfDB8fHwxNzYzNzU1NjIwfDA&ixlib=rb-4.1.0&q=80&w=1080"
-meta_description: "Uma equipa de investigadores anunciou um avanço significativo na tecnologia de baterias, prometendo uma autonomia sem precedentes e capacidades de carregamento ultrarrápido para smartphones. Esta inovação pode mudar radicalmente a forma como usamos os nossos dispositivos móveis."
-source_url: "https://techcrunch.com/2025/11/21/google-says-hackers-stole-data-from-200-companies-following-gainsight-breach/"
+slug: >-
+  revolucao-na-energia-nova-tecnologia-de-baterias-promete-dobrar-autonomia-e-carregamento-ultrarrapido-para-smartphones
+title: >-
+  Revolução na Energia: Nova Tecnologia de Baterias Promete Dobrar Autonomia e
+  Carregamento Ultrarrápido para Smartphones
+description: >-
+  Uma equipa de investigadores anunciou um avanço significativo na tecnologia de
+  baterias, prometendo uma autonomia sem precedentes e capacidades de
+  carregamento ultrarrápido para smartphones. Esta inovação pode mudar
+  radicalmente a forma como usamos os nossos dispositivos móveis.
+category: Smartphones
+tags:
+  - Baterias
+  - Smartphones
+  - Tecnologia
+  - Inovação
+  - Carregamento Rápido
+date: '2025-11-08T12:00:00.000Z'
+meta_description: >-
+  Uma equipa de investigadores anunciou um avanço significativo na tecnologia de
+  baterias, prometendo uma autonomia sem precedentes e capacidades de
+  carregamento ultrarrápido para smartphones. Esta inovação pode mudar
+  radicalmente a forma como usamos os nossos dispositivos móveis.
+source_url: >-
+  https://techcrunch.com/2025/11/21/google-says-hackers-stole-data-from-200-companies-following-gainsight-breach/
+image: >-
+  https://images.unsplash.com/photo-1694747565836-c27f30275af4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MzM4Njl8MHwxfHNlYXJjaHwxfHxSZXZvbHUlQzMlQTclQzMlQTNvJTIwbmElMjBFbmVyZ2lhJTNBJTIwTm92YSUyMFRlY25vbG9naWElMjBkZSUyMEJhdGVyaWFzJTIwUHJvbWV0ZSUyMERvYnJhciUyMEF1dG9ub21pYSUyMGUlMjBDYXJyZWdhbWVudG8lMjBVbHRyYXJyJUMzJUExcGlkbyUyMHBhcmElMjBTbWFydHBob25lc3xlbnwwfDB8fHwxNzYzNzU1NjIwfDA&ixlib=rb-4.1.0&q=80&w=1080
+draft: false
 ---
 
 # Revolução na Energia: Nova Tecnologia de Baterias Promete Dobrar Autonomia e Carregamento Ultrarrápido para Smartphones

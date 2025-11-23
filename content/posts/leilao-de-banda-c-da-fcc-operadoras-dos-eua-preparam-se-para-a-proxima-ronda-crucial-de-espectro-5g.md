@@ -1,4 +1,3 @@
-<!-- generated_by: gemini, model: gemini-2.5-flash, generated_at: 2025-11-22T22:55:35.255Z -->
 ---
 title: "Leilão de Banda C da FCC: Operadoras dos EUA Preparam-se para a Próxima Ronda Crucial de Espectro 5G"
 date: "2024-07-29T10:30:00.000Z"
@@ -21,6 +20,9 @@ source_url: "https://example.com/original-article-source"
 draft: true
 needs_review: false
 ---
+
+<!-- generated_by: gemini, model: gemini-2.5-flash, generated_at: 2025-11-22T22:55:35.255Z -->
+
 
 A paisagem das telecomunicações nos Estados Unidos está novamente em alvoroço, com a Comissão Federal de Comunicações (FCC) a dar os primeiros passos para a realização de um novo leilão de espectro na Banda C. Este evento é particularmente significativo, marcando o primeiro leilão nesta faixa desde que a tecnologia 5G atingiu um patamar de maturidade considerável no país. As três maiores operadoras – T-Mobile, Verizon e AT&T – observam atentamente, enquanto estrategicamente se preparam para o que promete ser uma ronda de investimentos substanciais.
 

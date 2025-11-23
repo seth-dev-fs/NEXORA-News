@@ -1,4 +1,3 @@
-<!-- generated_by: gemini, model: gemini-2.5-flash, generated_at: 2025-11-22T22:55:16.871Z -->
 ---
 title: "Waymo Obtém Aprovação Regulatória para Expansão Abrangente na Califórnia"
 date: "2024-07-31T10:30:00.000Z"
@@ -19,6 +18,9 @@ source_url: "https://example.com/original-article-link"
 draft: true
 needs_review: false
 ---
+
+<!-- generated_by: gemini, model: gemini-2.5-flash, generated_at: 2025-11-22T22:55:16.871Z -->
+
 
 A Waymo, a pioneira no domínio dos veículos de condução autónoma e subsidiária da Alphabet, anunciou recentemente um marco crucial na sua jornada para redefinir a mobilidade urbana. A empresa obteve aprovação regulatória para expandir as suas operações de robotáxis totalmente autónomos por uma área significativamente maior da Califórnia, cobrindo tanto a Bay Area como o Sul do estado, consolidando assim a sua presença no "Estado Dourado".
 

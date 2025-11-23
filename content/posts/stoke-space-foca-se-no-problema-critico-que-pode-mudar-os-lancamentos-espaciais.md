@@ -1,13 +1,32 @@
 ---
-slug: "stoke-space-foca-se-no-problema-critico-que-pode-mudar-os-lancamentos-espaciais"
-title: "Stoke Space Foca-se no Problema Crítico que Pode Mudar os Lançamentos Espaciais"
-description: "A empresa Stoke Space está a apostar tudo na resolução de um problema fundamental na indústria de lançamentos espaciais, prometendo revolucionar a forma como acedemos ao espaço. O seu objetivo é impactar o futuro da exploração espacial de forma significativa."
-category: "Ciência"
-tags: ["Foguetes","Espaço","Lançamentos","Tecnologia Espacial","Stoke Space"]
-date: "2025-11-21T12:00:55.000Z"
-featured_image: "https://picsum.photos/seed/stoke-space-foca-se-no-problema-critico-que-pode-mudar-os-lancamentos-espaciais/1000/600"
-meta_description: "A empresa Stoke Space está a apostar tudo na resolução de um problema fundamental na indústria de lançamentos espaciais, prometendo revolucionar a forma como acedemos ao espaço. O seu objetivo é impactar o futuro da exploração espacial de forma significativa."
-source_url: "https://arstechnica.com/space/2025/11/for-stoke-space-nothing-else-matters-but-full-and-rapid-rocket-reuse/"
+slug: >-
+  stoke-space-foca-se-no-problema-critico-que-pode-mudar-os-lancamentos-espaciais
+title: >-
+  Stoke Space Foca-se no Problema Crítico que Pode Mudar os Lançamentos
+  Espaciais
+description: >-
+  A empresa Stoke Space está a apostar tudo na resolução de um problema
+  fundamental na indústria de lançamentos espaciais, prometendo revolucionar a
+  forma como acedemos ao espaço. O seu objetivo é impactar o futuro da
+  exploração espacial de forma significativa.
+category: Ciência
+tags:
+  - Foguetes
+  - Espaço
+  - Lançamentos
+  - Tecnologia Espacial
+  - Stoke Space
+date: '2025-11-21T12:00:55.000Z'
+meta_description: >-
+  A empresa Stoke Space está a apostar tudo na resolução de um problema
+  fundamental na indústria de lançamentos espaciais, prometendo revolucionar a
+  forma como acedemos ao espaço. O seu objetivo é impactar o futuro da
+  exploração espacial de forma significativa.
+source_url: >-
+  https://arstechnica.com/space/2025/11/for-stoke-space-nothing-else-matters-but-full-and-rapid-rocket-reuse/
+image: >-
+  https://picsum.photos/seed/stoke-space-foca-se-no-problema-critico-que-pode-mudar-os-lancamentos-espaciais/1000/600
+draft: false
 ---
 
 # Stoke Space Foca-se no Problema Crítico que Pode Mudar os Lançamentos Espaciais

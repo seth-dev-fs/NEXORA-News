@@ -1,13 +1,29 @@
 ---
-slug: "antiga-cidade-da-idade-do-bronze-emerge-da-estepe"
-title: "Antiga Cidade da Idade do Bronze Emerge da Estepe"
-description: "Arqueólogos revelaram uma cidade da Idade do Bronze de tamanho surpreendente, escondida por muito tempo numa vasta região de estepe, anteriormente apenas visível em imagens aéreas. A descoberta desafia conceções sobre as civilizações antigas."
-category: "Ciência"
-tags: ["Idade do Bronze","Arqueologia","Descoberta","Estepe","Civilização Antiga"]
-date: "2025-11-21T15:07:04.000Z"
-featured_image: "https://picsum.photos/seed/antiga-cidade-da-idade-do-bronze-emerge-da-estepe/1000/600"
-meta_description: "Arqueólogos revelaram uma cidade da Idade do Bronze de tamanho surpreendente, escondida por muito tempo numa vasta região de estepe, anteriormente apenas visível em imagens aéreas. A descoberta desafia conceções sobre as civilizações antigas."
-source_url: "https://arstechnica.com/science/2025/11/archaeologists-find-ruins-of-a-bronze-age-city-on-the-kazakh-steppe/"
+slug: antiga-cidade-da-idade-do-bronze-emerge-da-estepe
+title: Antiga Cidade da Idade do Bronze Emerge da Estepe
+description: >-
+  Arqueólogos revelaram uma cidade da Idade do Bronze de tamanho surpreendente,
+  escondida por muito tempo numa vasta região de estepe, anteriormente apenas
+  visível em imagens aéreas. A descoberta desafia conceções sobre as
+  civilizações antigas.
+category: Ciência
+tags:
+  - Idade do Bronze
+  - Arqueologia
+  - Descoberta
+  - Estepe
+  - Civilização Antiga
+date: '2025-11-21T15:07:04.000Z'
+meta_description: >-
+  Arqueólogos revelaram uma cidade da Idade do Bronze de tamanho surpreendente,
+  escondida por muito tempo numa vasta região de estepe, anteriormente apenas
+  visível em imagens aéreas. A descoberta desafia conceções sobre as
+  civilizações antigas.
+source_url: >-
+  https://arstechnica.com/science/2025/11/archaeologists-find-ruins-of-a-bronze-age-city-on-the-kazakh-steppe/
+image: >-
+  https://picsum.photos/seed/antiga-cidade-da-idade-do-bronze-emerge-da-estepe/1000/600
+draft: false
 ---
 
 ### Uma Descoberta Monumental

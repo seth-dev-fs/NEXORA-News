@@ -1,13 +1,29 @@
 ---
-slug: "a-evolucao-continua-dos-smartphones-mais-do-que-apenas-telefones"
-title: "A Evolução Contínua dos Smartphones: Mais do que Apenas Telefones"
-description: "Os smartphones tornaram-se ferramentas indispensáveis e a sua evolução tecnológica continua a surpreender. Este artigo explora as inovações mais recentes, desde câmaras avançadas a ecrãs dobráveis, e o que o futuro nos reserva para estes dispositivos."
-category: "Smartphones"
-tags: ["Smartphones","Tecnologia Móvel","Inovação","Gadgets","Eletrónica de Consumo"]
-date: "2025-11-08T12:00:00.000Z"
-featured_image: "https://images.unsplash.com/photo-1759680191098-8a622ad64a6d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MzM4Njl8MHwxfHNlYXJjaHwxfHxBJTIwRXZvbHUlQzMlQTclQzMlQTNvJTIwQ29udCVDMyVBRG51YSUyMGRvcyUyMFNtYXJ0cGhvbmVzJTNBJTIwTWFpcyUyMGRvJTIwcXVlJTIwQXBlbmFzJTIwVGVsZWZvbmVzfGVufDB8MHx8fDE3NjM3NTU2MzV8MA&ixlib=rb-4.1.0&q=80&w=1080"
-meta_description: "Os smartphones tornaram-se ferramentas indispensáveis e a sua evolução tecnológica continua a surpreender. Este artigo explora as inovações mais recentes, desde câmaras avançadas a ecrãs dobráveis, e o que o futuro nos reserva para estes dispositivos."
-source_url: "https://techcrunch.com/2025/11/21/x-begins-rolling-out-the-about-this-account-feature-to-users-profiles/"
+slug: a-evolucao-continua-dos-smartphones-mais-do-que-apenas-telefones
+title: 'A Evolução Contínua dos Smartphones: Mais do que Apenas Telefones'
+description: >-
+  Os smartphones tornaram-se ferramentas indispensáveis e a sua evolução
+  tecnológica continua a surpreender. Este artigo explora as inovações mais
+  recentes, desde câmaras avançadas a ecrãs dobráveis, e o que o futuro nos
+  reserva para estes dispositivos.
+category: Smartphones
+tags:
+  - Smartphones
+  - Tecnologia Móvel
+  - Inovação
+  - Gadgets
+  - Eletrónica de Consumo
+date: '2025-11-08T12:00:00.000Z'
+meta_description: >-
+  Os smartphones tornaram-se ferramentas indispensáveis e a sua evolução
+  tecnológica continua a surpreender. Este artigo explora as inovações mais
+  recentes, desde câmaras avançadas a ecrãs dobráveis, e o que o futuro nos
+  reserva para estes dispositivos.
+source_url: >-
+  https://techcrunch.com/2025/11/21/x-begins-rolling-out-the-about-this-account-feature-to-users-profiles/
+image: >-
+  https://images.unsplash.com/photo-1759680191098-8a622ad64a6d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MzM4Njl8MHwxfHNlYXJjaHwxfHxBJTIwRXZvbHUlQzMlQTclQzMlQTNvJTIwQ29udCVDMyVBRG51YSUyMGRvcyUyMFNtYXJ0cGhvbmVzJTNBJTIwTWFpcyUyMGRvJTIwcXVlJTIwQXBlbmFzJTIwVGVsZWZvbmVzfGVufDB8MHx8fDE3NjM3NTU2MzV8MA&ixlib=rb-4.1.0&q=80&w=1080
+draft: false
 ---
 
 Os smartphones estão tão enraizados na nossa vida diária que é fácil esquecer a rapidez com que evoluíram. De meros dispositivos de comunicação, transformaram-se em centros de computação pessoais, câmaras de alta qualidade, dispositivos de entretenimento e ferramentas de produtividade. A cada ano, os fabricantes introduzem novas funcionalidades e melhorias que redefinem o que esperamos de um telefone. Esta evolução constante não é apenas sobre especificações mais elevadas, mas sim sobre a integração de tecnologias que tornam a nossa vida mais conectada, eficiente e divertida.

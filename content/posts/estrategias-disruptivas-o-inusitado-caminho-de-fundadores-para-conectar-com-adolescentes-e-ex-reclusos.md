@@ -1,13 +1,36 @@
 ---
-slug: "estrategias-disruptivas-o-inusitado-caminho-de-fundadores-para-conectar-com-adolescentes-e-ex-reclusos"
-title: "Estratégias Disruptivas: O Inusitado Caminho de Fundadores para Conectar com Adolescentes e Ex-Reclusos"
-description: "Dois fundadores partilham as suas abordagens inovadoras para alcançar mercados altamente distintos: adolescentes em busca de bem-estar e ex-reclusos à procura de emprego. Em vez de dependerem de anúncios em redes sociais, estes empreendedores optaram por canais tão díspares como concertos da Taylor Swift e tablets em prisões, provando que a autenticidade e o contexto podem superar o alcance massivo."
-category: "Internet & Apps"
-tags: ["Empreendedorismo","Marketing Inovador","Impacto Social","Bem-estar Digital","Reintegração Profissional"]
-date: "2025-11-08T12:00:00Z"
-featured_image: "https://images.unsplash.com/photo-1727776095895-a2787ef4514f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MzM4Njl8MHwxfHNlYXJjaHwxfHxFc3RyYXQlQzMlQTlnaWFzJTIwRGlzcnVwdGl2YXMlM0ElMjBPJTIwSW51c2l0YWRvJTIwQ2FtaW5obyUyMGRlJTIwRnVuZGFkb3JlcyUyMHBhcmElMjBDb25lY3RhciUyMGNvbSUyMEFkb2xlc2NlbnRlcyUyMGUlMjBFeC1SZWNsdXNvc3xlbnwwfDB8fHwxNzYzNzU3NzMzfDA&ixlib=rb-4.1.0&q=80&w=1080"
-meta_description: "Dois fundadores partilham as suas abordagens inovadoras para alcançar mercados altamente distintos: adolescentes em busca de bem-estar e ex-reclusos à procura de emprego. Em vez de dependerem de anúncios em redes sociais, estes empreendedores optaram por canais tão díspares como concertos da Taylor Swift e tablets em prisões, provando que a autenticidade e o contexto podem superar o alcance massivo."
-source_url: "https://techcrunch.com/2025/11/20/why-these-founders-ditched-social-ads-for-taylor-swift-concerts-and-prison-tablets/"
+slug: >-
+  estrategias-disruptivas-o-inusitado-caminho-de-fundadores-para-conectar-com-adolescentes-e-ex-reclusos
+title: >-
+  Estratégias Disruptivas: O Inusitado Caminho de Fundadores para Conectar com
+  Adolescentes e Ex-Reclusos
+description: >-
+  Dois fundadores partilham as suas abordagens inovadoras para alcançar mercados
+  altamente distintos: adolescentes em busca de bem-estar e ex-reclusos à
+  procura de emprego. Em vez de dependerem de anúncios em redes sociais, estes
+  empreendedores optaram por canais tão díspares como concertos da Taylor Swift
+  e tablets em prisões, provando que a autenticidade e o contexto podem superar
+  o alcance massivo.
+category: Internet & Apps
+tags:
+  - Empreendedorismo
+  - Marketing Inovador
+  - Impacto Social
+  - Bem-estar Digital
+  - Reintegração Profissional
+date: '2025-11-08T12:00:00Z'
+meta_description: >-
+  Dois fundadores partilham as suas abordagens inovadoras para alcançar mercados
+  altamente distintos: adolescentes em busca de bem-estar e ex-reclusos à
+  procura de emprego. Em vez de dependerem de anúncios em redes sociais, estes
+  empreendedores optaram por canais tão díspares como concertos da Taylor Swift
+  e tablets em prisões, provando que a autenticidade e o contexto podem superar
+  o alcance massivo.
+source_url: >-
+  https://techcrunch.com/2025/11/20/why-these-founders-ditched-social-ads-for-taylor-swift-concerts-and-prison-tablets/
+image: >-
+  https://images.unsplash.com/photo-1727776095895-a2787ef4514f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MzM4Njl8MHwxfHNlYXJjaHwxfHxFc3RyYXQlQzMlQTlnaWFzJTIwRGlzcnVwdGl2YXMlM0ElMjBPJTIwSW51c2l0YWRvJTIwQ2FtaW5obyUyMGRlJTIwRnVuZGFkb3JlcyUyMHBhcmElMjBDb25lY3RhciUyMGNvbSUyMEFkb2xlc2NlbnRlcyUyMGUlMjBFeC1SZWNsdXNvc3xlbnwwfDB8fHwxNzYzNzU3NzMzfDA&ixlib=rb-4.1.0&q=80&w=1080
+draft: false
 ---
 
 # Inovação no Alcance: Como Fundadores Abandonaram Anúncios Sociais por Concertos de Taylor Swift e Tablets Prisionais

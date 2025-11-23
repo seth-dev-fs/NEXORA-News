@@ -18,19 +18,19 @@ export async function generateStaticParams() {
   }));
 }
 
-export async function generateMetadata({ params }: { params: { slug: string } }) {
-  const categorySlug = params.slug;
-  const categoryName = getCategoryDisplayName(categorySlug);
+export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }) {
+  const { slug } = await params;
+  const categoryName = getCategoryDisplayName(slug);
   return {
     title: `${categoryName} - NEXORA News`,
     description: `Últimas notícias e artigos sobre ${categoryName} em Portugal.`,
   };
 }
 
-export default async function CategoriaPage({ params }: { params: { slug: string } }) {
-  const categorySlug = params.slug;
-  const articles = getArticlesByCategory(categorySlug);
-  const categoryName = getCategoryDisplayName(categorySlug);
+export default async function CategoriaPage({ params }: { params: Promise<{ slug: string }> }) {
+  const { slug } = await params;
+  const articles = getArticlesByCategory(slug);
+  const categoryName = getCategoryDisplayName(slug);
 
   return (
     <div className="container mx-auto px-4 py-8">

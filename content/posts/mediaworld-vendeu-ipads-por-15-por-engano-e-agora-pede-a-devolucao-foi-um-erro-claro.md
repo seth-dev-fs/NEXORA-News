@@ -1,13 +1,32 @@
 ---
-slug: "mediaworld-vendeu-ipads-por-15-por-engano-e-agora-pede-a-devolucao-foi-um-erro-claro"
-title: "MediaWorld Vendeu iPads por 15€ por Engano e Agora Pede a Devolução: 'Foi um Erro Claro'"
-description: "Uma oferta imperdível de iPads a 15 euros, exclusiva para detentores de cartão de fidelidade da MediaWorld, transformou-se num pesadelo logístico e legal. A cadeia de eletrónica europeia, 11 dias após o sucedido, contactou os compradores, alegando um 'erro claro' e solicitando a devolução dos artigos."
-category: "Computadores"
-tags: ["MediaWorld","iPad","erro de preço","direitos do consumidor","comércio eletrónico"]
-date: "2025-11-08T12:00:00Z"
-featured_image: "https://picsum.photos/seed/mediaworld-vendeu-ipads-por-15-por-engano-e-agora-pede-a-devolucao-foi-um-erro-claro/1000/600"
-meta_description: "Uma oferta imperdível de iPads a 15 euros, exclusiva para detentores de cartão de fidelidade da MediaWorld, transformou-se num pesadelo logístico e legal. A cadeia de eletrónica europeia, 11 dias após o sucedido, contactou os compradores, alegando um 'erro claro' e solicitando a devolução dos artigos."
-source_url: "https://www.wired.com/story/mediaworld-accidentally-sold-ipads-for-euro15-then-it-asked-for-them-back/"
+slug: >-
+  mediaworld-vendeu-ipads-por-15-por-engano-e-agora-pede-a-devolucao-foi-um-erro-claro
+title: >-
+  MediaWorld Vendeu iPads por 15€ por Engano e Agora Pede a Devolução: 'Foi um
+  Erro Claro'
+description: >-
+  Uma oferta imperdível de iPads a 15 euros, exclusiva para detentores de cartão
+  de fidelidade da MediaWorld, transformou-se num pesadelo logístico e legal. A
+  cadeia de eletrónica europeia, 11 dias após o sucedido, contactou os
+  compradores, alegando um 'erro claro' e solicitando a devolução dos artigos.
+category: Computadores
+tags:
+  - MediaWorld
+  - iPad
+  - erro de preço
+  - direitos do consumidor
+  - comércio eletrónico
+date: '2025-11-08T12:00:00Z'
+meta_description: >-
+  Uma oferta imperdível de iPads a 15 euros, exclusiva para detentores de cartão
+  de fidelidade da MediaWorld, transformou-se num pesadelo logístico e legal. A
+  cadeia de eletrónica europeia, 11 dias após o sucedido, contactou os
+  compradores, alegando um 'erro claro' e solicitando a devolução dos artigos.
+source_url: >-
+  https://www.wired.com/story/mediaworld-accidentally-sold-ipads-for-euro15-then-it-asked-for-them-back/
+image: >-
+  https://picsum.photos/seed/mediaworld-vendeu-ipads-por-15-por-engano-e-agora-pede-a-devolucao-foi-um-erro-claro/1000/600
+draft: false
 ---
 
 # MediaWorld Vendeu iPads por 15€ por Engano e Agora Pede a Devolução: 'Foi um Erro Claro'

@@ -1,13 +1,29 @@
 ---
-slug: "mixup-a-revolucao-divertida-na-criacao-de-imagens-com-inteligencia-artificial"
-title: "Mixup: A Revolução Divertida na Criação de Imagens com Inteligência Artificial"
-description: "Mixup é a inovadora aplicação que redefine a criação de imagens de IA, transformando ideias e elementos visuais em arte digital através de 'receitas' interativas, potenciadas pela tecnologia Nano Banana da Google, e concebida para ser partilhada entre utilizadores."
-category: "AI / Futuro"
-tags: ["IA","Aplicação","Geração de Imagens","Criatividade","Google Nano Banana"]
-date: "2025-11-08T12:00:00Z"
-featured_image: "https://images.unsplash.com/photo-1757476623157-cb993ae14a77?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MzM4Njl8MHwxfHNlYXJjaHwxfHxNaXh1cCUzQSUyMEElMjBSZXZvbHUlQzMlQTclQzMlQTNvJTIwRGl2ZXJ0aWRhJTIwbmElMjBDcmlhJUMzJUE3JUMzJUEzbyUyMGRlJTIwSW1hZ2VucyUyMGNvbSUyMEludGVsaWclQzMlQUFuY2lhJTIwQXJ0aWZpY2lhbHxlbnwwfDB8fHwxNzYzNzU3NzU0fDA&ixlib=rb-4.1.0&q=80&w=1080"
-meta_description: "Mixup é a inovadora aplicação que redefine a criação de imagens de IA, transformando ideias e elementos visuais em arte digital através de 'receitas' interativas, potenciadas pela tecnologia Nano Banana da Google, e concebida para ser partilhada entre utilizadores."
-source_url: "https://techcrunch.com/2025/11/20/mixup-is-a-new-mad-libs-style-app-for-creating-ai-images-from-photos-text-and-doodles/"
+slug: mixup-a-revolucao-divertida-na-criacao-de-imagens-com-inteligencia-artificial
+title: 'Mixup: A Revolução Divertida na Criação de Imagens com Inteligência Artificial'
+description: >-
+  Mixup é a inovadora aplicação que redefine a criação de imagens de IA,
+  transformando ideias e elementos visuais em arte digital através de 'receitas'
+  interativas, potenciadas pela tecnologia Nano Banana da Google, e concebida
+  para ser partilhada entre utilizadores.
+category: AI / Futuro
+tags:
+  - IA
+  - Aplicação
+  - Geração de Imagens
+  - Criatividade
+  - Google Nano Banana
+date: '2025-11-08T12:00:00Z'
+meta_description: >-
+  Mixup é a inovadora aplicação que redefine a criação de imagens de IA,
+  transformando ideias e elementos visuais em arte digital através de 'receitas'
+  interativas, potenciadas pela tecnologia Nano Banana da Google, e concebida
+  para ser partilhada entre utilizadores.
+source_url: >-
+  https://techcrunch.com/2025/11/20/mixup-is-a-new-mad-libs-style-app-for-creating-ai-images-from-photos-text-and-doodles/
+image: >-
+  https://images.unsplash.com/photo-1757476623157-cb993ae14a77?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MzM4Njl8MHwxfHNlYXJjaHwxfHxNaXh1cCUzQSUyMEElMjBSZXZvbHUlQzMlQTclQzMlQTNvJTIwRGl2ZXJ0aWRhJTIwbmElMjBDcmlhJUMzJUE3JUMzJUEzbyUyMGRlJTIwSW1hZ2VucyUyMGNvbSUyMEludGVsaWclQzMlQUFuY2lhJTIwQXJ0aWZpY2lhbHxlbnwwfDB8fHwxNzYzNzU3NzU0fDA&ixlib=rb-4.1.0&q=80&w=1080
+draft: false
 ---
 
 No cenário em constante evolução da inteligência artificial, surge uma nova ferramenta que promete democratizar a criação de imagens de IA de uma forma divertida e acessível. Conheça o Mixup, uma aplicação inovadora que adota uma abordagem ao estilo "Mad Libs" para transformar fotografias, texto e até mesmo rabiscos em arte digital única. Com o Mixup, a Google está a apresentar a sua tecnologia Nano Banana de uma maneira totalmente nova, permitindo aos utilizadores explorar a sua criatividade através de "receitas" de IA de preenchimento de espaços, que podem ser criadas e partilhadas numa comunidade vibrante.

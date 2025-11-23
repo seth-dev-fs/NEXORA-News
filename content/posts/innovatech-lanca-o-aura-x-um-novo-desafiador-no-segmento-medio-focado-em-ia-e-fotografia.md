@@ -1,13 +1,35 @@
 ---
-slug: "innovatech-lanca-o-aura-x-um-novo-desafiador-no-segmento-medio-focado-em-ia-e-fotografia"
-title: "InnovaTech Lança o Aura X: Um Novo Desafiador no Segmento Médio Focado em IA e Fotografia"
-description: "A InnovaTech acaba de anunciar o seu mais recente smartphone de gama média, o Aura X, que promete revolucionar o segmento com funcionalidades avançadas de inteligência artificial, uma câmara potente e uma bateria de longa duração a um preço competitivo. Este lançamento visa oferecer tecnologia de ponta acessível a um público mais vasto."
-category: "Smartphones"
-tags: ["InnovaTech","Aura X","Smartphone","Gama Média","Inteligência Artificial","Câmara"]
-date: "2025-11-08T12:00:00.000Z"
-featured_image: "https://picsum.photos/seed/innovatech-lanca-o-aura-x-um-novo-desafiador-no-segmento-medio-focado-em-ia-e-fotografia/1000/600"
-meta_description: "A InnovaTech acaba de anunciar o seu mais recente smartphone de gama média, o Aura X, que promete revolucionar o segmento com funcionalidades avançadas de inteligência artificial, uma câmara potente e uma bateria de longa duração a um preço competitivo. Este lançamento visa oferecer tecnologia de ponta acessível a um público mais vasto."
-source_url: "https://techcrunch.com/2025/11/21/crowdstrike-fires-suspicious-insider-who-passed-information-to-hackers/"
+slug: >-
+  innovatech-lanca-o-aura-x-um-novo-desafiador-no-segmento-medio-focado-em-ia-e-fotografia
+title: >-
+  InnovaTech Lança o Aura X: Um Novo Desafiador no Segmento Médio Focado em IA e
+  Fotografia
+description: >-
+  A InnovaTech acaba de anunciar o seu mais recente smartphone de gama média, o
+  Aura X, que promete revolucionar o segmento com funcionalidades avançadas de
+  inteligência artificial, uma câmara potente e uma bateria de longa duração a
+  um preço competitivo. Este lançamento visa oferecer tecnologia de ponta
+  acessível a um público mais vasto.
+category: Smartphones
+tags:
+  - InnovaTech
+  - Aura X
+  - Smartphone
+  - Gama Média
+  - Inteligência Artificial
+  - Câmara
+date: '2025-11-08T12:00:00.000Z'
+meta_description: >-
+  A InnovaTech acaba de anunciar o seu mais recente smartphone de gama média, o
+  Aura X, que promete revolucionar o segmento com funcionalidades avançadas de
+  inteligência artificial, uma câmara potente e uma bateria de longa duração a
+  um preço competitivo. Este lançamento visa oferecer tecnologia de ponta
+  acessível a um público mais vasto.
+source_url: >-
+  https://techcrunch.com/2025/11/21/crowdstrike-fires-suspicious-insider-who-passed-information-to-hackers/
+image: >-
+  https://picsum.photos/seed/innovatech-lanca-o-aura-x-um-novo-desafiador-no-segmento-medio-focado-em-ia-e-fotografia/1000/600
+draft: false
 ---
 
 # InnovaTech Lança o Aura X: Um Novo Desafiador no Segmento Médio Focado em IA e Fotografia
