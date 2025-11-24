@@ -1,4 +1,3 @@
-<!-- generated_by: gemini, model: gemini-2.5-flash, generated_at: 2025-11-24T08:49:34.638Z -->
 ---
 title: "Combustíveis Renováveis: Uma Ponte para o Futuro Automóvel"
 date: "2025-11-24T08:49:34.638Z"

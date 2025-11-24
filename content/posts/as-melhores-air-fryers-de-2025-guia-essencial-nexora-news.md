@@ -1,4 +1,3 @@
-<!-- generated_by: gemini, model: gemini-2.5-flash, generated_at: 2025-11-24T08:49:55.948Z -->
 ---
 title: "As Melhores Air Fryers de 2025: Guia Essencial NEXORA News"
 date: "2025-11-24T08:49:55.948Z"

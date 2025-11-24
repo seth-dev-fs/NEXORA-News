@@ -521,13 +521,13 @@ Generate a JSON object with this exact structure:
                 yamlFrontmatter += `${key}: ${JSON.stringify(value)}\n`;
             }
         }
-        yamlFrontmatter += '---\n\n';
+        yamlFrontmatter += '---\n';
 
-        // --- Traceability Comment ---
+        // --- Traceability Comment (placed AFTER frontmatter to avoid gray-matter parsing issues) ---
         const generatedAt = new Date().toISOString();
-        const traceabilityComment = `<!-- generated_by: gemini, model: ${GEMINI_MODEL}, generated_at: ${generatedAt} -->\n`;
+        const traceabilityComment = `\n<!-- generated_by: gemini, model: ${GEMINI_MODEL}, generated_at: ${generatedAt} -->\n\n`;
 
-        fs.writeFileSync(currentFilePath, traceabilityComment + yamlFrontmatter + articleData.content, 'utf8');
+        fs.writeFileSync(currentFilePath, yamlFrontmatter + traceabilityComment + articleData.content, 'utf8');
 
         log(`SUCCESS: Article saved -> ${currentFilePath}`);
 

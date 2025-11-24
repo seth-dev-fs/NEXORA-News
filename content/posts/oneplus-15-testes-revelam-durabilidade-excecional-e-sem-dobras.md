@@ -1,4 +1,3 @@
-<!-- generated_by: gemini, model: gemini-2.5-flash, generated_at: 2025-11-24T08:48:56.784Z -->
 ---
 title: "OnePlus 15: Testes Revelam Durabilidade Excecional e Sem Dobras"
 date: "2025-11-24T08:48:56.784Z"

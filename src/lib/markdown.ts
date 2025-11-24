@@ -61,6 +61,10 @@ export function getAllArticles(): ArticleMeta[] {
           return null;
         }
 
+        // Strip HTML comments before frontmatter to ensure gray-matter can parse correctly
+        // Article generator adds <!-- generated_by: ... --> before frontmatter
+        fileContents = fileContents.replace(/^<!--[\s\S]*?-->\n/, '');
+
         let data: any;
         let content: string;
         try {
