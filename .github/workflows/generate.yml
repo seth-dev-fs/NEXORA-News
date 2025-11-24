@@ -40,12 +40,13 @@ jobs:
       - name: Check for new articles
         id: check_changes
         run: |
-          if git diff --quiet content/posts/; then
-            echo "changes=false" >> $GITHUB_OUTPUT
-            echo "No new articles generated. Skipping commit."
-          else
+          # Check for both new files (untracked) and modifications (tracked)
+          if [ -n "$(git status --porcelain content/posts/)" ]; then
             echo "changes=true" >> $GITHUB_OUTPUT
             echo "New articles detected. Proceeding with commit."
+          else
+            echo "changes=false" >> $GITHUB_OUTPUT
+            echo "No new articles generated. Skipping commit."
           fi
 
       - name: Commit and Push Articles Directly to Main

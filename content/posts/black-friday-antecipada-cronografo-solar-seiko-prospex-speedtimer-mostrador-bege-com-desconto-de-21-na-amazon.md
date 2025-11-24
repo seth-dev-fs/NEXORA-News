@@ -1,6 +1,6 @@
 ---
 title: "Black Friday Antecipada: Cronógrafo Solar Seiko Prospex Speedtimer (Mostrador Bege) com Desconto de 21% na Amazon"
-date: "2023-11-20T10:00:00.000Z"
+date: "2025-11-17T14:26:49+00:00"
 category: "wearables"
 tags:
   - Seiko

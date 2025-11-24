@@ -1,6 +1,6 @@
 ---
 title: "Qualcomm Confirma Partilha Rápida de Ficheiros entre Android e iPhone para Dispositivos Snapdragon"
-date: "2024-05-15T10:00:00.000Z"
+date: "2025-11-17T09:14:44+00:00"
 category: "smartphones"
 tags:
   - Qualcomm

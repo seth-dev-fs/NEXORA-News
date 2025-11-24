@@ -1,6 +1,6 @@
 ---
 title: "A Estratégia Infallível para Superar Desafios: O Poder Transformador da Autoimagem e do Diálogo Interno"
-date: "2024-07-29T10:30:00.000Z"
+date: "2025-11-17T14:54:30+00:00"
 category: "ciencia"
 tags:
   - autoimagem

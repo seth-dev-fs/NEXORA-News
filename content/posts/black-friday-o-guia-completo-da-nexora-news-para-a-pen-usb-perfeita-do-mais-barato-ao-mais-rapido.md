@@ -1,6 +1,6 @@
 ---
 title: "Black Friday: O Guia Completo da NEXORA News para a Pen USB Perfeita, do Mais Barato ao Mais Rápido"
-date: "2023-11-19T10:30:00.000Z"
+date: "2025-11-17T17:18:22+00:00"
 category: "computadores"
 tags:
   - pens USB

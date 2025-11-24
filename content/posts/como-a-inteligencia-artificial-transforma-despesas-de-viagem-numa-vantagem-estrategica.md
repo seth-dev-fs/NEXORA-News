@@ -1,6 +1,6 @@
 ---
 title: "Como a Inteligência Artificial Transforma Despesas de Viagem numa Vantagem Estratégica"
-date: "2024-07-28T10:30:00.000Z"
+date: "2025-11-17T15:01:11+00:00"
 category: "ai-futuro"
 tags:
   - inteligencia-artificial

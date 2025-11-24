@@ -1,6 +1,6 @@
 ---
 title: "IA nas Empresas: O Desafio de Harmonizar Inovação com Custo, Risco e Retorno do Investimento"
-date: "2024-07-29T10:30:00.000Z"
+date: "2025-11-17T14:30:43+00:00"
 category: "ai-futuro"
 tags:
   - inteligencia artificial

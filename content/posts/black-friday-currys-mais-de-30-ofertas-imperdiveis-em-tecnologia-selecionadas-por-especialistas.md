@@ -1,6 +1,6 @@
 ---
 title: "Black Friday Currys: Mais de 30 Ofertas Imperdíveis em Tecnologia, Selecionadas por Especialistas"
-date: "2023-11-19T10:00:00.000Z"
+date: "2025-11-17T12:00:12+00:00"
 category: "home"
 tags:
   - Black Friday

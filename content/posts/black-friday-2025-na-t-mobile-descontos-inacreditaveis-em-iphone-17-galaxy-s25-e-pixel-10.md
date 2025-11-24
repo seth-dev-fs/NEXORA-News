@@ -1,6 +1,6 @@
 ---
 title: "Black Friday 2025 na T-Mobile: Descontos Inacreditáveis em iPhone 17, Galaxy S25 e Pixel 10!"
-date: "2024-05-15T10:30:00.000Z"
+date: "2025-11-17T16:00:49+00:00"
 category: "smartphones"
 tags:
   - Black Friday

@@ -1,6 +1,6 @@
 ---
 title: "Black Friday: Cartões microSD Express Essenciais para a Nintendo Switch 2 a Preços Recorde"
-date: "2023-11-20T10:30:00.000Z"
+date: "2025-11-17T12:08:29+00:00"
 category: "gaming"
 tags:
   - Nintendo Switch 2

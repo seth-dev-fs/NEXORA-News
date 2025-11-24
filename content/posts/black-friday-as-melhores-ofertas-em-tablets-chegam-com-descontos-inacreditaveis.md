@@ -1,6 +1,6 @@
 ---
 title: "Black Friday: As Melhores Ofertas em Tablets Chegam com Descontos Inacreditáveis"
-date: "2024-05-15T10:00:00.000Z"
+date: "2025-11-17T15:35:46+00:00"
 category: "mobilidade"
 tags:
   - Black Friday

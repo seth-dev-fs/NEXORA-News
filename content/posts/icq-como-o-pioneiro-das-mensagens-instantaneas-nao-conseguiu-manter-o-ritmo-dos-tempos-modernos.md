@@ -1,6 +1,6 @@
 ---
 title: "ICQ: Como o Pioneiro das Mensagens Instantâneas Não Conseguiu Manter o Ritmo dos Tempos Modernos"
-date: "2024-07-29T10:30:00.000Z"
+date: "2025-11-17T09:33:42+00:00"
 category: "internet-apps"
 tags:
   - ICQ

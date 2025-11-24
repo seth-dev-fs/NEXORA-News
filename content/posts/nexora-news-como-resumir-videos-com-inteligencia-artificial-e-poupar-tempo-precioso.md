@@ -1,6 +1,6 @@
 ---
 title: "NEXORA News: Como Resumir Vídeos com Inteligência Artificial e Poupar Tempo Precioso"
-date: "2024-07-29T10:00:00.000Z"
+date: "2025-11-17T12:50:58+00:00"
 category: "ai-futuro"
 tags:
   - inteligência artificial

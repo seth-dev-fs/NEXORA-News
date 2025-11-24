@@ -1,6 +1,6 @@
 ---
 title: "A Ilusão dos 10.000 Passos: Por Que o Treino de Força é Essencial para a Velhice Ativa"
-date: "2024-05-24T10:30:00.000Z"
+date: "2025-11-17T11:59:24+00:00"
 category: "ciencia"
 tags:
   - exercício

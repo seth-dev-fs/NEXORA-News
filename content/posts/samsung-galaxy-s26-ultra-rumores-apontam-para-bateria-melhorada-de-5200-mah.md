@@ -1,6 +1,6 @@
 ---
 title: "Samsung Galaxy S26 Ultra: Rumores Apontam para Bateria Melhorada de 5.200 mAh"
-date: "2024-07-28T10:30:00.000Z"
+date: "2025-11-17T16:32:33+00:00"
 category: "smartphones"
 tags:
   - Samsung

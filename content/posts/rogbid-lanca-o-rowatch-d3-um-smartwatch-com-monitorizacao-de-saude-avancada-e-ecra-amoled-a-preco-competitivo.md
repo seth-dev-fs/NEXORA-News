@@ -1,6 +1,6 @@
 ---
 title: "Rogbid Lança o Rowatch D3: Um Smartwatch com Monitorização de Saúde Avançada e Ecrã AMOLED a Preço Competitivo"
-date: "2024-07-30T10:30:00.000Z"
+date: "2025-11-17T16:59:10+00:00"
 category: "wearables"
 tags:
   - Rogbid

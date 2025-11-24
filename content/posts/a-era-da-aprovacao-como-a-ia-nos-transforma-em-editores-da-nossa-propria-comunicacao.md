@@ -1,6 +1,6 @@
 ---
 title: "A Era da Aprovação: Como a IA nos Transforma em Editores da Nossa Própria Comunicação"
-date: "2024-05-15T10:00:00.000Z"
+date: "2025-11-17T17:18:25+00:00"
 category: "ai-futuro"
 tags:
   - Inteligência Artificial

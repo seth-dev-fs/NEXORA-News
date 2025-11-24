@@ -459,8 +459,15 @@ Generate a JSON object with this exact structure:
         const finalImage = image;
         const finalImageSource = articleData.image_source || image;
 
-        // Normalize source URL
-        const finalSourceUrl = normalizeUrl(articleData.source_url || link);
+        // Normalize source URL - ALWAYS use the RSS link if Gemini returns invalid/empty source_url
+        let finalSourceUrl = link; // Default to RSS feed link
+        if (articleData.source_url &&
+            articleData.source_url !== '' &&
+            articleData.source_url !== 'The original source URL of the article.' &&
+            articleData.source_url.startsWith('http')) {
+            finalSourceUrl = articleData.source_url;
+        }
+        finalSourceUrl = normalizeUrl(finalSourceUrl);
 
         // CRITICAL: Validate description length for SEO (150-160 characters)
         let finalDescription = articleData.description || '';
