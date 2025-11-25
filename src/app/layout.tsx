@@ -3,6 +3,8 @@ import type { Metadata } from 'next';
 import { Inter } from 'next/font/google'; // Import only Inter
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
+import { ThemeProvider } from '@/components/ThemeProvider';
+import GoogleAnalytics from '@/components/GoogleAnalytics';
 
 // Configure font
 const inter = Inter({
@@ -73,14 +75,19 @@ export default function RootLayout({
 }: {
   children: React.ReactNode;
 }) {
+  const gaId = process.env.NEXT_PUBLIC_GA_ID;
+
   return (
-    <html lang="pt">
+    <html lang="pt" suppressHydrationWarning>
       <body className={`${inter.variable} font-sans bg-background text-foreground flex flex-col min-h-screen`}>
-        <Header />
-        <main className="flex-grow">
-          {children}
-        </main>
-        <Footer />
+        {gaId && <GoogleAnalytics gaId={gaId} />}
+        <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
+          <Header />
+          <main className="flex-grow">
+            {children}
+          </main>
+          <Footer />
+        </ThemeProvider>
       </body>
     </html>
   );

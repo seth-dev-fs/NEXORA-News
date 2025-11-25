@@ -13,7 +13,6 @@ export default function ArticleCard({ article }: { article: ArticleMeta }) {
       <Link
         href={`/noticias/${article.slug}`}
         className="block bg-card rounded-xl shadow-md hover:shadow-2xl transition-all duration-300 overflow-hidden group focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2"
-        aria-label={`Ler artigo: ${article.title}`}
       >
         {/* Image Container with Placeholder */}
         <div className="relative w-full h-52 sm:h-56 overflow-hidden bg-gradient-to-br from-primary/5 via-card to-primary/10">
@@ -24,6 +23,7 @@ export default function ArticleCard({ article }: { article: ArticleMeta }) {
               fill
               style={{ objectFit: 'cover' }}
               sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
+              loading="lazy"
               className="transition-all duration-500 group-hover:scale-110 group-hover:brightness-110"
             />
           ) : (
@@ -64,21 +64,26 @@ export default function ArticleCard({ article }: { article: ArticleMeta }) {
 
           {/* Metadata Footer */}
           <div className="flex items-center justify-between pt-4 border-t border-border">
-            <time
-              dateTime={article.date}
-              className="flex items-center gap-1.5 text-xs sm:text-sm text-muted"
-            >
-              <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
-              </svg>
-              <span>
-                {new Date(article.date).toLocaleDateString('pt-PT', {
-                  day: 'numeric',
-                  month: 'short',
-                  year: 'numeric'
-                })}
+            <div className="flex items-center gap-3 text-xs sm:text-sm text-muted">
+              <time dateTime={article.date} className="flex items-center gap-1.5">
+                <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
+                </svg>
+                <span>
+                  {new Date(article.date).toLocaleDateString('pt-PT', {
+                    day: 'numeric',
+                    month: 'short',
+                    year: 'numeric'
+                  })}
+                </span>
+              </time>
+              <span className="flex items-center gap-1.5" aria-label={`${article.readingTime} minutos de leitura`}>
+                <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+                </svg>
+                <span>{article.readingTime} min</span>
               </span>
-            </time>
+            </div>
 
             {/* Read More Indicator */}
             <span className="text-xs sm:text-sm font-semibold text-primary group-hover:text-primary-dark transition-colors duration-200 flex items-center gap-1">

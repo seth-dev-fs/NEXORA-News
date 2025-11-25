@@ -91,7 +91,9 @@ export async function POST(request: NextRequest) {
 
     // In a real application, you would integrate with an email marketing service here
     // Examples: Mailchimp, SendGrid, ConvertKit, etc.
-    console.log(`Newsletter signup: ${sanitizedEmail}`);
+    if (process.env.NODE_ENV === 'development') {
+      console.log(`Newsletter signup: ${sanitizedEmail}`);
+    }
 
     // Clean up old rate limit records periodically
     if (Math.random() < 0.1) { // 10% chance on each request

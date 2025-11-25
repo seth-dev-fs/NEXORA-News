@@ -1,6 +1,7 @@
 import type { Config } from 'tailwindcss';
 
 const config: Config = {
+  darkMode: 'class',
   content: [
     './src/pages/**/*.{js,ts,jsx,tsx,mdx}',
     './src/components/**/*.{js,ts,jsx,tsx,mdx}',
@@ -14,17 +15,17 @@ const config: Config = {
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
       },
       colors: {
-        background: '#FFFFFF', // White background
-        card: '#F5F5F7',      // Very light gray for cards
-        foreground: '#1d1d1f', // Dark gray for text, from Apple's site
-        muted: '#6e6e73',      // Lighter gray for secondary text
-        border: '#d2d2d7',      // Subtle light gray for borders
+        background: 'rgb(var(--color-background) / <alpha-value>)',
+        card: 'rgb(var(--color-card) / <alpha-value>)',
+        foreground: 'rgb(var(--color-foreground) / <alpha-value>)',
+        muted: 'rgb(var(--color-muted) / <alpha-value>)',
+        border: 'rgb(var(--color-border) / <alpha-value>)',
         primary: {
-          DEFAULT: '#0071e3', // Apple's classic blue
+          DEFAULT: '#0071e3',
           light: '#2997ff',
           dark: '#0056b3',
         },
-        accent: '#0071e3', // Using the same blue as the primary accent
+        accent: '#0071e3',
       },
       fontFamily: {
         sans: ['var(--font-inter)', 'sans-serif'],

@@ -42,6 +42,11 @@ To get a local copy up and running, follow these steps.
     UNSPLASH_API_KEY="your_unsplash_access_key"
     ```
 
+    For optional Google Analytics tracking:
+    ```
+    NEXT_PUBLIC_GA_ID="G-XXXXXXXXXX"
+    ```
+
 ### Running the Project
 
 -   **To run the development server:**

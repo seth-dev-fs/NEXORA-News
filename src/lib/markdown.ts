@@ -7,6 +7,17 @@ import html from 'remark-html';
 const postsDirectory = path.join(process.cwd(), 'content/posts');
 
 /**
+ * Calculates estimated reading time in minutes based on word count.
+ * Average reading speed: 200 words per minute.
+ */
+function calculateReadingTime(content: string): number {
+  const wordsPerMinute = 200;
+  const wordCount = content.trim().split(/\s+/).length;
+  const readingTime = Math.ceil(wordCount / wordsPerMinute);
+  return readingTime;
+}
+
+/**
  * Normalizes a category name to a consistent slug format.
  * Handles multiple variations of the same category.
  */
@@ -111,6 +122,9 @@ export function getAllArticles(): ArticleMeta[] {
         // Normalize the category to slug format for consistency
         const categorySlug = normalizeCategoryToSlug(data.category || 'home');
 
+        // Calculate reading time from markdown content
+        const readingTime = calculateReadingTime(content);
+
         return {
           slug,
           contentHtml: processedContent,
@@ -124,6 +138,7 @@ export function getAllArticles(): ArticleMeta[] {
           source_url: data.source_url || '',
           needs_review: data.needs_review === true,
           draft: data.draft === true,
+          readingTime,
         };
       } catch (error) {
         console.error(`Unexpected error processing ${fileName}: ${error}`);
@@ -148,6 +163,10 @@ export interface ArticleMeta {
   needs_review: boolean;
   draft: boolean;
   contentHtml: string;
+  readingTime: number; // Estimated reading time in minutes
+  // Unsplash attribution (only present if image is from Unsplash)
+  photographer_name?: string;
+  photographer_url?: string;
 }
 
   
@@ -198,4 +217,37 @@ export function getAllCategories(): string[] {
   });
 
   return Array.from(categorySet).sort();
+}
+
+/**
+ * Returns related articles for a given article.
+ * Prioritizes articles from the same category, excluding the current article.
+ * Returns up to `limit` articles (default: 3).
+ */
+export function getRelatedArticles(currentSlug: string, limit: number = 3): ArticleMeta[] {
+  const currentArticle = getArticleBySlug(currentSlug);
+  if (!currentArticle) return [];
+
+  const allArticles = getAllArticles().filter(article =>
+    !article.draft && article.slug !== currentSlug
+  );
+
+  // First, try to get articles from the same category
+  let relatedArticles = allArticles.filter(article =>
+    article.category === currentArticle.category
+  );
+
+  // Sort by date (newest first)
+  relatedArticles.sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime());
+
+  // If we don't have enough articles from the same category, fill with other recent articles
+  if (relatedArticles.length < limit) {
+    const otherArticles = allArticles
+      .filter(article => article.category !== currentArticle.category)
+      .sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime());
+
+    relatedArticles = [...relatedArticles, ...otherArticles];
+  }
+
+  return relatedArticles.slice(0, limit);
 }

@@ -2,6 +2,25 @@
 @tailwind components;
 @tailwind utilities;
 
+/* Color Theme Variables */
+@layer base {
+  :root {
+    --color-background: 255 255 255;      /* #FFFFFF */
+    --color-card: 245 245 247;            /* #F5F5F7 */
+    --color-foreground: 29 29 31;         /* #1d1d1f */
+    --color-muted: 110 110 115;           /* #6e6e73 */
+    --color-border: 210 210 215;          /* #d2d2d7 */
+  }
+
+  .dark {
+    --color-background: 0 0 0;            /* #000000 */
+    --color-card: 28 28 30;               /* #1c1c1e */
+    --color-foreground: 245 245 247;      /* #f5f5f7 */
+    --color-muted: 142 142 147;           /* #8e8e93 */
+    --color-border: 58 58 60;             /* #3a3a3c */
+  }
+}
+
 /* Custom Smooth Scrolling */
 @layer base {
   html {

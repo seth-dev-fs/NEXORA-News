@@ -2,6 +2,8 @@
 
 import Link from 'next/link';
 import { useState, useEffect } from 'react';
+import DarkModeToggle from './DarkModeToggle';
+import SearchBar from './SearchBar';
 
 export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -111,17 +113,23 @@ export default function Header() {
               </li>
             </ul>
 
-            {/* Mobile Menu Button */}
-            <button
-              onClick={() => setIsMenuOpen(true)}
-              className="lg:hidden p-2 text-foreground hover:text-primary hover:bg-primary/5 rounded-lg transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2"
-              aria-label="Abrir menu de navegação"
-              aria-expanded={isMenuOpen}
-            >
-              <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h16M4 18h16" />
-              </svg>
-            </button>
+            {/* Search, Dark Mode Toggle & Mobile Menu Button */}
+            <div className="flex items-center gap-2">
+              <SearchBar />
+              <DarkModeToggle />
+
+              {/* Mobile Menu Button */}
+              <button
+                onClick={() => setIsMenuOpen(true)}
+                className="lg:hidden p-2 text-foreground hover:text-primary hover:bg-primary/5 rounded-lg transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2"
+                aria-label="Abrir menu de navegação"
+                aria-expanded={isMenuOpen}
+              >
+                <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h16M4 18h16" />
+                </svg>
+              </button>
+            </div>
           </div>
         </nav>
       </header>
