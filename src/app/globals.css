@@ -354,16 +354,7 @@
     /* Prevent layout shift during image load */
     image-rendering: -webkit-optimize-contrast;
     image-rendering: crisp-edges;
-  }
-
-  /* Smooth image fade-in on load */
-  img[loading="lazy"] {
-    opacity: 0;
-    transition: opacity var(--duration-slow) var(--transition-smooth);
-  }
-
-  img[loading="lazy"].loaded,
-  img:not([loading="lazy"]) {
+    /* Ensure images are always visible */
     opacity: 1;
   }
 }
