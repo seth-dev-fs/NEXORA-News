@@ -35,6 +35,7 @@ export default function ArticleCard({ article }: { article: ArticleMeta }) {
               alt={article.title}
               className="absolute inset-0 w-full h-full object-cover"
               loading="lazy"
+              onLoad={(e) => e.currentTarget.classList.add('loaded')}
             />
           ) : (
             <div className="absolute inset-0 flex items-center justify-center bg-gradient-to-br from-primary/10 via-primary/5 to-transparent">
