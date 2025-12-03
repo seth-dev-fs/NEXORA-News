@@ -38,6 +38,7 @@ export default function ArticleCard({ article }: { article: ArticleMeta }) {
                 style={{ objectFit: 'cover' }}
                 sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
                 loading="lazy"
+                unoptimized={article.image.endsWith('.svg')}
                 className="
                   transition-all duration-500 ease-smooth
                   group-hover/card:scale-105
