@@ -33,7 +33,7 @@ export default function ArticleCard({ article }: { article: ArticleMeta }) {
             <img
               src={article.image}
               alt={article.title}
-              className="w-full h-full object-cover"
+              className="absolute inset-0 w-full h-full object-cover"
               loading="lazy"
             />
           ) : (
