@@ -8,8 +8,8 @@ tags:
   - Google Pay
   - telemóvel
   - NFC
-image: "https://via.placeholder.com/1200x630/1a1a2e/eaeaea?text=NEXORA+News"
-image_source: "https://via.placeholder.com/1200x630/1a1a2e/eaeaea?text=NEXORA+News"
+image: "/images/placeholder.svg"
+image_source: "placeholder"
 description: "Descubra como os pagamentos móveis, como Apple Pay e Google Pay, estão a mudar a forma como compramos em Portugal. Conveniência e segurança ao seu alcance."
 source_url: "https://www.sammobile.com/news/what-are-the-different-phone-payment-methods-available"
 draft: false

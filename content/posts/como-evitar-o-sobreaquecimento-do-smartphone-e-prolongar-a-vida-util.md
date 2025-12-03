@@ -8,7 +8,7 @@ tags:
   - bateria
   - manutenção
   - dicas
-image: "https://via.placeholder.com/1200x630/1a1a2e/eaeaea?text=NEXORA+News"
+image: "/images/placeholder.svg"
 image_source: "placeholder"
 description: "O sobreaquecimento do smartphone pode danificá-lo e reduzir a bateria. Aprenda dicas essenciais para proteger o seu dispositivo e mantê-lo a funcionar de for..."
 source_url: "https://www.sammobile.com/news/how-do-i-protect-my-phone-from-overheating"

@@ -8,7 +8,7 @@ tags:
   - tecnologia
   - microfones
   - áudio
-image: "https://via.placeholder.com/1200x630/1a1a2e/eaeaea?text=NEXORA+News"
+image: "/images/placeholder.svg"
 image_source: "placeholder"
 description: "Curioso sobre como o teu telemóvel capta a tua voz e a transforma em notas digitais? Desvendamos a tecnologia de gravação de voz dos smartphones para gravaçõ..."
 source_url: "https://www.sammobile.com/news/how-do-phone-recording-features-work-for-voice-memos"

@@ -8,7 +8,7 @@ tags:
   - lanterna
   - LED
   - consumo energético
-image: "https://via.placeholder.com/1200x630/1a1a2e/eaeaea?text=NEXORA+News"
+image: "/images/placeholder.svg"
 image_source: "placeholder"
 description: "Descubra o impacto real da lanterna do seu smartphone na bateria. Explicamos a tecnologia LED e damos dicas para otimizar o consumo sem perder a luz. A lante..."
 source_url: "https://www.sammobile.com/news/how-do-phone-flashlights-work-and-affect-battery"

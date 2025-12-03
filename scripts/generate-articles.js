@@ -367,10 +367,10 @@ async function getImageUrl(rssItem, articleTitle = '') {
         return unsplashImage;
     }
 
-    // TIER 5: Ultimate fallback - placeholder
+    // TIER 5: Ultimate fallback - placeholder (local SVG image)
     log(`[WARN] All image sources failed for "${rssItem.title}". Using placeholder.`, 'warn');
     return {
-        imageUrl: 'https://via.placeholder.com/1200x630/1a1a2e/eaeaea?text=NEXORA+News',
+        imageUrl: '/images/placeholder.svg',
         photographerName: null,
         photographerUrl: null,
         downloadLocation: null,
