@@ -31,20 +31,34 @@ export default function ArticleCard({ article }: { article: ArticleMeta }) {
         <div className="relative w-full aspect-[16/9] overflow-hidden bg-gradient-to-br from-primary/5 via-card to-primary/10">
           {article.image ? (
             <>
-              <Image
-                src={article.image}
-                alt={article.title}
-                fill
-                style={{ objectFit: 'cover' }}
-                sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
-                loading="lazy"
-                unoptimized={article.image.endsWith('.svg')}
-                className="
-                  transition-all duration-500 ease-smooth
-                  group-hover/card:scale-105
-                  brightness-95 group-hover/card:brightness-100
-                "
-              />
+              {/* Use regular img tag for local SVGs, Next Image for everything else */}
+              {article.image.startsWith('/') && article.image.endsWith('.svg') ? (
+                // eslint-disable-next-line @next/next/no-img-element
+                <img
+                  src={article.image}
+                  alt={article.title}
+                  className="
+                    absolute inset-0 w-full h-full object-cover
+                    transition-all duration-500 ease-smooth
+                    group-hover/card:scale-105
+                    brightness-95 group-hover/card:brightness-100
+                  "
+                />
+              ) : (
+                <Image
+                  src={article.image}
+                  alt={article.title}
+                  fill
+                  style={{ objectFit: 'cover' }}
+                  sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
+                  loading="lazy"
+                  className="
+                    transition-all duration-500 ease-smooth
+                    group-hover/card:scale-105
+                    brightness-95 group-hover/card:brightness-100
+                  "
+                />
+              )}
               {/* Gradient Overlay for better text contrast on badge */}
               <div className="absolute inset-0 bg-gradient-to-t from-black/20 via-transparent to-black/10 opacity-60 group-hover/card:opacity-40 transition-opacity duration-300" />
             </>
