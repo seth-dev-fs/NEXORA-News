@@ -261,8 +261,10 @@ export function getAllCategories(): string[] {
 
 /**
  * Returns related articles for a given article.
- * Prioritizes articles from the same category, excluding the current article.
- * Returns up to `limit` articles (default: 3).
+ * Improved algorithm that prioritizes:
+ * 1. Same category
+ * 2. Similar keywords in title (basic similarity check)
+ * 3. Recent articles
  */
 export function getRelatedArticles(currentSlug: string, limit: number = 3): ArticleMeta[] {
   const currentArticle = getArticleBySlug(currentSlug);
@@ -272,22 +274,71 @@ export function getRelatedArticles(currentSlug: string, limit: number = 3): Arti
     !article.draft && article.slug !== currentSlug
   );
 
-  // First, try to get articles from the same category
-  let relatedArticles = allArticles.filter(article =>
-    article.category === currentArticle.category
-  );
+  // Calculate similarity score for each article
+  const articlesWithScore = allArticles.map(article => {
+    let score = 0;
 
-  // Sort by date (newest first)
-  relatedArticles.sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime());
+    // Priority 1: Same category (highest weight)
+    if (article.category === currentArticle.category) {
+      score += 100;
+    }
 
-  // If we don't have enough articles from the same category, fill with other recent articles
-  if (relatedArticles.length < limit) {
-    const otherArticles = allArticles
-      .filter(article => article.category !== currentArticle.category)
-      .sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime());
+    // Priority 2: Keywords similarity (basic word matching)
+    const currentWords = currentArticle.title.toLowerCase().split(/\s+/);
+    const articleWords = article.title.toLowerCase().split(/\s+/);
+    const commonWords = currentWords.filter(word =>
+      word.length > 3 && articleWords.includes(word)
+    );
+    score += commonWords.length * 20;
 
-    relatedArticles = [...relatedArticles, ...otherArticles];
-  }
+    // Priority 3: Recency bonus (more recent = higher score)
+    const daysDiff = Math.abs(
+      (new Date(article.date).getTime() - new Date(currentArticle.date).getTime()) / (1000 * 60 * 60 * 24)
+    );
+    if (daysDiff < 7) {
+      score += 30 - daysDiff;
+    }
 
-  return relatedArticles.slice(0, limit);
+    return { article, score };
+  });
+
+  // Sort by score and return top articles
+  return articlesWithScore
+    .sort((a, b) => b.score - a.score)
+    .slice(0, limit)
+    .map(item => item.article);
+}
+
+/**
+ * Article freshness types for badge display
+ */
+export type ArticleFreshness = 'new' | 'recent' | 'old';
+
+/**
+ * Determines the freshness of an article based on publication date
+ * Used for displaying "NEW" and other time-based badges
+ */
+export function getArticleFreshness(dateString: string): ArticleFreshness {
+  const articleDate = new Date(dateString);
+  const now = new Date();
+  const hoursAgo = (now.getTime() - articleDate.getTime()) / (1000 * 60 * 60);
+
+  if (hoursAgo <= 24) return 'new';
+  if (hoursAgo <= 72) return 'recent';
+  return 'old';
+}
+
+/**
+ * Gets articles published in the last N hours
+ * Useful for trending/hot sections
+ */
+export function getRecentArticles(hours: number = 48, limit?: number): ArticleMeta[] {
+  const now = new Date();
+  const cutoffTime = new Date(now.getTime() - hours * 60 * 60 * 1000);
+
+  const recentArticles = getAllArticles()
+    .filter(article => !article.draft && new Date(article.date) >= cutoffTime)
+    .sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime());
+
+  return limit ? recentArticles.slice(0, limit) : recentArticles;
 }

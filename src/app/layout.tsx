@@ -3,6 +3,7 @@ import type { Metadata } from 'next';
 import { Inter } from 'next/font/google'; // Import only Inter
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
+import BackToTop from '@/components/BackToTop';
 import { ThemeProvider } from '@/components/ThemeProvider';
 import GoogleAnalytics from '@/components/GoogleAnalytics';
 
@@ -70,6 +71,10 @@ export const metadata: Metadata = {
     google: 'your-google-verification-code',
     yandex: 'your-yandex-verification-code',
   },
+  // Enable View Transitions API for smooth page navigation
+  other: {
+    'view-transition': 'same-origin',
+  },
 };
 
 export default function RootLayout({
@@ -89,6 +94,7 @@ export default function RootLayout({
             {children}
           </main>
           <Footer />
+          <BackToTop />
         </ThemeProvider>
       </body>
     </html>
