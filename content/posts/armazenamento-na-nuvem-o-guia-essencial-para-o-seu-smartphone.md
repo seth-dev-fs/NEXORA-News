@@ -8,7 +8,7 @@ tags:
   - smartphones
   - segurança de dados
   - Nuvem
-image: "https://via.placeholder.com/1200x630/1a1a2e/eaeaea?text=NEXORA+News"
+image: "/images/placeholder.svg"
 image_source: "placeholder"
 description: "Proteja as suas fotos e dados cruciais com o armazenamento na nuvem. Descubra como funciona, o que guardar, e as melhores práticas de segurança para smartpho..."
 source_url: "https://www.sammobile.com/news/what-are-the-basics-of-phone-cloud-storage"
