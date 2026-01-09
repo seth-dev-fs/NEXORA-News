@@ -32,7 +32,7 @@ jobs:
       - name: Run article generator
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
-          UNSPLASH_API_KEY: ${{ secrets.UNSPLASH_API_KEY }}
+          UNSPLASH_ACCESS_KEY: ${{ secrets.UNSPLASH_ACCESS_KEY }}
           REVALIDATE_TOKEN: ${{ secrets.REVALIDATE_TOKEN }}
           NEXT_PUBLIC_VERCEL_URL: ${{ secrets.NEXT_PUBLIC_VERCEL_URL }}
         run: npm run generate-articles

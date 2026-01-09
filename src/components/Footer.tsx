@@ -143,6 +143,28 @@ export default function Footer() {
           </div>
         </div>
 
+        {/* AI Transparency Section */}
+        <div className="mt-12 pt-8 border-t border-border">
+          <div className="max-w-3xl mx-auto text-center">
+            <div className="inline-flex items-center gap-2 px-4 py-2 bg-primary/10 rounded-full mb-4">
+              <svg className="w-5 h-5 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+              </svg>
+              <span className="text-sm font-semibold text-primary">Transparência IA</span>
+            </div>
+            <p className="text-sm text-muted leading-relaxed">
+              NEXORA News é o primeiro site de notícias tech 100% gerado por IA em português.
+              Todos os artigos são escritos por <span className="font-medium text-foreground">Gemini 2.5 Flash</span>,
+              curados e adaptados para o mercado português e europeu.
+            </p>
+            <p className="text-xs text-muted mt-3">
+              <Link href="/sobre" className="hover:text-primary transition-colors underline">
+                Saber mais sobre o nosso processo
+              </Link>
+            </p>
+          </div>
+        </div>
+
         {/* Bottom Bar */}
         <div className="pt-8 border-t border-border">
           <div className="flex flex-col sm:flex-row justify-between items-center gap-4 text-sm text-muted">
