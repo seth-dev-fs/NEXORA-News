@@ -31,6 +31,7 @@ const UNSPLASH_ACCESS_KEY = process.env.UNSPLASH_ACCESS_KEY;
 const ARTICLES_DIR = path.join(__dirname, '../content/posts');
 const LOGS_DIR = path.join(__dirname, '../content/logs');
 const RSS_FEEDS = [
+    // International Sources
     'http://feeds.arstechnica.com/arstechnica/gadgets',
     'https://www.theverge.com/rss/index.xml',
     'https://techcrunch.com/feed/',
@@ -46,6 +47,11 @@ const RSS_FEEDS = [
     'https://www.gsmarena.com/rss-news-reviews.php3',
     'https://www.xataka.com/feedburner.xml',
     'https://www.notebookcheck.net/News.152.100.html',
+
+    // Portuguese Sources - PRIORITY (better PT context)
+    'https://pplware.sapo.pt/feed/',
+    'https://tek.sapo.pt/feed',
+    'https://4gnews.pt/feed/',
 ];
 
 // --- NORMALIZED CATEGORIES (CRITICAL: Use slugs only) ---
@@ -154,6 +160,107 @@ function ensureDirExists(dir) {
 }
 
 const slugify = (text) => text ? text.toString().normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase().trim().replace(/\s+/g, '-').replace(/[^\w\-]+/g, '') : '';
+
+/**
+ * Pre-generation filter: Reject low-quality articles BEFORE spending Gemini tokens
+ * Returns: true = GENERATE | false = REJECT
+ */
+function shouldGenerateArticle(item) {
+    const title = item.title.toLowerCase();
+    const snippet = (item.contentSnippet || '').toLowerCase();
+    const combined = title + ' ' + snippet;
+
+    // FILTER 1: RED FLAGS (reject immediately)
+    const redFlags = [
+        'rumor', 'rumour', 'leak', 'leaked',
+        'allegedly', 'supostamente', 'especulação',
+        'clickbait', 'you won\'t believe',
+        'shocking', 'chocante', 'viral',
+        'best buy', 'walmart', 'target', // US stores
+        'black friday deal at', 'cyber monday' // Deal-only articles
+    ];
+
+    for (const flag of redFlags) {
+        if (combined.includes(flag)) {
+            log(`[FILTER] ❌ REJECTED: "${item.title}" (red flag: "${flag}")`);
+            return false;
+        }
+    }
+
+    // FILTER 2: Content too short (likely low quality)
+    if (snippet.length < 150) {
+        log(`[FILTER] ❌ REJECTED: "${item.title}" (snippet too short: ${snippet.length} chars)`);
+        return false;
+    }
+
+    // FILTER 3: Title length validation
+    if (title.length < 20 || title.length > 150) {
+        log(`[FILTER] ❌ REJECTED: "${item.title}" (title length: ${title.length})`);
+        return false;
+    }
+
+    // FILTER 4: HIGH PRIORITY brands (always accept)
+    const highPriorityBrands = [
+        'apple', 'samsung', 'google', 'microsoft',
+        'intel', 'amd', 'nvidia', 'meta', 'amazon',
+        'openai', 'anthropic', 'gemini', 'deepmind'
+    ];
+
+    for (const brand of highPriorityBrands) {
+        if (combined.includes(brand)) {
+            log(`[FILTER] ✅ PRIORITY ACCEPT: "${item.title}" (brand: ${brand})`);
+            return true;
+        }
+    }
+
+    // FILTER 5: PT/EU relevance bonus
+    const ptRelevant = [
+        'portugal', 'portuguesa', 'português',
+        'europa', 'european union', 'ue',
+        'gdpr', 'euro', 'eur', 'disponível em portugal',
+        'pplware', 'zwame', 'tek sapo'
+    ];
+
+    let relevanceScore = 0;
+    for (const keyword of ptRelevant) {
+        if (combined.includes(keyword)) {
+            relevanceScore++;
+        }
+    }
+
+    if (relevanceScore >= 2) {
+        log(`[FILTER] ✅ PT RELEVANT ACCEPT: "${item.title}" (score: ${relevanceScore})`);
+        return true;
+    }
+
+    // Default: accept but log
+    log(`[FILTER] ✅ DEFAULT ACCEPT: "${item.title}"`);
+    return true;
+}
+
+/**
+ * Checks if image URL likely contains logos/watermarks
+ * Simple pattern matching - fast and free
+ */
+function hasLogoInImageUrl(imageUrl) {
+    if (!imageUrl) return false;
+
+    const urlLower = imageUrl.toLowerCase();
+    const logoPatterns = [
+        'logo', 'watermark', 'brand', 'badge',
+        'techcrunch', 'theverge', 'engadget',
+        'arstechnica', 'wired', 'cnet', 'zdnet',
+        'gizmodo', 'verge', 'mashable'
+    ];
+
+    for (const pattern of logoPatterns) {
+        if (urlLower.includes(pattern)) {
+            return true;
+        }
+    }
+
+    return false;
+}
 
 function getExistingArticleUrls() {
     if (!fs.existsSync(ARTICLES_DIR)) return new Set();
@@ -282,7 +389,9 @@ async function getImageUrl(rssItem, articleTitle = '') {
     // TIER 1: Check RSS enclosure
     if (rssItem.enclosure?.url && rssItem.enclosure.type?.startsWith('image')) {
         const isValid = await validateImageUrl(rssItem.enclosure.url);
-        if (isValid) {
+        const hasLogo = hasLogoInImageUrl(rssItem.enclosure.url);
+
+        if (isValid && !hasLogo) {
             log(`[SUCCESS] Found valid image in RSS enclosure: ${rssItem.enclosure.url}`);
             return {
                 imageUrl: rssItem.enclosure.url,
@@ -291,6 +400,8 @@ async function getImageUrl(rssItem, articleTitle = '') {
                 downloadLocation: null,
                 imageProvider: 'rss'
             };
+        } else if (hasLogo) {
+            log(`[WARN] RSS enclosure image has logo, skipping: ${rssItem.enclosure.url}`, 'warn');
         } else {
             log(`[WARN] RSS enclosure image failed validation: ${rssItem.enclosure.url}`, 'warn');
         }
@@ -300,7 +411,9 @@ async function getImageUrl(rssItem, articleTitle = '') {
     if (rssItem['media:content']?.$?.url) {
         const mediaUrl = rssItem['media:content'].$.url;
         const isValid = await validateImageUrl(mediaUrl);
-        if (isValid) {
+        const hasLogo = hasLogoInImageUrl(mediaUrl);
+
+        if (isValid && !hasLogo) {
             log(`[SUCCESS] Found valid image in RSS media:content: ${mediaUrl}`);
             return {
                 imageUrl: mediaUrl,
@@ -309,6 +422,8 @@ async function getImageUrl(rssItem, articleTitle = '') {
                 downloadLocation: null,
                 imageProvider: 'rss'
             };
+        } else if (hasLogo) {
+            log(`[WARN] RSS media:content image has logo, skipping: ${mediaUrl}`, 'warn');
         } else {
             log(`[WARN] RSS media:content image failed validation: ${mediaUrl}`, 'warn');
         }
@@ -323,7 +438,9 @@ async function getImageUrl(rssItem, articleTitle = '') {
             const ogImage = $('meta[property="og:image"]').attr('content');
             if (ogImage) {
                 const isValid = await validateImageUrl(ogImage);
-                if (isValid) {
+                const hasLogo = hasLogoInImageUrl(ogImage);
+
+                if (isValid && !hasLogo) {
                     log(`[SUCCESS] Found valid og:image by scraping: ${ogImage}`);
                     return {
                         imageUrl: ogImage,
@@ -332,6 +449,8 @@ async function getImageUrl(rssItem, articleTitle = '') {
                         downloadLocation: null,
                         imageProvider: 'rss'
                     };
+                } else if (hasLogo) {
+                    log(`[WARN] Scraped og:image has logo, skipping: ${ogImage}`, 'warn');
                 } else {
                     log(`[WARN] Scraped og:image failed validation: ${ogImage}`, 'warn');
                 }
@@ -340,7 +459,9 @@ async function getImageUrl(rssItem, articleTitle = '') {
             const twitterImage = $('meta[name="twitter:image"]').attr('content');
             if (twitterImage) {
                 const isValid = await validateImageUrl(twitterImage);
-                if (isValid) {
+                const hasLogo = hasLogoInImageUrl(twitterImage);
+
+                if (isValid && !hasLogo) {
                     log(`[SUCCESS] Found valid twitter:image by scraping: ${twitterImage}`);
                     return {
                         imageUrl: twitterImage,
@@ -349,6 +470,8 @@ async function getImageUrl(rssItem, articleTitle = '') {
                         downloadLocation: null,
                         imageProvider: 'rss'
                     };
+                } else if (hasLogo) {
+                    log(`[WARN] Scraped twitter:image has logo, skipping: ${twitterImage}`, 'warn');
                 } else {
                     log(`[WARN] Scraped twitter:image failed validation: ${twitterImage}`, 'warn');
                 }
@@ -386,164 +509,81 @@ async function generateArticleFromItem(item) {
     // Fetch image with robust fallback system
     const image = await getImageUrl(item, title);
 
-    const prompt = `You are a professional tech journalist writing for NEXORA News, a premium Portuguese technology news website based in Portugal. Your mission is to transform English tech news into high-quality, naturally-written Portuguese articles that engage Portuguese readers.
+    const prompt = `És jornalista tech especializado no mercado português/europeu escrevendo para NEXORA News.
 
-=== CRITICAL OUTPUT FORMAT ===
-Your ENTIRE response MUST be ONLY a valid JSON object. No explanations, no markdown formatting, no comments - just pure JSON.
+FONTE:
+Título: "${title}"
+Conteúdo: "${contentSnippet}"
+URL: "${link}"
 
-JSON VALIDATION RULES:
-- Use double quotes (") for all strings, never single quotes (')
-- No trailing commas before closing braces } or brackets ]
-- Escape quotes inside strings: "He said \\"hello\\""
-- No comments or explanations outside the JSON structure
-- Test your JSON mentally before outputting
+TAREFA: Artigo 800-1000 palavras em português europeu (PT-PT).
 
-=== LANGUAGE: PORTUGUESE PT-PT (PORTUGAL) ===
-CRITICAL: Write in natural, authentic Portuguese from Portugal - NOT translated Portuguese.
+ESTRUTURA OBRIGATÓRIA:
+1. Intro (2 parágrafos: o quê + porquê importa para PT/UE)
+2. Desenvolvimento (3-4 secções com ## headings, cada uma 2-3 parágrafos)
+3. Conclusão (1 parágrafo: impacto para mercado português)
 
-WRITING STYLE GUIDE:
-✓ Use Portuguese expressions: "de facto", "aliás", "na verdade", "ao que parece"
-✓ Natural flow: "A Samsung prepara-se para lançar..." (NOT "A Samsung está se preparando...")
-✓ Colloquial where appropriate: "Este smartphone promete dar que falar"
-✓ Portuguese market context: Reference EU regulations, European pricing when relevant
-✗ Avoid: Literal translations, anglicisms unless necessary, Brazilian Portuguese constructions
+CONTEXTO PT/UE OBRIGATÓRIO EM CADA ARTIGO:
+✓ Disponibilidade em Portugal/Europa (quando lançar, onde comprar)
+✓ Preço em EUR (converter USD se necessário, ~0.92 ratio)
+✓ Alternativas disponíveis em PT (marcas/produtos locais)
+✓ Impacto regulatório UE (GDPR, DSA, DMA se relevante)
+✓ Comparação com mercado português (ex: "Em Portugal, X é mais popular que Y")
 
-TONE: Professional tech journalism that's informative yet conversational - like Observador Tecnologia or Exame Informática.
+EXEMPLOS CONTEXTO PT:
+✓ "O produto chegará a Portugal em Março por €999, disponível na Worten e Fnac"
+✓ "Comparado com o Galaxy S24 (€849 em Portugal), o preço é competitivo"
+✓ "A regulação GDPR da UE obriga a que..."
+✗ "Available at Best Buy for $799" (SEM contexto PT)
 
-=== AUDIENCE: PORTUGUESE READERS (CRITICAL) ===
+TOM:
+✓ Profissional mas acessível
+✓ Crítico quando necessário (sem hype gratuito)
+✓ Baseado em factos, não especulação
+✓ Natural PT-PT: "prepara-se para", "de facto", "ao que parece"
+✗ Sem tradução literal inglês
+✗ Sem "pode ser interessante" (vago)
+✗ Sem clickbait ou sensacionalismo
 
-TARGET MARKET: Portugal and Portuguese-speaking Europe
+IMAGENS NO CONTEÚDO (NOVO - CRÍTICO):
+- Adicionar 2-3 imagens relevantes intercaladas no corpo do artigo
+- Usar markdown: ![descrição alt](URL_imagem)
+- Fontes sugeridas:
+  * Unsplash (grátis): https://images.unsplash.com/photo-XXXXXXX?w=1200
+  * Imagens do artigo original (se disponíveis)
+- Colocar imagens APÓS secções para quebrar texto
+- Alt text descritivo em português
 
-When dealing with content about promotions, sales, or product availability:
-✓ ADAPT US-centric content for Portuguese/European context
-✓ If promotion is US-only: Mention it's not available in Portugal OR focus on the product/tech itself, not the deal
-✓ Replace US store names (Best Buy, Target, Walmart) with context: "em lojas online" or "no mercado europeu"
-✓ Convert USD prices to EUR when relevant (use approximate conversions)
-✓ Emphasize EU availability, European release dates, CE regulations
+EXEMPLO ESTRUTURA COM IMAGENS:
+## Primeira Secção
+Texto aqui... 2-3 parágrafos.
 
-✗ DO NOT write articles that are only about US-specific deals with no Portuguese relevance
-✗ DO NOT make Portuguese readers feel excluded by focusing on unavailable promotions
-✗ DO NOT use phrases like "available at Best Buy" without context
+![iPhone 16 Pro em destaque com câmara visível](https://images.unsplash.com/photo-1234567890?w=1200)
 
-EXAMPLES:
-❌ BAD: "Black Friday: iPhone 15 com 30% de desconto na Best Buy"
-✅ GOOD: "iPhone 15 com descontos significativos na Black Friday europeia"
+## Segunda Secção
+Texto aqui... 2-3 parágrafos.
 
-❌ BAD: "Target oferece Galaxy S24 por $599"
-✅ GOOD: "Galaxy S24 com preços mais competitivos no mercado global"
+![Comparação de smartphones lado a lado](https://images.unsplash.com/photo-0987654321?w=1200)
 
-=== ARTICLE REQUIREMENTS ===
-
-**LENGTH: 350-600 words (aim for 400-500 for optimal engagement)**
-
-WRITING PRINCIPLE: Be concise and engaging. Portuguese readers prefer quality over quantity.
-- Get to the point quickly in the introduction
-- Each section should add value, not padding
-- Avoid repetition and unnecessary elaboration
-- If you can say it in 400 words well, don't stretch to 600
-
-**STRUCTURE (Use ## for headings in markdown):**
-1. **Introduction (1-2 paragraphs)**: Hook the reader with the news angle, provide context
-2. **Development (2-4 sections with ## headings)**:
-   - Key details and features
-   - Technical specifications when relevant
-   - Market implications
-   - Expert quotes or analysis (if in source material)
-3. **Conclusion (1 paragraph)**: Summarize key takeaways, mention what's next/expected
-
-**CONTENT QUALITY:**
-- Write in active voice: "Apple lançou" NOT "Foi lançado pela Apple"
-- Use specific facts from the source material - DO NOT invent information
-- Add Portuguese market context where relevant (EU laws, local availability, pricing in EUR)
-- Subheadings should be descriptive: "Bateria de 5.200 mAh promete autonomia recorde" NOT just "Bateria"
-- Balance technical depth with accessibility for general tech readers
-
-=== FRONTMATTER FIELD REQUIREMENTS ===
-
-**1. TITLE (CRITICAL FOR SEO)**
-- Length: 50-70 characters (ideal: 60)
-- Include primary keyword naturally
-- Make it engaging, not just descriptive
-- Format examples:
-  ✓ "Galaxy S26 Ultra com bateria de 5.200 mAh à vista"
-  ✓ "iPhone 16 Pro: Apple aposta em IA e nova câmara"
-  ✗ "Samsung Galaxy S26 Ultra: Rumores Indicam Bateria Melhorada" (too formal/long)
-
-**2. DESCRIPTION (SEO META - CRITICAL)**
-- **EXACTLY 150-160 characters** (count carefully!)
-- Must include main keyword
-- Compelling call-to-action or value proposition
-- End with period or relevant punctuation
-- TECHNIQUE: Write 155 characters, then adjust to 150-160 range
-Example: "O próximo topo de gama da Samsung poderá surpreender com bateria de 5.200 mAh. Conhece todos os rumores sobre o Galaxy S26 Ultra que chega em 2026." (157 chars)
-
-**3. CATEGORY (CRITICAL - VALIDATION REQUIRED)**
-Choose EXACTLY ONE category from this list (use the exact slug):
-${NORMALIZED_CATEGORIES.join(', ')}
-
-Category selection guide:
-- "smartphones" → News about mobile phones, Android, iOS devices
-- "ai-futuro" → AI, machine learning, automation, future tech
-- "computadores" → Laptops, desktops, PC hardware, processors
-- "wearables" → Smartwatches, fitness trackers, AR/VR headsets
-- "gaming" → Video games, consoles, game reviews, esports
-- "home" → Default fallback ONLY if none of the above fit
-
-SET "needs_review" to true ONLY if you had to default to 'home' or are uncertain about category fit.
-
-**4. TAGS**
-- Provide 3-5 relevant tags in Portuguese
-- Mix of broad and specific tags
-- Format: ["Samsung", "smartphones", "Galaxy S26", "bateria", "Android"]
-- Must be a valid JSON array of strings
-
-**5. SOURCE_URL (CRITICAL - NEVER LEAVE EMPTY)**
-The original article link will be provided in the SOURCE MATERIAL section below.
-- Use that exact URL in the "source_url" field
-- NEVER leave empty, NEVER use placeholder text
-- This is the attribution link to the original source
-- Format: Must be a valid HTTP/HTTPS URL starting with http
-
-**6. IMAGE & IMAGE_SOURCE**
-- "image": This will be overridden by the system - use empty string ""
-- "image_source": Use empty string "" (system handles this)
-
-=== SOURCE MATERIAL ===
-Original Title: "${title}"
-Original Content Snippet: "${contentSnippet}"
-Original Source URL: "${link}"
-
-IMPORTANT: The "source_url" field in your JSON output MUST be: "${link}"
-
-=== JSON OUTPUT STRUCTURE ===
-Generate ONLY this JSON object (no other text):
-
+RESPONDE APENAS COM JSON (sem \`\`\`json, sem explicações):
 {
-  "title": "Engaging title in Portuguese, 50-70 chars, with main keyword",
-  "date": "CURRENT_DATE_PLACEHOLDER",
-  "category": "EXACTLY ONE slug from: ${NORMALIZED_CATEGORIES.join(', ')}",
-  "tags": ["tag1", "tag2", "tag3", "tag4", "tag5"],
-  "image": "",
-  "image_source": "",
-  "description": "SEO meta description in Portuguese, EXACTLY 150-160 characters with keyword",
+  "title": "Título SEO 50-70 chars com keyword",
+  "description": "Meta description 150-160 chars COM keyword e contexto PT",
+  "category": "uma de: ${NORMALIZED_CATEGORIES.join(', ')}",
+  "tags": ["tag1", "tag2", "tag3", "tag4"],
   "source_url": "${link}",
   "needs_review": false,
-  "content": "Full article content in GFM markdown with ## subheadings (350-600 words, aim 400-500). Write naturally in PT-PT Portuguese with professional journalistic tone. Use active voice. Include context for Portuguese readers. Adapt US-centric content to European/Portuguese market. Structure: intro paragraph(s), 2-4 sections with ## headings, conclusion paragraph."
+  "content": "ARTIGO COMPLETO 800-1000 palavras em markdown com ## headings, imagens ![](URL) intercaladas, e contexto PT/UE obrigatório"
 }
 
-=== FINAL CHECKLIST BEFORE OUTPUTTING ===
-☐ JSON is valid (test it mentally: quotes, commas, braces)
-☐ Title is 50-70 characters
-☐ Description is EXACTLY 150-160 characters
-☐ Category is one of the valid slugs
-☐ Tags array has 3-5 items
-☐ source_url is "${link}" (not empty, not placeholder)
-☐ Content is 350-600 words in natural PT-PT Portuguese
-☐ Content has ## subheadings and proper structure
-☐ Content adapted for Portuguese/European audience (no US-only promotions)
-☐ needs_review is true only if defaulted category to 'home'
+CHECKLIST ANTES DE RESPONDER:
+☐ Artigo tem 800-1000 palavras
+☐ Tem 2-3 imagens intercaladas no texto
+☐ Contexto PT/UE presente (preços EUR, disponibilidade, regulação)
+☐ JSON válido (quotes, commas corretas)
+☐ Description 150-160 chars
+☐ source_url é "${link}"`;
 
-Now generate the article:`;
 
     try {
         const genAI = new GoogleGenerativeAI(GEMINI_API_KEY);
@@ -556,26 +596,27 @@ Now generate the article:`;
             // ROBUST JSON EXTRACTION - handles multiple formats from Gemini
             let jsonString = text.trim();
 
-            // Step 1: Try to extract from ```json blocks (with or without newlines)
+            // Step 1: Try to extract from ```json blocks (with or without newlines/extra chars)
+            // Match everything between ``` markers, even if there are extra characters
             const jsonMatch = jsonString.match(/```(?:json)?\s*\n?([\s\S]*?)\n?```/);
             if (jsonMatch && jsonMatch[1]) {
                 jsonString = jsonMatch[1].trim();
             }
             // Step 2: Try to extract just the JSON object
             else {
-                const braceMatch = jsonString.match(/\{[\s\S]*\}/);
-                if (braceMatch && braceMatch[0]) {
-                    jsonString = braceMatch[0];
+                const braceMatch = jsonString.match(/(\{[\s\S]*\})/);
+                if (braceMatch && braceMatch[1]) {
+                    jsonString = braceMatch[1];
                 }
             }
 
             // Step 3: Clean up common JSON issues
             jsonString = jsonString
                 .trim()
+                // Remove any trailing non-JSON characters after final }
+                .replace(/\}[^}]*$/, '}')
                 // Remove trailing commas before closing braces/brackets
                 .replace(/,(\s*[}\]])/g, '$1')
-                // Fix unescaped quotes in strings (basic)
-                .replace(/:\s*"([^"]*)"([^",}\]]*?)"/g, ':"$1\\"$2"');
 
             articleData = JSON.parse(jsonString);
         } catch (jsonError) {
@@ -584,7 +625,8 @@ Now generate the article:`;
             return { status: 'failed_json_parse', error: jsonError.message };
         }
 
-        if (!articleData.title || !articleData.content || !articleData.category || !articleData.date || !articleData.description || !articleData.source_url) {
+        // Validate required fields (date is auto-generated, not from Gemini)
+        if (!articleData.title || !articleData.content || !articleData.category || !articleData.description || !articleData.source_url) {
             throw new Error("Generated JSON is missing required frontmatter fields.");
         }
 
@@ -783,7 +825,13 @@ async function main() {
         candidatePool.sort((a, b) => new Date(b.isoDate) - new Date(a.isoDate));
 
         const uniqueArticles = removeSimilarArticles(candidatePool);
-        const articlesToGenerate = uniqueArticles.slice(0, 10);
+
+        // Apply quality filter BEFORE generating (saves tokens!)
+        const filteredArticles = uniqueArticles.filter(shouldGenerateArticle);
+        log(`After quality filtering: ${filteredArticles.length} articles passed (${uniqueArticles.length - filteredArticles.length} rejected)`);
+
+        // Limit to 8 high-quality articles (better than 10 mediocre ones)
+        const articlesToGenerate = filteredArticles.slice(0, 8);
 
         log(`Selected ${articlesToGenerate.length} unique articles for generation.`);
 
